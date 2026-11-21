@@ -1,0 +1,321 @@
+{
+ "colors": {
+  "g": "#5555ff",
+  "b": "#ff5555",
+  "o": "#5555ff"
+ },
+ "effects": {
+  "absorption": {
+   "cat": "g",
+   "name": {
+    "en": "Absorption",
+    "pt": "Absorção"
+   },
+   "icon": null
+  },
+  "conduit_power": {
+   "cat": "g",
+   "name": {
+    "en": "Conduit Power",
+    "pt": "Poder do Conduíte"
+   },
+   "icon": "conduit_power"
+  },
+  "dolphins_grace": {
+   "cat": "g",
+   "name": {
+    "en": "Dolphin's Grace",
+    "pt": "Graça do Golfinho"
+   },
+   "icon": "dolphins_grace"
+  },
+  "fire_resistance": {
+   "cat": "g",
+   "name": {
+    "en": "Fire Resistance",
+    "pt": "Resistência ao Fogo"
+   },
+   "icon": "fire_resistance"
+  },
+  "glowing": {
+   "cat": "g",
+   "name": {
+    "en": "Glowing",
+    "pt": "Brilho"
+   },
+   "icon": "glowing"
+  },
+  "haste": {
+   "cat": "g",
+   "name": {
+    "en": "Haste",
+    "pt": "Pressa"
+   },
+   "icon": "haste"
+  },
+  "health_boost": {
+   "cat": "g",
+   "name": {
+    "en": "Health Boost",
+    "pt": "Aumento de Vida"
+   },
+   "icon": "health_boost"
+  },
+  "hero_of_the_village": {
+   "cat": "g",
+   "name": {
+    "en": "Hero of the Village",
+    "pt": "Herói da Vila"
+   },
+   "icon": "hero_of_the_village"
+  },
+  "instant_health": {
+   "cat": "g",
+   "name": {
+    "en": "Instant Health",
+    "pt": "Cura Instantânea"
+   },
+   "icon": "instant_health"
+  },
+  "invisibility": {
+   "cat": "g",
+   "name": {
+    "en": "Invisibility",
+    "pt": "Invisibilidade"
+   },
+   "icon": "invisibility"
+  },
+  "jump_boost": {
+   "cat": "g",
+   "name": {
+    "en": "Jump Boost",
+    "pt": "Salto Aumentado"
+   },
+   "icon": "jump_boost"
+  },
+  "luck": {
+   "cat": "g",
+   "name": {
+    "en": "Luck",
+    "pt": "Sorte"
+   },
+   "icon": "luck"
+  },
+  "night_vision": {
+   "cat": "g",
+   "name": {
+    "en": "Night Vision",
+    "pt": "Visão Noturna"
+   },
+   "icon": "night_vision"
+  },
+  "regeneration": {
+   "cat": "g",
+   "name": {
+    "en": "Regeneration",
+    "pt": "Regeneração"
+   },
+   "icon": "regeneration"
+  },
+  "resistance": {
+   "cat": "g",
+   "name": {
+    "en": "Resistance",
+    "pt": "Resistência"
+   },
+   "icon": "resistance"
+  },
+  "saturation": {
+   "cat": "g",
+   "name": {
+    "en": "Saturation",
+    "pt": "Saciedade"
+   },
+   "icon": "saturation"
+  },
+  "slow_falling": {
+   "cat": "g",
+   "name": {
+    "en": "Slow Falling",
+    "pt": "Queda Lenta"
+   },
+   "icon": "slow_falling"
+  },
+  "speed": {
+   "cat": "g",
+   "name": {
+    "en": "Speed",
+    "pt": "Rapidez"
+   },
+   "icon": "speed"
+  },
+  "strength": {
+   "cat": "g",
+   "name": {
+    "en": "Strength",
+    "pt": "Força"
+   },
+   "icon": "strength"
+  },
+  "water_breathing": {
+   "cat": "g",
+   "name": {
+    "en": "Water Breathing",
+    "pt": "Respiração Aquática"
+   },
+   "icon": "water_breathing"
+  },
+  "bad_omen": {
+   "cat": "o",
+   "name": {
+    "en": "Bad Omen",
+    "pt": "Mau Presságio"
+   },
+   "icon": "bad_omen"
+  },
+  "raid_omen": {
+   "cat": "o",
+   "name": {
+    "en": "Raid Omen",
+    "pt": "Presságio de Ataque"
+   },
+   "icon": "raid_omen"
+  },
+  "trial_omen": {
+   "cat": "o",
+   "name": {
+    "en": "Trial Omen",
+    "pt": "Presságio de Provação"
+   },
+   "icon": "trial_omen"
+  },
+  "bad_luck": {
+   "cat": "b",
+   "name": {
+    "en": "Bad Luck",
+    "pt": "Azar"
+   },
+   "icon": "bad_luck"
+  },
+  "blindness": {
+   "cat": "b",
+   "name": {
+    "en": "Blindness",
+    "pt": "Cegueira"
+   },
+   "icon": "blindness"
+  },
+  "darkness": {
+   "cat": "b",
+   "name": {
+    "en": "Darkness",
+    "pt": "Escuridão"
+   },
+   "icon": "darkness"
+  },
+  "hunger": {
+   "cat": "b",
+   "name": {
+    "en": "Hunger",
+    "pt": "Fome"
+   },
+   "icon": "hunger"
+  },
+  "infested": {
+   "cat": "b",
+   "name": {
+    "en": "Infested",
+    "pt": "Infestado"
+   },
+   "icon": "infested"
+  },
+  "instant_damage": {
+   "cat": "b",
+   "name": {
+    "en": "Instant Damage",
+    "pt": "Dano Instantâneo"
+   },
+   "icon": "instant_damage"
+  },
+  "levitation": {
+   "cat": "b",
+   "name": {
+    "en": "Levitation",
+    "pt": "Levitação"
+   },
+   "icon": "levitation"
+  },
+  "mining_fatigue": {
+   "cat": "b",
+   "name": {
+    "en": "Mining Fatigue",
+    "pt": "Fadiga de Mineração"
+   },
+   "icon": "mining_fatigue"
+  },
+  "nausea": {
+   "cat": "b",
+   "name": {
+    "en": "Nausea",
+    "pt": "Náusea"
+   },
+   "icon": "nausea"
+  },
+  "oozing": {
+   "cat": "b",
+   "name": {
+    "en": "Oozing",
+    "pt": "Escorrendo"
+   },
+   "icon": "oozing"
+  },
+  "poison": {
+   "cat": "b",
+   "name": {
+    "en": "Poison",
+    "pt": "Veneno"
+   },
+   "icon": "poison"
+  },
+  "slowness": {
+   "cat": "b",
+   "name": {
+    "en": "Slowness",
+    "pt": "Lentidão"
+   },
+   "icon": "slowness"
+  },
+  "weakness": {
+   "cat": "b",
+   "name": {
+    "en": "Weakness",
+    "pt": "Fraqueza"
+   },
+   "icon": "weakness"
+  },
+  "weaving": {
+   "cat": "b",
+   "name": {
+    "en": "Weaving",
+    "pt": "Tecelagem"
+   },
+   "icon": "weaving"
+  },
+  "wind_charged": {
+   "cat": "b",
+   "name": {
+    "en": "Wind Charged",
+    "pt": "Carregado de Vento"
+   },
+   "icon": "wind_charged"
+  },
+  "wither": {
+   "cat": "b",
+   "name": {
+    "en": "Wither",
+    "pt": "Wither"
+   },
+   "icon": "wither"
+  }
+ }
+}

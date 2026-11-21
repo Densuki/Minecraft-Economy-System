@@ -1,0 +1,155 @@
+{
+ "category": "weapons",
+ "label": {
+  "en": "Weapons",
+  "pt": "Armas"
+ },
+ "items": [
+  {
+   "id": "iron_sword",
+   "name": {
+    "en": "Iron Sword",
+    "pt": "Espada de Ferro"
+   },
+   "shape": "t",
+   "color": "#d8d8d8",
+   "attack": 6,
+   "tooltip": [
+    "2.25/s Block"
+   ]
+  },
+  {
+   "id": "diamond_sword",
+   "name": {
+    "en": "Diamond Sword",
+    "pt": "Espada de Diamante"
+   },
+   "shape": "t",
+   "color": "#4eead9",
+   "attack": 7,
+   "tooltip": [
+    "2.25/s Block"
+   ]
+  },
+  {
+   "id": "bow",
+   "name": {
+    "en": "Bow",
+    "pt": "Arco"
+   },
+   "shape": "t",
+   "color": "#8a6a38"
+  },
+  {
+   "id": "arrow",
+   "name": {
+    "en": "Arrow",
+    "pt": "Flecha"
+   },
+   "shape": "s",
+   "color": "#b9b9b9"
+  },
+  {
+   "id": "netherite_sword",
+   "name": {
+    "en": "Netherite Sword",
+    "pt": "Espada de Netherite"
+   },
+   "shape": "t",
+   "color": "#3b2f38",
+   "attack": 8
+  },
+  {
+   "id": "wooden_sword",
+   "name": {
+    "en": "Wooden Sword",
+    "pt": "Espada de Madeira"
+   },
+   "shape": "g",
+   "color": "#6e8697",
+   "texture": {
+    "k": "f",
+    "t": "items/wooden_sword",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "stone_sword",
+   "name": {
+    "en": "Stone Sword",
+    "pt": "Espada de Pedra"
+   },
+   "shape": "g",
+   "color": "#7d6bc9",
+   "texture": {
+    "k": "f",
+    "t": "items/stone_sword",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "golden_sword",
+   "name": {
+    "en": "Golden Sword",
+    "pt": "Espada de Ouro"
+   },
+   "shape": "g",
+   "color": "#a15da1",
+   "texture": {
+    "k": "f",
+    "t": "items/golden_sword",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "mace",
+   "name": {
+    "en": "Mace"
+   },
+   "shape": "g",
+   "color": "#d05e8d",
+   "texture": {
+    "k": "f",
+    "t": "items/mace",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "spectral_arrow",
+   "name": {
+    "en": "Spectral Arrow"
+   },
+   "shape": "g",
+   "color": "#c8abb2",
+   "texture": {
+    "k": "f",
+    "t": "items/spectral_arrow",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "trident",
+   "name": {
+    "en": "Trident"
+   },
+   "shape": "g",
+   "color": "#8cccab",
+   "texture": {
+    "k": "f",
+    "t": "items/trident",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "crossbow",
+   "name": {
+    "en": "Crossbow"
+   },
+   "shape": "g",
+   "color": "#64d768",
+   "texture": {
+    "k": "n"
+   }
+  }
+ ]
+}

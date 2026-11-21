@@ -1,0 +1,28 @@
+{
+ "_doc": "Famílias = variações do mesmo item (aparecem na aba Information). groups: lista explícita; auto: regex sobre o id (a chave pode usar $1/$2).",
+ "groups": {
+  "anvil": [
+   "anvil",
+   "chipped_anvil",
+   "damaged_anvil"
+  ],
+  "sponge": [
+   "sponge",
+   "wet_sponge"
+  ]
+ },
+ "auto": [
+  {
+   "re": "^(white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_(.+)$",
+   "key": "color:$2"
+  },
+  {
+   "re": "^(oak|spruce|birch|jungle|acacia|dark_oak|mangrove|cherry|pale_oak|bamboo|crimson|warped)_(.+)$",
+   "key": "wood:$2"
+  },
+  {
+   "re": "^(wooden|stone|golden|iron|diamond|netherite|copper)_(pickaxe|axe|shovel|hoe|sword)$",
+   "key": "tool:$2"
+  }
+ ]
+}

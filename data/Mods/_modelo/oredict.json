@@ -1,0 +1,14 @@
+{
+ "groups": {
+  "gemRuby": {
+   "ids": [
+    "ruby"
+   ]
+  },
+  "blockRuby": {
+   "ids": [
+    "ruby_block"
+   ]
+  }
+ }
+}

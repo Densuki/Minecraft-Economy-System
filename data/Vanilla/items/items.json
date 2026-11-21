@@ -1,0 +1,4575 @@
+{
+ "category": "items",
+ "label": {
+  "en": "Items",
+  "pt": "Itens"
+ },
+ "items": [
+  {
+   "id": "stick",
+   "name": {
+    "en": "Stick",
+    "pt": "Graveto"
+   },
+   "shape": "s",
+   "color": "#8a6a38",
+   "fuel": 5
+  },
+  {
+   "id": "coal",
+   "name": {
+    "en": "Coal",
+    "pt": "Carvão"
+   },
+   "shape": "g",
+   "color": "#2a2a2a",
+   "price": 4,
+   "fuel": 80,
+   "desc": {
+    "en": "Common fuel. Burns for 80 s, enough to smelt 8 items.",
+    "pt": "Combustível comum. Queima por 80 s, o bastante para fundir 8 itens."
+   }
+  },
+  {
+   "id": "iron_ingot",
+   "name": {
+    "en": "Iron Ingot",
+    "pt": "Barra de Ferro"
+   },
+   "shape": "i",
+   "color": "#d8d8d8"
+  },
+  {
+   "id": "gold_ingot",
+   "name": {
+    "en": "Gold Ingot",
+    "pt": "Barra de Ouro"
+   },
+   "shape": "i",
+   "color": "#f5d02a"
+  },
+  {
+   "id": "diamond",
+   "name": {
+    "en": "Diamond",
+    "pt": "Diamante"
+   },
+   "shape": "g",
+   "color": "#4eead9",
+   "price": 150,
+   "desc": {
+    "en": "Rare gem used in tools, armor and blocks.",
+    "pt": "Gema rara usada em ferramentas, armaduras e blocos."
+   }
+  },
+  {
+   "id": "redstone",
+   "name": {
+    "en": "Redstone",
+    "pt": "Pó de Redstone"
+   },
+   "shape": "d",
+   "color": "#c4160f",
+   "price": 6
+  },
+  {
+   "id": "clay_ball",
+   "name": {
+    "en": "Clay Ball",
+    "pt": "Bola de Argila"
+   },
+   "shape": "g",
+   "color": "#9aa3b5",
+   "price": 1
+  },
+  {
+   "id": "brick",
+   "name": {
+    "en": "Brick",
+    "pt": "Tijolo"
+   },
+   "shape": "i",
+   "color": "#a5513c"
+  },
+  {
+   "id": "torch",
+   "name": {
+    "en": "Torch",
+    "pt": "Tocha"
+   },
+   "shape": "s",
+   "color": "#f2b13a"
+  },
+  {
+   "id": "string",
+   "name": {
+    "en": "String",
+    "pt": "Linha"
+   },
+   "shape": "d",
+   "color": "#eeeeee",
+   "price": 2
+  },
+  {
+   "id": "emerald",
+   "name": {
+    "en": "Emerald",
+    "pt": "Esmeralda"
+   },
+   "shape": "g",
+   "color": "#17dd62",
+   "price": 120
+  },
+  {
+   "id": "lapis_lazuli",
+   "name": {
+    "en": "Lapis Lazuli",
+    "pt": "Lápis-lazúli"
+   },
+   "shape": "d",
+   "color": "#2145a8",
+   "price": 8
+  },
+  {
+   "id": "quartz",
+   "name": {
+    "en": "Quartz",
+    "pt": "Quartzo"
+   },
+   "shape": "g",
+   "color": "#efe9e2",
+   "price": 12
+  },
+  {
+   "id": "glowstone_dust",
+   "name": {
+    "en": "Glowstone Dust",
+    "pt": "Pó de Glowstone"
+   },
+   "shape": "d",
+   "color": "#e9b94a",
+   "price": 6
+  },
+  {
+   "id": "book",
+   "name": {
+    "en": "Book",
+    "pt": "Livro"
+   },
+   "shape": "i",
+   "color": "#8a4a2a"
+  },
+  {
+   "id": "paper",
+   "name": {
+    "en": "Paper",
+    "pt": "Papel"
+   },
+   "shape": "i",
+   "color": "#f4f4f4"
+  },
+  {
+   "id": "sugar_cane",
+   "name": {
+    "en": "Sugar Cane",
+    "pt": "Cana-de-açúcar"
+   },
+   "shape": "s",
+   "color": "#8fd45a",
+   "price": 1
+  },
+  {
+   "id": "leather",
+   "name": {
+    "en": "Leather",
+    "pt": "Couro"
+   },
+   "shape": "i",
+   "color": "#8b4a24",
+   "price": 5
+  },
+  {
+   "id": "flint",
+   "name": {
+    "en": "Flint",
+    "pt": "Sílex"
+   },
+   "shape": "g",
+   "color": "#4a4a4a",
+   "price": 1
+  },
+  {
+   "id": "feather",
+   "name": {
+    "en": "Feather",
+    "pt": "Pena"
+   },
+   "shape": "d",
+   "color": "#dddddd",
+   "price": 1
+  },
+  {
+   "id": "wheat",
+   "name": {
+    "en": "Wheat",
+    "pt": "Trigo"
+   },
+   "shape": "d",
+   "color": "#d8b848",
+   "price": 1
+  },
+  {
+   "id": "copper_ingot",
+   "name": {
+    "en": "Copper Ingot",
+    "pt": "Barra de Cobre"
+   },
+   "shape": "i",
+   "color": "#d9803a",
+   "price": 5
+  },
+  {
+   "id": "charcoal",
+   "name": {
+    "en": "Charcoal",
+    "pt": "Carvão Vegetal"
+   },
+   "shape": "g",
+   "color": "#3a3030",
+   "fuel": 80
+  },
+  {
+   "id": "lava_bucket",
+   "name": {
+    "en": "Lava Bucket",
+    "pt": "Balde de Lava"
+   },
+   "shape": "t",
+   "color": "#e8650f",
+   "price": 60,
+   "fuel": 1000,
+   "desc": {
+    "en": "Also works as fuel: burns for 1000 s, enough to smelt 100 items.",
+    "pt": "Também serve de combustível: queima por 1000 s, o bastante para fundir 100 itens."
+   }
+  },
+  {
+   "id": "blaze_rod",
+   "name": {
+    "en": "Blaze Rod",
+    "pt": "Vara de Blaze"
+   },
+   "shape": "s",
+   "color": "#e8a020",
+   "price": 25,
+   "fuel": 120
+  },
+  {
+   "id": "green_dye",
+   "name": {
+    "en": "Green Dye",
+    "pt": "Corante Verde"
+   },
+   "shape": "d",
+   "color": "#3a9a2a"
+  },
+  {
+   "id": "nether_brick",
+   "name": {
+    "en": "Nether Brick",
+    "pt": "Tijolo do Nether"
+   },
+   "shape": "i",
+   "color": "#4a1f26"
+  },
+  {
+   "id": "glass_bottle",
+   "name": {
+    "en": "Glass Bottle",
+    "pt": "Frasco de Vidro"
+   },
+   "shape": "p",
+   "color": "#bfe3ee"
+  },
+  {
+   "id": "nether_wart",
+   "name": {
+    "en": "Nether Wart",
+    "pt": "Verruga do Nether"
+   },
+   "shape": "d",
+   "color": "#a3252b",
+   "price": 5,
+   "desc": {
+    "en": "Base potion ingredient: turns water into an Awkward Potion.",
+    "pt": "Ingrediente base das poções: transforma água em Poção Estranha."
+   }
+  },
+  {
+   "id": "sugar",
+   "name": {
+    "en": "Sugar",
+    "pt": "Açúcar"
+   },
+   "shape": "d",
+   "color": "#f2f2f2"
+  },
+  {
+   "id": "glistering_melon_slice",
+   "name": {
+    "en": "Glistering Melon Slice",
+    "pt": "Melancia Cintilante"
+   },
+   "shape": "g",
+   "color": "#e0a53a",
+   "price": 10
+  },
+  {
+   "id": "magma_cream",
+   "name": {
+    "en": "Magma Cream",
+    "pt": "Creme de Magma"
+   },
+   "shape": "g",
+   "color": "#d6682a",
+   "price": 15
+  },
+  {
+   "id": "blaze_powder",
+   "name": {
+    "en": "Blaze Powder",
+    "pt": "Pó de Blaze"
+   },
+   "shape": "d",
+   "color": "#f0b030"
+  },
+  {
+   "id": "rabbit_foot",
+   "name": {
+    "en": "Rabbit Foot",
+    "pt": "Pé de Coelho"
+   },
+   "shape": "g",
+   "color": "#c9a77c",
+   "price": 12
+  },
+  {
+   "id": "spider_eye",
+   "name": {
+    "en": "Spider Eye",
+    "pt": "Olho de Aranha"
+   },
+   "shape": "g",
+   "color": "#8b1f3a",
+   "price": 4,
+   "fx": [
+    [
+     "poison",
+     "0:05"
+    ]
+   ]
+  },
+  {
+   "id": "gunpowder",
+   "name": {
+    "en": "Gunpowder",
+    "pt": "Pólvora"
+   },
+   "shape": "d",
+   "color": "#6a6a6a",
+   "price": 5
+  },
+  {
+   "id": "netherite_upgrade_smithing_template",
+   "name": {
+    "en": "Netherite Upgrade Smithing Template",
+    "pt": "Molde de Forja de Netherite"
+   },
+   "shape": "i",
+   "color": "#3a2f3f",
+   "price": 120,
+   "desc": {
+    "en": "Required at the Smithing Table to upgrade gear to netherite.",
+    "pt": "Necessário na Mesa de Ferraria para melhorar equipamentos para netherite."
+   }
+  },
+  {
+   "id": "netherite_ingot",
+   "name": {
+    "en": "Netherite Ingot",
+    "pt": "Barra de Netherite"
+   },
+   "shape": "i",
+   "color": "#3b2f38",
+   "price": 500,
+   "desc": {
+    "en": "The strongest material in the game. Made by smelting Ancient Debris.",
+    "pt": "Material mais resistente do jogo. Obtida fundindo Detritos Antigos."
+   }
+  },
+  {
+   "id": "enchanted_book",
+   "name": {
+    "en": "Enchanted Book",
+    "pt": "Livro Encantado: Proteção IV"
+   },
+   "shape": "i",
+   "color": "#7b3fc4",
+   "price": 160,
+   "glint": true
+  },
+  {
+   "id": "saddle",
+   "name": {
+    "en": "Saddle"
+   },
+   "shape": "g",
+   "color": "#a18b9d",
+   "texture": {
+    "k": "f",
+    "t": "items/saddle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "white_harness",
+   "name": {
+    "en": "White Harness"
+   },
+   "shape": "g",
+   "color": "#b4bc99",
+   "texture": {
+    "k": "f",
+    "t": "items/white_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "orange_harness",
+   "name": {
+    "en": "Orange Harness"
+   },
+   "shape": "g",
+   "color": "#b9c195",
+   "texture": {
+    "k": "f",
+    "t": "items/orange_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "magenta_harness",
+   "name": {
+    "en": "Magenta Harness"
+   },
+   "shape": "g",
+   "color": "#b4c8af",
+   "texture": {
+    "k": "f",
+    "t": "items/magenta_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "light_blue_harness",
+   "name": {
+    "en": "Light Blue Harness"
+   },
+   "shape": "g",
+   "color": "#6e88a8",
+   "texture": {
+    "k": "f",
+    "t": "items/light_blue_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "yellow_harness",
+   "name": {
+    "en": "Yellow Harness"
+   },
+   "shape": "g",
+   "color": "#7fd98c",
+   "texture": {
+    "k": "f",
+    "t": "items/yellow_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "lime_harness",
+   "name": {
+    "en": "Lime Harness"
+   },
+   "shape": "g",
+   "color": "#60b475",
+   "texture": {
+    "k": "f",
+    "t": "items/lime_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "pink_harness",
+   "name": {
+    "en": "Pink Harness"
+   },
+   "shape": "g",
+   "color": "#81d4a0",
+   "texture": {
+    "k": "f",
+    "t": "items/pink_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "gray_harness",
+   "name": {
+    "en": "Gray Harness"
+   },
+   "shape": "g",
+   "color": "#6ea06f",
+   "texture": {
+    "k": "f",
+    "t": "items/gray_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "light_gray_harness",
+   "name": {
+    "en": "Light Gray Harness"
+   },
+   "shape": "g",
+   "color": "#77c998",
+   "texture": {
+    "k": "f",
+    "t": "items/light_gray_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cyan_harness",
+   "name": {
+    "en": "Cyan Harness"
+   },
+   "shape": "g",
+   "color": "#aea978",
+   "texture": {
+    "k": "f",
+    "t": "items/cyan_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "purple_harness",
+   "name": {
+    "en": "Purple Harness"
+   },
+   "shape": "g",
+   "color": "#c7b481",
+   "texture": {
+    "k": "f",
+    "t": "items/purple_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "blue_harness",
+   "name": {
+    "en": "Blue Harness"
+   },
+   "shape": "g",
+   "color": "#655f7f",
+   "texture": {
+    "k": "f",
+    "t": "items/blue_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "brown_harness",
+   "name": {
+    "en": "Brown Harness"
+   },
+   "shape": "g",
+   "color": "#c1946a",
+   "texture": {
+    "k": "f",
+    "t": "items/brown_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "green_harness",
+   "name": {
+    "en": "Green Harness"
+   },
+   "shape": "g",
+   "color": "#8ec560",
+   "texture": {
+    "k": "f",
+    "t": "items/green_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "red_harness",
+   "name": {
+    "en": "Red Harness"
+   },
+   "shape": "g",
+   "color": "#9cc07e",
+   "texture": {
+    "k": "f",
+    "t": "items/red_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "black_harness",
+   "name": {
+    "en": "Black Harness"
+   },
+   "shape": "g",
+   "color": "#8acab4",
+   "texture": {
+    "k": "f",
+    "t": "items/black_harness",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "minecart",
+   "name": {
+    "en": "Minecart"
+   },
+   "shape": "g",
+   "color": "#cd979b",
+   "texture": {
+    "k": "f",
+    "t": "items/minecart",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "chest_minecart",
+   "name": {
+    "en": "Minecart with Chest"
+   },
+   "shape": "g",
+   "color": "#cbb399",
+   "texture": {
+    "k": "f",
+    "t": "items/chest_minecart",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "furnace_minecart",
+   "name": {
+    "en": "Minecart with Furnace"
+   },
+   "shape": "g",
+   "color": "#d4beb1",
+   "texture": {
+    "k": "f",
+    "t": "items/furnace_minecart",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "tnt_minecart",
+   "name": {
+    "en": "Minecart with TNT"
+   },
+   "shape": "g",
+   "color": "#b2c98b",
+   "texture": {
+    "k": "f",
+    "t": "items/tnt_minecart",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "hopper_minecart",
+   "name": {
+    "en": "Minecart with Hopper"
+   },
+   "shape": "g",
+   "color": "#7877c8",
+   "texture": {
+    "k": "f",
+    "t": "items/hopper_minecart",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "carrot_on_a_stick",
+   "name": {
+    "en": "Carrot on a Stick"
+   },
+   "shape": "g",
+   "color": "#6893a9",
+   "texture": {
+    "k": "f",
+    "t": "items/carrot_on_a_stick",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "warped_fungus_on_a_stick",
+   "name": {
+    "en": "Warped Fungus on a Stick"
+   },
+   "shape": "g",
+   "color": "#8d5c7f",
+   "texture": {
+    "k": "f",
+    "t": "items/warped_fungus_on_a_stick",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "phantom_membrane",
+   "name": {
+    "en": "Phantom Membrane"
+   },
+   "shape": "g",
+   "color": "#9f95c7",
+   "texture": {
+    "k": "f",
+    "t": "items/phantom_membrane",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "oak_boat",
+   "name": {
+    "en": "Oak Boat",
+    "pt": "Barco de Carvalho"
+   },
+   "shape": "g",
+   "color": "#c0beb8",
+   "texture": {
+    "k": "f",
+    "t": "items/oak_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "oak_chest_boat",
+   "name": {
+    "en": "Oak Boat with Chest"
+   },
+   "shape": "g",
+   "color": "#be749a",
+   "texture": {
+    "k": "f",
+    "t": "items/oak_chest_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "spruce_boat",
+   "name": {
+    "en": "Spruce Boat",
+    "pt": "Barco de Abeto"
+   },
+   "shape": "g",
+   "color": "#776766",
+   "texture": {
+    "k": "f",
+    "t": "items/spruce_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "spruce_chest_boat",
+   "name": {
+    "en": "Spruce Boat with Chest"
+   },
+   "shape": "g",
+   "color": "#b5787e",
+   "texture": {
+    "k": "f",
+    "t": "items/spruce_chest_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "birch_boat",
+   "name": {
+    "en": "Birch Boat",
+    "pt": "Barco de Bétula"
+   },
+   "shape": "g",
+   "color": "#c987b8",
+   "texture": {
+    "k": "f",
+    "t": "items/birch_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "birch_chest_boat",
+   "name": {
+    "en": "Birch Boat with Chest"
+   },
+   "shape": "g",
+   "color": "#87727a",
+   "texture": {
+    "k": "f",
+    "t": "items/birch_chest_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "jungle_boat",
+   "name": {
+    "en": "Jungle Boat",
+    "pt": "Barco de Selva"
+   },
+   "shape": "g",
+   "color": "#5cb980",
+   "texture": {
+    "k": "f",
+    "t": "items/jungle_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "jungle_chest_boat",
+   "name": {
+    "en": "Jungle Boat with Chest"
+   },
+   "shape": "g",
+   "color": "#5a8a6b",
+   "texture": {
+    "k": "f",
+    "t": "items/jungle_chest_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "acacia_boat",
+   "name": {
+    "en": "Acacia Boat",
+    "pt": "Barco de Acácia"
+   },
+   "shape": "g",
+   "color": "#9d91c8",
+   "texture": {
+    "k": "f",
+    "t": "items/acacia_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "acacia_chest_boat",
+   "name": {
+    "en": "Acacia Boat with Chest"
+   },
+   "shape": "g",
+   "color": "#5b6ec6",
+   "texture": {
+    "k": "f",
+    "t": "items/acacia_chest_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cherry_boat",
+   "name": {
+    "en": "Cherry Boat",
+    "pt": "Barco de Cerejeira"
+   },
+   "shape": "g",
+   "color": "#806ed0",
+   "texture": {
+    "k": "f",
+    "t": "items/cherry_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cherry_chest_boat",
+   "name": {
+    "en": "Cherry Boat with Chest"
+   },
+   "shape": "g",
+   "color": "#7eb4a2",
+   "texture": {
+    "k": "f",
+    "t": "items/cherry_chest_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "dark_oak_boat",
+   "name": {
+    "en": "Dark Oak Boat",
+    "pt": "Barco de Carvalho Escuro"
+   },
+   "shape": "g",
+   "color": "#6985a5",
+   "texture": {
+    "k": "f",
+    "t": "items/dark_oak_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "dark_oak_chest_boat",
+   "name": {
+    "en": "Dark Oak Boat with Chest"
+   },
+   "shape": "g",
+   "color": "#a7d878",
+   "texture": {
+    "k": "f",
+    "t": "items/dark_oak_chest_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "pale_oak_boat",
+   "name": {
+    "en": "Pale Oak Boat",
+    "pt": "Barco de Carvalho Pálido"
+   },
+   "shape": "g",
+   "color": "#b57cb5",
+   "texture": {
+    "k": "f",
+    "t": "items/pale_oak_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "pale_oak_chest_boat",
+   "name": {
+    "en": "Pale Oak Boat with Chest"
+   },
+   "shape": "g",
+   "color": "#73868e",
+   "texture": {
+    "k": "f",
+    "t": "items/pale_oak_chest_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "mangrove_boat",
+   "name": {
+    "en": "Mangrove Boat",
+    "pt": "Barco de Mangue"
+   },
+   "shape": "g",
+   "color": "#a0b6c2",
+   "texture": {
+    "k": "f",
+    "t": "items/mangrove_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "mangrove_chest_boat",
+   "name": {
+    "en": "Mangrove Boat with Chest"
+   },
+   "shape": "g",
+   "color": "#9e6465",
+   "texture": {
+    "k": "f",
+    "t": "items/mangrove_chest_boat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "bamboo_raft",
+   "name": {
+    "en": "Bamboo Raft"
+   },
+   "shape": "g",
+   "color": "#82b7be",
+   "texture": {
+    "k": "f",
+    "t": "items/bamboo_raft",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "bamboo_chest_raft",
+   "name": {
+    "en": "Bamboo Raft with Chest"
+   },
+   "shape": "g",
+   "color": "#c08587",
+   "texture": {
+    "k": "f",
+    "t": "items/bamboo_chest_raft",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "turtle_scute",
+   "name": {
+    "en": "Turtle Scute"
+   },
+   "shape": "g",
+   "color": "#6dae89",
+   "texture": {
+    "k": "f",
+    "t": "items/turtle_scute",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "armadillo_scute",
+   "name": {
+    "en": "Armadillo Scute"
+   },
+   "shape": "g",
+   "color": "#d6b8a0",
+   "texture": {
+    "k": "f",
+    "t": "items/armadillo_scute",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "wolf_armor",
+   "name": {
+    "en": "Wolf Armor"
+   },
+   "shape": "g",
+   "color": "#6c5f8d",
+   "texture": {
+    "k": "f",
+    "t": "items/wolf_armor",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "bowl",
+   "name": {
+    "en": "Bowl"
+   },
+   "shape": "g",
+   "color": "#bc9588",
+   "texture": {
+    "k": "f",
+    "t": "items/bowl",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "amethyst_shard",
+   "name": {
+    "en": "Amethyst Shard"
+   },
+   "shape": "g",
+   "color": "#8662ae",
+   "texture": {
+    "k": "f",
+    "t": "items/amethyst_shard",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "raw_iron",
+   "name": {
+    "en": "Raw Iron"
+   },
+   "shape": "g",
+   "color": "#d9a8d9",
+   "texture": {
+    "k": "f",
+    "t": "items/raw_iron",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "raw_copper",
+   "name": {
+    "en": "Raw Copper"
+   },
+   "shape": "g",
+   "color": "#6ab3d8",
+   "texture": {
+    "k": "f",
+    "t": "items/raw_copper",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "raw_gold",
+   "name": {
+    "en": "Raw Gold"
+   },
+   "shape": "g",
+   "color": "#71b4d8",
+   "texture": {
+    "k": "f",
+    "t": "items/raw_gold",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "netherite_scrap",
+   "name": {
+    "en": "Netherite Scrap"
+   },
+   "shape": "g",
+   "color": "#6e7caa",
+   "texture": {
+    "k": "f",
+    "t": "items/netherite_scrap",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "wheat_seeds",
+   "name": {
+    "en": "Wheat Seeds"
+   },
+   "shape": "g",
+   "color": "#a46ec4",
+   "texture": {
+    "k": "f",
+    "t": "items/wheat_seeds",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "painting",
+   "name": {
+    "en": "Painting"
+   },
+   "shape": "g",
+   "color": "#9eb48b",
+   "texture": {
+    "k": "f",
+    "t": "items/painting",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "water_bucket",
+   "name": {
+    "en": "Water Bucket"
+   },
+   "shape": "g",
+   "color": "#6cc46c",
+   "texture": {
+    "k": "f",
+    "t": "items/water_bucket",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "powder_snow_bucket",
+   "name": {
+    "en": "Powder Snow Bucket"
+   },
+   "shape": "g",
+   "color": "#7aa98a",
+   "texture": {
+    "k": "f",
+    "t": "items/powder_snow_bucket",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "snowball",
+   "name": {
+    "en": "Snowball"
+   },
+   "shape": "g",
+   "color": "#5cd893",
+   "texture": {
+    "k": "f",
+    "t": "items/snowball",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "milk_bucket",
+   "name": {
+    "en": "Milk Bucket"
+   },
+   "shape": "g",
+   "color": "#68b8a0",
+   "texture": {
+    "k": "f",
+    "t": "items/milk_bucket",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "pufferfish_bucket",
+   "name": {
+    "en": "Bucket of Pufferfish"
+   },
+   "shape": "g",
+   "color": "#d9bfae",
+   "texture": {
+    "k": "f",
+    "t": "items/pufferfish_bucket",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "salmon_bucket",
+   "name": {
+    "en": "Bucket of Salmon"
+   },
+   "shape": "g",
+   "color": "#b5b27d",
+   "texture": {
+    "k": "f",
+    "t": "items/salmon_bucket",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cod_bucket",
+   "name": {
+    "en": "Bucket of Cod"
+   },
+   "shape": "g",
+   "color": "#6b88ac",
+   "texture": {
+    "k": "f",
+    "t": "items/cod_bucket",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "tropical_fish_bucket",
+   "name": {
+    "en": "Bucket of Tropical Fish"
+   },
+   "shape": "g",
+   "color": "#70c8cc",
+   "texture": {
+    "k": "f",
+    "t": "items/tropical_fish_bucket",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "axolotl_bucket",
+   "name": {
+    "en": "Bucket of Axolotl"
+   },
+   "shape": "g",
+   "color": "#b07774",
+   "texture": {
+    "k": "f",
+    "t": "items/axolotl_bucket",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "tadpole_bucket",
+   "name": {
+    "en": "Bucket of Tadpole"
+   },
+   "shape": "g",
+   "color": "#b4d6c9",
+   "texture": {
+    "k": "f",
+    "t": "items/tadpole_bucket",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "slime_ball",
+   "name": {
+    "en": "Slimeball"
+   },
+   "shape": "g",
+   "color": "#70d75b",
+   "texture": {
+    "k": "f",
+    "t": "items/slime_ball",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "egg",
+   "name": {
+    "en": "Egg"
+   },
+   "shape": "g",
+   "color": "#5f625b",
+   "texture": {
+    "k": "f",
+    "t": "items/egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "blue_egg",
+   "name": {
+    "en": "Blue Egg"
+   },
+   "shape": "g",
+   "color": "#7a8491",
+   "texture": {
+    "k": "f",
+    "t": "items/blue_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "brown_egg",
+   "name": {
+    "en": "Brown Egg"
+   },
+   "shape": "g",
+   "color": "#d68771",
+   "texture": {
+    "k": "f",
+    "t": "items/brown_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "recovery_compass",
+   "name": {
+    "en": "Recovery Compass"
+   },
+   "shape": "g",
+   "color": "#c2d8d4",
+   "texture": {
+    "k": "n"
+   }
+  },
+  {
+   "id": "bundle",
+   "name": {
+    "en": "Bundle"
+   },
+   "shape": "g",
+   "color": "#5c8ab9",
+   "texture": {
+    "k": "f",
+    "t": "items/bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "white_bundle",
+   "name": {
+    "en": "White Bundle"
+   },
+   "shape": "g",
+   "color": "#b26b9e",
+   "texture": {
+    "k": "f",
+    "t": "items/white_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "orange_bundle",
+   "name": {
+    "en": "Orange Bundle"
+   },
+   "shape": "g",
+   "color": "#8db1aa",
+   "texture": {
+    "k": "f",
+    "t": "items/orange_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "magenta_bundle",
+   "name": {
+    "en": "Magenta Bundle"
+   },
+   "shape": "g",
+   "color": "#b2ced4",
+   "texture": {
+    "k": "f",
+    "t": "items/magenta_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "light_blue_bundle",
+   "name": {
+    "en": "Light Blue Bundle"
+   },
+   "shape": "g",
+   "color": "#b8c079",
+   "texture": {
+    "k": "f",
+    "t": "items/light_blue_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "yellow_bundle",
+   "name": {
+    "en": "Yellow Bundle"
+   },
+   "shape": "g",
+   "color": "#87787c",
+   "texture": {
+    "k": "f",
+    "t": "items/yellow_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "lime_bundle",
+   "name": {
+    "en": "Lime Bundle"
+   },
+   "shape": "g",
+   "color": "#86cebd",
+   "texture": {
+    "k": "f",
+    "t": "items/lime_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "pink_bundle",
+   "name": {
+    "en": "Pink Bundle"
+   },
+   "shape": "g",
+   "color": "#c5955c",
+   "texture": {
+    "k": "f",
+    "t": "items/pink_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "gray_bundle",
+   "name": {
+    "en": "Gray Bundle"
+   },
+   "shape": "g",
+   "color": "#b897bd",
+   "texture": {
+    "k": "f",
+    "t": "items/gray_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "light_gray_bundle",
+   "name": {
+    "en": "Light Gray Bundle"
+   },
+   "shape": "g",
+   "color": "#8fba68",
+   "texture": {
+    "k": "f",
+    "t": "items/light_gray_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cyan_bundle",
+   "name": {
+    "en": "Cyan Bundle"
+   },
+   "shape": "g",
+   "color": "#787780",
+   "texture": {
+    "k": "f",
+    "t": "items/cyan_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "purple_bundle",
+   "name": {
+    "en": "Purple Bundle"
+   },
+   "shape": "g",
+   "color": "#bf945b",
+   "texture": {
+    "k": "f",
+    "t": "items/purple_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "blue_bundle",
+   "name": {
+    "en": "Blue Bundle"
+   },
+   "shape": "g",
+   "color": "#619ece",
+   "texture": {
+    "k": "f",
+    "t": "items/blue_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "brown_bundle",
+   "name": {
+    "en": "Brown Bundle"
+   },
+   "shape": "g",
+   "color": "#855d6b",
+   "texture": {
+    "k": "f",
+    "t": "items/brown_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "green_bundle",
+   "name": {
+    "en": "Green Bundle"
+   },
+   "shape": "g",
+   "color": "#985fb5",
+   "texture": {
+    "k": "f",
+    "t": "items/green_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "red_bundle",
+   "name": {
+    "en": "Red Bundle"
+   },
+   "shape": "g",
+   "color": "#cab9d2",
+   "texture": {
+    "k": "f",
+    "t": "items/red_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "black_bundle",
+   "name": {
+    "en": "Black Bundle"
+   },
+   "shape": "g",
+   "color": "#9cca8e",
+   "texture": {
+    "k": "f",
+    "t": "items/black_bundle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "ink_sac",
+   "name": {
+    "en": "Ink Sac"
+   },
+   "shape": "g",
+   "color": "#d6798e",
+   "texture": {
+    "k": "f",
+    "t": "items/ink_sac",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "glow_ink_sac",
+   "name": {
+    "en": "Glow Ink Sac"
+   },
+   "shape": "g",
+   "color": "#a4b9ba",
+   "texture": {
+    "k": "f",
+    "t": "items/glow_ink_sac",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cocoa_beans",
+   "name": {
+    "en": "Cocoa Beans"
+   },
+   "shape": "g",
+   "color": "#67a2a9",
+   "texture": {
+    "k": "f",
+    "t": "items/cocoa_beans",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "white_dye",
+   "name": {
+    "en": "White Dye",
+    "pt": "Corante Branco"
+   },
+   "shape": "g",
+   "color": "#b49fc0",
+   "texture": {
+    "k": "f",
+    "t": "items/white_dye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "orange_dye",
+   "name": {
+    "en": "Orange Dye",
+    "pt": "Corante Laranja"
+   },
+   "shape": "g",
+   "color": "#b96e6a",
+   "texture": {
+    "k": "f",
+    "t": "items/orange_dye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "magenta_dye",
+   "name": {
+    "en": "Magenta Dye",
+    "pt": "Corante Magenta"
+   },
+   "shape": "g",
+   "color": "#b46bd0",
+   "texture": {
+    "k": "f",
+    "t": "items/magenta_dye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "light_blue_dye",
+   "name": {
+    "en": "Light Blue Dye",
+    "pt": "Corante Azul-claro"
+   },
+   "shape": "g",
+   "color": "#6ed86e",
+   "texture": {
+    "k": "f",
+    "t": "items/light_blue_dye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "yellow_dye",
+   "name": {
+    "en": "Yellow Dye",
+    "pt": "Corante Amarelo"
+   },
+   "shape": "g",
+   "color": "#7f9ad3",
+   "texture": {
+    "k": "f",
+    "t": "items/yellow_dye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "lime_dye",
+   "name": {
+    "en": "Lime Dye",
+    "pt": "Corante Verde-limão"
+   },
+   "shape": "g",
+   "color": "#60cd83",
+   "texture": {
+    "k": "f",
+    "t": "items/lime_dye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "pink_dye",
+   "name": {
+    "en": "Pink Dye",
+    "pt": "Corante Rosa"
+   },
+   "shape": "g",
+   "color": "#816691",
+   "texture": {
+    "k": "f",
+    "t": "items/pink_dye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "gray_dye",
+   "name": {
+    "en": "Gray Dye",
+    "pt": "Corante Cinza"
+   },
+   "shape": "g",
+   "color": "#6eb0d5",
+   "texture": {
+    "k": "f",
+    "t": "items/gray_dye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "light_gray_dye",
+   "name": {
+    "en": "Light Gray Dye",
+    "pt": "Corante Cinza-claro"
+   },
+   "shape": "g",
+   "color": "#7785b2",
+   "texture": {
+    "k": "f",
+    "t": "items/light_gray_dye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cyan_dye",
+   "name": {
+    "en": "Cyan Dye",
+    "pt": "Corante Ciano"
+   },
+   "shape": "g",
+   "color": "#ae9981",
+   "texture": {
+    "k": "f",
+    "t": "items/cyan_dye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "purple_dye",
+   "name": {
+    "en": "Purple Dye",
+    "pt": "Corante Roxo"
+   },
+   "shape": "g",
+   "color": "#c7d9c9",
+   "texture": {
+    "k": "f",
+    "t": "items/purple_dye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "blue_dye",
+   "name": {
+    "en": "Blue Dye",
+    "pt": "Corante Azul"
+   },
+   "shape": "g",
+   "color": "#658391",
+   "texture": {
+    "k": "f",
+    "t": "items/blue_dye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "brown_dye",
+   "name": {
+    "en": "Brown Dye",
+    "pt": "Corante Marrom"
+   },
+   "shape": "g",
+   "color": "#c18571",
+   "texture": {
+    "k": "f",
+    "t": "items/brown_dye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "red_dye",
+   "name": {
+    "en": "Red Dye",
+    "pt": "Corante Vermelho"
+   },
+   "shape": "g",
+   "color": "#9c9767",
+   "texture": {
+    "k": "f",
+    "t": "items/red_dye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "black_dye",
+   "name": {
+    "en": "Black Dye",
+    "pt": "Corante Preto"
+   },
+   "shape": "g",
+   "color": "#8a88c8",
+   "texture": {
+    "k": "f",
+    "t": "items/black_dye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "bone_meal",
+   "name": {
+    "en": "Bone Meal"
+   },
+   "shape": "g",
+   "color": "#b88663",
+   "texture": {
+    "k": "f",
+    "t": "items/bone_meal",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "bone",
+   "name": {
+    "en": "Bone"
+   },
+   "shape": "g",
+   "color": "#9e9488",
+   "texture": {
+    "k": "f",
+    "t": "items/bone",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "filled_map",
+   "name": {
+    "en": "Map"
+   },
+   "shape": "g",
+   "color": "#d95ad6",
+   "texture": {
+    "k": "f",
+    "t": "items/filled_map",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "pumpkin_seeds",
+   "name": {
+    "en": "Pumpkin Seeds"
+   },
+   "shape": "g",
+   "color": "#658662",
+   "texture": {
+    "k": "f",
+    "t": "items/pumpkin_seeds",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "melon_seeds",
+   "name": {
+    "en": "Melon Seeds"
+   },
+   "shape": "g",
+   "color": "#70b9c2",
+   "texture": {
+    "k": "f",
+    "t": "items/melon_seeds",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "ender_pearl",
+   "name": {
+    "en": "Ender Pearl"
+   },
+   "shape": "g",
+   "color": "#697eb1",
+   "texture": {
+    "k": "f",
+    "t": "items/ender_pearl",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "ghast_tear",
+   "name": {
+    "en": "Ghast Tear"
+   },
+   "shape": "g",
+   "color": "#bab7d5",
+   "texture": {
+    "k": "f",
+    "t": "items/ghast_tear",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "gold_nugget",
+   "name": {
+    "en": "Gold Nugget"
+   },
+   "shape": "g",
+   "color": "#6f5ed0",
+   "texture": {
+    "k": "f",
+    "t": "items/gold_nugget",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "potion",
+   "name": {
+    "en": "Potion"
+   },
+   "shape": "g",
+   "color": "#6da3cb",
+   "texture": {
+    "k": "f",
+    "t": "items/potion",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "fermented_spider_eye",
+   "name": {
+    "en": "Fermented Spider Eye"
+   },
+   "shape": "g",
+   "color": "#80afa5",
+   "texture": {
+    "k": "f",
+    "t": "items/fermented_spider_eye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "ender_eye",
+   "name": {
+    "en": "Eye of Ender"
+   },
+   "shape": "g",
+   "color": "#94bad6",
+   "texture": {
+    "k": "f",
+    "t": "items/ender_eye",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "armadillo_spawn_egg",
+   "name": {
+    "en": "Armadillo Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#c1d591",
+   "texture": {
+    "k": "f",
+    "t": "items/armadillo_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "allay_spawn_egg",
+   "name": {
+    "en": "Allay Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#7580c7",
+   "texture": {
+    "k": "f",
+    "t": "items/allay_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "axolotl_spawn_egg",
+   "name": {
+    "en": "Axolotl Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#afb49f",
+   "texture": {
+    "k": "f",
+    "t": "items/axolotl_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "bat_spawn_egg",
+   "name": {
+    "en": "Bat Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#716f7d",
+   "texture": {
+    "k": "f",
+    "t": "items/bat_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "bee_spawn_egg",
+   "name": {
+    "en": "Bee Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#9e8b5d",
+   "texture": {
+    "k": "f",
+    "t": "items/bee_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "blaze_spawn_egg",
+   "name": {
+    "en": "Blaze Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#5ed27c",
+   "texture": {
+    "k": "f",
+    "t": "items/blaze_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "bogged_spawn_egg",
+   "name": {
+    "en": "Bogged Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#689abe",
+   "texture": {
+    "k": "f",
+    "t": "items/bogged_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "breeze_spawn_egg",
+   "name": {
+    "en": "Breeze Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#777c86",
+   "texture": {
+    "k": "f",
+    "t": "items/breeze_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cat_spawn_egg",
+   "name": {
+    "en": "Cat Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#727680",
+   "texture": {
+    "k": "f",
+    "t": "items/cat_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "camel_spawn_egg",
+   "name": {
+    "en": "Camel Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#d2b2a3",
+   "texture": {
+    "k": "f",
+    "t": "items/camel_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cave_spider_spawn_egg",
+   "name": {
+    "en": "Cave Spider Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#b3d897",
+   "texture": {
+    "k": "f",
+    "t": "items/cave_spider_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "chicken_spawn_egg",
+   "name": {
+    "en": "Chicken Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#9199b9",
+   "texture": {
+    "k": "f",
+    "t": "items/chicken_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cod_spawn_egg",
+   "name": {
+    "en": "Cod Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#94d56c",
+   "texture": {
+    "k": "f",
+    "t": "items/cod_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cow_spawn_egg",
+   "name": {
+    "en": "Cow Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#679965",
+   "texture": {
+    "k": "f",
+    "t": "items/cow_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "creeper_spawn_egg",
+   "name": {
+    "en": "Creeper Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#8a995c",
+   "texture": {
+    "k": "f",
+    "t": "items/creeper_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "dolphin_spawn_egg",
+   "name": {
+    "en": "Dolphin Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#7a8673",
+   "texture": {
+    "k": "f",
+    "t": "items/dolphin_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "donkey_spawn_egg",
+   "name": {
+    "en": "Donkey Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#d89cc1",
+   "texture": {
+    "k": "f",
+    "t": "items/donkey_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "drowned_spawn_egg",
+   "name": {
+    "en": "Drowned Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#b377a8",
+   "texture": {
+    "k": "f",
+    "t": "items/drowned_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "elder_guardian_spawn_egg",
+   "name": {
+    "en": "Elder Guardian Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#c28693",
+   "texture": {
+    "k": "f",
+    "t": "items/elder_guardian_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "ender_dragon_spawn_egg",
+   "name": {
+    "en": "Ender Dragon Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#86cc8d",
+   "texture": {
+    "k": "f",
+    "t": "items/ender_dragon_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "enderman_spawn_egg",
+   "name": {
+    "en": "Enderman Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#ae809d",
+   "texture": {
+    "k": "f",
+    "t": "items/enderman_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "endermite_spawn_egg",
+   "name": {
+    "en": "Endermite Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#b18fce",
+   "texture": {
+    "k": "f",
+    "t": "items/endermite_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "evoker_spawn_egg",
+   "name": {
+    "en": "Evoker Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#d6c86f",
+   "texture": {
+    "k": "f",
+    "t": "items/evoker_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "fox_spawn_egg",
+   "name": {
+    "en": "Fox Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#ab5fd3",
+   "texture": {
+    "k": "f",
+    "t": "items/fox_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "frog_spawn_egg",
+   "name": {
+    "en": "Frog Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#c0a4a6",
+   "texture": {
+    "k": "f",
+    "t": "items/frog_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "ghast_spawn_egg",
+   "name": {
+    "en": "Ghast Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#5db2d9",
+   "texture": {
+    "k": "f",
+    "t": "items/ghast_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "happy_ghast_spawn_egg",
+   "name": {
+    "en": "Happy Ghast Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#7e9f98",
+   "texture": {
+    "k": "f",
+    "t": "items/happy_ghast_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "glow_squid_spawn_egg",
+   "name": {
+    "en": "Glow Squid Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#9cb5c6",
+   "texture": {
+    "k": "f",
+    "t": "items/glow_squid_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "goat_spawn_egg",
+   "name": {
+    "en": "Goat Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#776361",
+   "texture": {
+    "k": "f",
+    "t": "items/goat_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "guardian_spawn_egg",
+   "name": {
+    "en": "Guardian Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#6d82a8",
+   "texture": {
+    "k": "f",
+    "t": "items/guardian_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "hoglin_spawn_egg",
+   "name": {
+    "en": "Hoglin Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#ad7e6e",
+   "texture": {
+    "k": "f",
+    "t": "items/hoglin_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "horse_spawn_egg",
+   "name": {
+    "en": "Horse Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#b99592",
+   "texture": {
+    "k": "f",
+    "t": "items/horse_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "husk_spawn_egg",
+   "name": {
+    "en": "Husk Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#81abc4",
+   "texture": {
+    "k": "f",
+    "t": "items/husk_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "iron_golem_spawn_egg",
+   "name": {
+    "en": "Iron Golem Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#d1c9b3",
+   "texture": {
+    "k": "f",
+    "t": "items/iron_golem_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "llama_spawn_egg",
+   "name": {
+    "en": "Llama Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#91c776",
+   "texture": {
+    "k": "f",
+    "t": "items/llama_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "magma_cube_spawn_egg",
+   "name": {
+    "en": "Magma Cube Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#a96075",
+   "texture": {
+    "k": "f",
+    "t": "items/magma_cube_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "mooshroom_spawn_egg",
+   "name": {
+    "en": "Mooshroom Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#d9777c",
+   "texture": {
+    "k": "f",
+    "t": "items/mooshroom_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "mule_spawn_egg",
+   "name": {
+    "en": "Mule Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#7d6561",
+   "texture": {
+    "k": "f",
+    "t": "items/mule_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "ocelot_spawn_egg",
+   "name": {
+    "en": "Ocelot Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#bc926c",
+   "texture": {
+    "k": "f",
+    "t": "items/ocelot_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "panda_spawn_egg",
+   "name": {
+    "en": "Panda Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#76cbc5",
+   "texture": {
+    "k": "f",
+    "t": "items/panda_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "parrot_spawn_egg",
+   "name": {
+    "en": "Parrot Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#b27f9d",
+   "texture": {
+    "k": "f",
+    "t": "items/parrot_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "phantom_spawn_egg",
+   "name": {
+    "en": "Phantom Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#69b4ad",
+   "texture": {
+    "k": "f",
+    "t": "items/phantom_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "pig_spawn_egg",
+   "name": {
+    "en": "Pig Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#aa6198",
+   "texture": {
+    "k": "f",
+    "t": "items/pig_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "piglin_spawn_egg",
+   "name": {
+    "en": "Piglin Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#9f70d8",
+   "texture": {
+    "k": "f",
+    "t": "items/piglin_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "piglin_brute_spawn_egg",
+   "name": {
+    "en": "Piglin Brute Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#767b73",
+   "texture": {
+    "k": "f",
+    "t": "items/piglin_brute_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "pillager_spawn_egg",
+   "name": {
+    "en": "Pillager Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#a88eac",
+   "texture": {
+    "k": "f",
+    "t": "items/pillager_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "polar_bear_spawn_egg",
+   "name": {
+    "en": "Polar Bear Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#71b79c",
+   "texture": {
+    "k": "f",
+    "t": "items/polar_bear_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "pufferfish_spawn_egg",
+   "name": {
+    "en": "Pufferfish Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#668f73",
+   "texture": {
+    "k": "f",
+    "t": "items/pufferfish_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "rabbit_spawn_egg",
+   "name": {
+    "en": "Rabbit Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#b6d989",
+   "texture": {
+    "k": "f",
+    "t": "items/rabbit_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "ravager_spawn_egg",
+   "name": {
+    "en": "Ravager Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#968da0",
+   "texture": {
+    "k": "f",
+    "t": "items/ravager_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "salmon_spawn_egg",
+   "name": {
+    "en": "Salmon Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#8a8eb4",
+   "texture": {
+    "k": "f",
+    "t": "items/salmon_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "sheep_spawn_egg",
+   "name": {
+    "en": "Sheep Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#b77165",
+   "texture": {
+    "k": "f",
+    "t": "items/sheep_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "shulker_spawn_egg",
+   "name": {
+    "en": "Shulker Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#c8d57f",
+   "texture": {
+    "k": "f",
+    "t": "items/shulker_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "silverfish_spawn_egg",
+   "name": {
+    "en": "Silverfish Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#c1aa65",
+   "texture": {
+    "k": "f",
+    "t": "items/silverfish_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "skeleton_spawn_egg",
+   "name": {
+    "en": "Skeleton Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#a985b5",
+   "texture": {
+    "k": "f",
+    "t": "items/skeleton_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "skeleton_horse_spawn_egg",
+   "name": {
+    "en": "Skeleton Horse Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#c7a9b8",
+   "texture": {
+    "k": "f",
+    "t": "items/skeleton_horse_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "slime_spawn_egg",
+   "name": {
+    "en": "Slime Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#64aea1",
+   "texture": {
+    "k": "f",
+    "t": "items/slime_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "sniffer_spawn_egg",
+   "name": {
+    "en": "Sniffer Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#b7b35f",
+   "texture": {
+    "k": "f",
+    "t": "items/sniffer_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "snow_golem_spawn_egg",
+   "name": {
+    "en": "Snow Golem Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#8c70d5",
+   "texture": {
+    "k": "f",
+    "t": "items/snow_golem_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "spider_spawn_egg",
+   "name": {
+    "en": "Spider Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#c1867d",
+   "texture": {
+    "k": "f",
+    "t": "items/spider_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "squid_spawn_egg",
+   "name": {
+    "en": "Squid Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#cea46f",
+   "texture": {
+    "k": "f",
+    "t": "items/squid_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "stray_spawn_egg",
+   "name": {
+    "en": "Stray Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#856cb5",
+   "texture": {
+    "k": "f",
+    "t": "items/stray_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "strider_spawn_egg",
+   "name": {
+    "en": "Strider Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#957395",
+   "texture": {
+    "k": "f",
+    "t": "items/strider_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "tadpole_spawn_egg",
+   "name": {
+    "en": "Tadpole Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#abc65b",
+   "texture": {
+    "k": "f",
+    "t": "items/tadpole_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "trader_llama_spawn_egg",
+   "name": {
+    "en": "Trader Llama Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#607d61",
+   "texture": {
+    "k": "f",
+    "t": "items/trader_llama_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "tropical_fish_spawn_egg",
+   "name": {
+    "en": "Tropical Fish Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#6fab7c",
+   "texture": {
+    "k": "f",
+    "t": "items/tropical_fish_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "turtle_spawn_egg",
+   "name": {
+    "en": "Turtle Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#d86793",
+   "texture": {
+    "k": "f",
+    "t": "items/turtle_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "vex_spawn_egg",
+   "name": {
+    "en": "Vex Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#85d293",
+   "texture": {
+    "k": "f",
+    "t": "items/vex_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "villager_spawn_egg",
+   "name": {
+    "en": "Villager Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#625b98",
+   "texture": {
+    "k": "f",
+    "t": "items/villager_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "vindicator_spawn_egg",
+   "name": {
+    "en": "Vindicator Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#b5d05d",
+   "texture": {
+    "k": "f",
+    "t": "items/vindicator_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "wandering_trader_spawn_egg",
+   "name": {
+    "en": "Wandering Trader Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#94bc68",
+   "texture": {
+    "k": "f",
+    "t": "items/wandering_trader_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "warden_spawn_egg",
+   "name": {
+    "en": "Warden Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#818fa3",
+   "texture": {
+    "k": "f",
+    "t": "items/warden_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "witch_spawn_egg",
+   "name": {
+    "en": "Witch Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#a364d5",
+   "texture": {
+    "k": "f",
+    "t": "items/witch_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "wither_spawn_egg",
+   "name": {
+    "en": "Wither Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#cfd9d8",
+   "texture": {
+    "k": "f",
+    "t": "items/wither_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "wither_skeleton_spawn_egg",
+   "name": {
+    "en": "Wither Skeleton Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#75c5be",
+   "texture": {
+    "k": "f",
+    "t": "items/wither_skeleton_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "wolf_spawn_egg",
+   "name": {
+    "en": "Wolf Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#6ed15d",
+   "texture": {
+    "k": "f",
+    "t": "items/wolf_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "zoglin_spawn_egg",
+   "name": {
+    "en": "Zoglin Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#5b98af",
+   "texture": {
+    "k": "f",
+    "t": "items/zoglin_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "creaking_spawn_egg",
+   "name": {
+    "en": "Creaking Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#7ece6d",
+   "texture": {
+    "k": "f",
+    "t": "items/creaking_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "zombie_spawn_egg",
+   "name": {
+    "en": "Zombie Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#c2c8b9",
+   "texture": {
+    "k": "f",
+    "t": "items/zombie_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "zombie_horse_spawn_egg",
+   "name": {
+    "en": "Zombie Horse Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#a0d5bd",
+   "texture": {
+    "k": "f",
+    "t": "items/zombie_horse_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "zombie_villager_spawn_egg",
+   "name": {
+    "en": "Zombie Villager Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#9bbe69",
+   "texture": {
+    "k": "f",
+    "t": "items/zombie_villager_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "zombified_piglin_spawn_egg",
+   "name": {
+    "en": "Zombified Piglin Spawn Egg"
+   },
+   "shape": "g",
+   "color": "#5d816c",
+   "texture": {
+    "k": "f",
+    "t": "items/zombified_piglin_spawn_egg",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "experience_bottle",
+   "name": {
+    "en": "Bottle o' Enchanting"
+   },
+   "shape": "g",
+   "color": "#958c87",
+   "texture": {
+    "k": "f",
+    "t": "items/experience_bottle",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "fire_charge",
+   "name": {
+    "en": "Fire Charge"
+   },
+   "shape": "g",
+   "color": "#b7baaf",
+   "texture": {
+    "k": "f",
+    "t": "items/fire_charge",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "wind_charge",
+   "name": {
+    "en": "Wind Charge"
+   },
+   "shape": "g",
+   "color": "#a5b06c",
+   "texture": {
+    "k": "f",
+    "t": "items/wind_charge",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "writable_book",
+   "name": {
+    "en": "Book and Quill"
+   },
+   "shape": "g",
+   "color": "#82be76",
+   "texture": {
+    "k": "f",
+    "t": "items/writable_book",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "written_book",
+   "name": {
+    "en": "Written Book"
+   },
+   "shape": "g",
+   "color": "#6bc362",
+   "texture": {
+    "k": "f",
+    "t": "items/written_book",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "breeze_rod",
+   "name": {
+    "en": "Breeze Rod"
+   },
+   "shape": "g",
+   "color": "#7d9588",
+   "texture": {
+    "k": "f",
+    "t": "items/breeze_rod",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "item_frame",
+   "name": {
+    "en": "Item Frame"
+   },
+   "shape": "g",
+   "color": "#9b87c8",
+   "texture": {
+    "k": "f",
+    "t": "items/item_frame",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "glow_item_frame",
+   "name": {
+    "en": "Glow Item Frame"
+   },
+   "shape": "g",
+   "color": "#8d5d63",
+   "texture": {
+    "k": "f",
+    "t": "items/glow_item_frame",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "map",
+   "name": {
+    "en": "Empty Map"
+   },
+   "shape": "g",
+   "color": "#b67f5b",
+   "texture": {
+    "k": "f",
+    "t": "items/map",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "nether_star",
+   "name": {
+    "en": "Nether Star"
+   },
+   "shape": "g",
+   "color": "#b36763",
+   "texture": {
+    "k": "f",
+    "t": "items/nether_star",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "firework_rocket",
+   "name": {
+    "en": "Firework Rocket"
+   },
+   "shape": "g",
+   "color": "#a69dae",
+   "texture": {
+    "k": "f",
+    "t": "items/firework_rocket",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "firework_star",
+   "name": {
+    "en": "Firework Star"
+   },
+   "shape": "g",
+   "color": "#a4bbbc",
+   "texture": {
+    "k": "f",
+    "t": "items/firework_star",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "resin_brick",
+   "name": {
+    "en": "Resin Brick"
+   },
+   "shape": "g",
+   "color": "#a19b68",
+   "texture": {
+    "k": "f",
+    "t": "items/resin_brick",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "prismarine_shard",
+   "name": {
+    "en": "Prismarine Shard"
+   },
+   "shape": "g",
+   "color": "#a7c17d",
+   "texture": {
+    "k": "f",
+    "t": "items/prismarine_shard",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "prismarine_crystals",
+   "name": {
+    "en": "Prismarine Crystals"
+   },
+   "shape": "g",
+   "color": "#886b7d",
+   "texture": {
+    "k": "f",
+    "t": "items/prismarine_crystals",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "rabbit_hide",
+   "name": {
+    "en": "Rabbit Hide"
+   },
+   "shape": "g",
+   "color": "#a188b7",
+   "texture": {
+    "k": "f",
+    "t": "items/rabbit_hide",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "armor_stand",
+   "name": {
+    "en": "Armor Stand"
+   },
+   "shape": "g",
+   "color": "#b0b6a9",
+   "texture": {
+    "k": "f",
+    "t": "items/armor_stand",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "iron_horse_armor",
+   "name": {
+    "en": "Iron Horse Armor"
+   },
+   "shape": "g",
+   "color": "#c0a7a6",
+   "texture": {
+    "k": "f",
+    "t": "items/iron_horse_armor",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "golden_horse_armor",
+   "name": {
+    "en": "Golden Horse Armor"
+   },
+   "shape": "g",
+   "color": "#81ce8b",
+   "texture": {
+    "k": "f",
+    "t": "items/golden_horse_armor",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "diamond_horse_armor",
+   "name": {
+    "en": "Diamond Horse Armor"
+   },
+   "shape": "g",
+   "color": "#cc61a0",
+   "texture": {
+    "k": "f",
+    "t": "items/diamond_horse_armor",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "leather_horse_armor",
+   "name": {
+    "en": "Leather Horse Armor"
+   },
+   "shape": "g",
+   "color": "#a1d587",
+   "texture": {
+    "k": "f",
+    "t": "items/leather_horse_armor",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "lead",
+   "name": {
+    "en": "Lead"
+   },
+   "shape": "g",
+   "color": "#b6798c",
+   "texture": {
+    "k": "f",
+    "t": "items/lead",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "name_tag",
+   "name": {
+    "en": "Name Tag"
+   },
+   "shape": "g",
+   "color": "#c08594",
+   "texture": {
+    "k": "f",
+    "t": "items/name_tag",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "command_block_minecart",
+   "name": {
+    "en": "Minecart with Command Block"
+   },
+   "shape": "g",
+   "color": "#b38281",
+   "texture": {
+    "k": "f",
+    "t": "items/command_block_minecart",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "end_crystal",
+   "name": {
+    "en": "End Crystal"
+   },
+   "shape": "g",
+   "color": "#ac815e",
+   "texture": {
+    "k": "f",
+    "t": "items/end_crystal",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "popped_chorus_fruit",
+   "name": {
+    "en": "Popped Chorus Fruit"
+   },
+   "shape": "g",
+   "color": "#9677cd",
+   "texture": {
+    "k": "f",
+    "t": "items/popped_chorus_fruit",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "torchflower_seeds",
+   "name": {
+    "en": "Torchflower Seeds"
+   },
+   "shape": "g",
+   "color": "#9481af",
+   "texture": {
+    "k": "f",
+    "t": "items/torchflower_seeds",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "pitcher_pod",
+   "name": {
+    "en": "Pitcher Pod"
+   },
+   "shape": "g",
+   "color": "#cd7c73",
+   "texture": {
+    "k": "f",
+    "t": "items/pitcher_pod",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "beetroot_seeds",
+   "name": {
+    "en": "Beetroot Seeds"
+   },
+   "shape": "g",
+   "color": "#918aa0",
+   "texture": {
+    "k": "f",
+    "t": "items/beetroot_seeds",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "dragon_breath",
+   "name": {
+    "en": "Dragon's Breath"
+   },
+   "shape": "g",
+   "color": "#667666",
+   "texture": {
+    "k": "f",
+    "t": "items/dragon_breath",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "splash_potion",
+   "name": {
+    "en": "Splash Potion"
+   },
+   "shape": "g",
+   "color": "#c5c4d6",
+   "texture": {
+    "k": "f",
+    "t": "items/splash_potion",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "tipped_arrow",
+   "name": {
+    "en": "Tipped Arrow"
+   },
+   "shape": "g",
+   "color": "#78d8a6",
+   "texture": {
+    "k": "n"
+   }
+  },
+  {
+   "id": "lingering_potion",
+   "name": {
+    "en": "Lingering Potion"
+   },
+   "shape": "g",
+   "color": "#cd8dd5",
+   "texture": {
+    "k": "f",
+    "t": "items/lingering_potion",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "totem_of_undying",
+   "name": {
+    "en": "Totem of Undying"
+   },
+   "shape": "g",
+   "color": "#647f9c",
+   "texture": {
+    "k": "f",
+    "t": "items/totem_of_undying",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "shulker_shell",
+   "name": {
+    "en": "Shulker Shell"
+   },
+   "shape": "g",
+   "color": "#b79d7b",
+   "texture": {
+    "k": "f",
+    "t": "items/shulker_shell",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "iron_nugget",
+   "name": {
+    "en": "Iron Nugget",
+    "pt": "Pepita de Ferro"
+   },
+   "shape": "g",
+   "color": "#87a58f",
+   "texture": {
+    "k": "f",
+    "t": "items/iron_nugget",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "knowledge_book",
+   "name": {
+    "en": "Knowledge Book"
+   },
+   "shape": "g",
+   "color": "#648485",
+   "texture": {
+    "k": "f",
+    "t": "items/knowledge_book",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "debug_stick",
+   "name": {
+    "en": "Debug Stick"
+   },
+   "shape": "g",
+   "color": "#7e698e",
+   "texture": {
+    "k": "n"
+   }
+  },
+  {
+   "id": "music_disc_13",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#cc72d5",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_13",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_cat",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#60a1d2",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_cat",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_blocks",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#b0d290",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_blocks",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_chirp",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#6c8b5f",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_chirp",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_creator",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#b68988",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_creator",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_creator_music_box",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#688190",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_creator_music_box",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_far",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#a1acd2",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_far",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_lava_chicken",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#80b0c0",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_lava_chicken",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_mall",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#be7e6f",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_mall",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_mellohi",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#a26abf",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_mellohi",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_stal",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#767f72",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_stal",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_strad",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#9e97c6",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_strad",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_ward",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#a68b73",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_ward",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_11",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#ca72d5",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_11",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_wait",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#9f8a73",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_wait",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_otherside",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#71d19c",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_otherside",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_relic",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#7d98b1",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_relic",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_5",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#bfadb8",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_5",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_pigstep",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#64ca81",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_pigstep",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_precipice",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#6ed382",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_precipice",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "music_disc_tears",
+   "name": {
+    "en": "Music Disc"
+   },
+   "shape": "g",
+   "color": "#5b9fcd",
+   "texture": {
+    "k": "f",
+    "t": "items/music_disc_tears",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "disc_fragment_5",
+   "name": {
+    "en": "Disc Fragment"
+   },
+   "shape": "g",
+   "color": "#ca5c68",
+   "texture": {
+    "k": "f",
+    "t": "items/disc_fragment_5",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "nautilus_shell",
+   "name": {
+    "en": "Nautilus Shell"
+   },
+   "shape": "g",
+   "color": "#5ea293",
+   "texture": {
+    "k": "f",
+    "t": "items/nautilus_shell",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "heart_of_the_sea",
+   "name": {
+    "en": "Heart of the Sea"
+   },
+   "shape": "g",
+   "color": "#8c709f",
+   "texture": {
+    "k": "f",
+    "t": "items/heart_of_the_sea",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "flower_banner_pattern",
+   "name": {
+    "en": "Flower Charge Banner Pattern"
+   },
+   "shape": "g",
+   "color": "#bb91aa",
+   "texture": {
+    "k": "f",
+    "t": "items/flower_banner_pattern",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "creeper_banner_pattern",
+   "name": {
+    "en": "Creeper Charge Banner Pattern"
+   },
+   "shape": "g",
+   "color": "#c8627b",
+   "texture": {
+    "k": "f",
+    "t": "items/creeper_banner_pattern",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "skull_banner_pattern",
+   "name": {
+    "en": "Skull Charge Banner Pattern"
+   },
+   "shape": "g",
+   "color": "#79b092",
+   "texture": {
+    "k": "f",
+    "t": "items/skull_banner_pattern",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "mojang_banner_pattern",
+   "name": {
+    "en": "Thing Banner Pattern"
+   },
+   "shape": "g",
+   "color": "#64b995",
+   "texture": {
+    "k": "f",
+    "t": "items/mojang_banner_pattern",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "globe_banner_pattern",
+   "name": {
+    "en": "Globe Banner Pattern"
+   },
+   "shape": "g",
+   "color": "#697c9b",
+   "texture": {
+    "k": "f",
+    "t": "items/globe_banner_pattern",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "piglin_banner_pattern",
+   "name": {
+    "en": "Snout Banner Pattern"
+   },
+   "shape": "g",
+   "color": "#d36087",
+   "texture": {
+    "k": "f",
+    "t": "items/piglin_banner_pattern",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "flow_banner_pattern",
+   "name": {
+    "en": "Flow Banner Pattern"
+   },
+   "shape": "g",
+   "color": "#88aaac",
+   "texture": {
+    "k": "f",
+    "t": "items/flow_banner_pattern",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "guster_banner_pattern",
+   "name": {
+    "en": "Guster Banner Pattern"
+   },
+   "shape": "g",
+   "color": "#ba7168",
+   "texture": {
+    "k": "f",
+    "t": "items/guster_banner_pattern",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "field_masoned_banner_pattern",
+   "name": {
+    "en": "Field Masoned Banner Pattern"
+   },
+   "shape": "g",
+   "color": "#9ec89a",
+   "texture": {
+    "k": "f",
+    "t": "items/field_masoned_banner_pattern",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "bordure_indented_banner_pattern",
+   "name": {
+    "en": "Bordure Indented Banner Pattern"
+   },
+   "shape": "g",
+   "color": "#d573ab",
+   "texture": {
+    "k": "f",
+    "t": "items/bordure_indented_banner_pattern",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "goat_horn",
+   "name": {
+    "en": "Goat Horn"
+   },
+   "shape": "g",
+   "color": "#81c29f",
+   "texture": {
+    "k": "f",
+    "t": "items/goat_horn",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "honeycomb",
+   "name": {
+    "en": "Honeycomb"
+   },
+   "shape": "g",
+   "color": "#969e68",
+   "texture": {
+    "k": "f",
+    "t": "items/honeycomb",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "echo_shard",
+   "name": {
+    "en": "Echo Shard"
+   },
+   "shape": "g",
+   "color": "#9e87ba",
+   "texture": {
+    "k": "f",
+    "t": "items/echo_shard",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "sentry_armor_trim_smithing_template",
+   "name": {
+    "en": "Sentry Armor Trim"
+   },
+   "shape": "g",
+   "color": "#977ad3",
+   "texture": {
+    "k": "f",
+    "t": "items/sentry_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "dune_armor_trim_smithing_template",
+   "name": {
+    "en": "Dune Armor Trim"
+   },
+   "shape": "g",
+   "color": "#8ed48e",
+   "texture": {
+    "k": "f",
+    "t": "items/dune_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "coast_armor_trim_smithing_template",
+   "name": {
+    "en": "Coast Armor Trim"
+   },
+   "shape": "g",
+   "color": "#c0ba81",
+   "texture": {
+    "k": "f",
+    "t": "items/coast_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "wild_armor_trim_smithing_template",
+   "name": {
+    "en": "Wild Armor Trim"
+   },
+   "shape": "g",
+   "color": "#8c8ed0",
+   "texture": {
+    "k": "f",
+    "t": "items/wild_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "ward_armor_trim_smithing_template",
+   "name": {
+    "en": "Ward Armor Trim"
+   },
+   "shape": "g",
+   "color": "#9ac0c3",
+   "texture": {
+    "k": "f",
+    "t": "items/ward_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "eye_armor_trim_smithing_template",
+   "name": {
+    "en": "Eye Armor Trim"
+   },
+   "shape": "g",
+   "color": "#8581c6",
+   "texture": {
+    "k": "f",
+    "t": "items/eye_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "vex_armor_trim_smithing_template",
+   "name": {
+    "en": "Vex Armor Trim"
+   },
+   "shape": "g",
+   "color": "#8dd69b",
+   "texture": {
+    "k": "f",
+    "t": "items/vex_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "tide_armor_trim_smithing_template",
+   "name": {
+    "en": "Tide Armor Trim"
+   },
+   "shape": "g",
+   "color": "#a0c3af",
+   "texture": {
+    "k": "f",
+    "t": "items/tide_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "snout_armor_trim_smithing_template",
+   "name": {
+    "en": "Snout Armor Trim"
+   },
+   "shape": "g",
+   "color": "#63cf9b",
+   "texture": {
+    "k": "f",
+    "t": "items/snout_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "rib_armor_trim_smithing_template",
+   "name": {
+    "en": "Rib Armor Trim"
+   },
+   "shape": "g",
+   "color": "#6bb8a6",
+   "texture": {
+    "k": "f",
+    "t": "items/rib_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "spire_armor_trim_smithing_template",
+   "name": {
+    "en": "Spire Armor Trim"
+   },
+   "shape": "g",
+   "color": "#9761d1",
+   "texture": {
+    "k": "f",
+    "t": "items/spire_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "wayfinder_armor_trim_smithing_template",
+   "name": {
+    "en": "Wayfinder Armor Trim"
+   },
+   "shape": "g",
+   "color": "#618aa1",
+   "texture": {
+    "k": "f",
+    "t": "items/wayfinder_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "shaper_armor_trim_smithing_template",
+   "name": {
+    "en": "Shaper Armor Trim"
+   },
+   "shape": "g",
+   "color": "#c55e72",
+   "texture": {
+    "k": "f",
+    "t": "items/shaper_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "silence_armor_trim_smithing_template",
+   "name": {
+    "en": "Silence Armor Trim"
+   },
+   "shape": "g",
+   "color": "#956cc8",
+   "texture": {
+    "k": "f",
+    "t": "items/silence_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "raiser_armor_trim_smithing_template",
+   "name": {
+    "en": "Raiser Armor Trim"
+   },
+   "shape": "g",
+   "color": "#d06189",
+   "texture": {
+    "k": "f",
+    "t": "items/raiser_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "host_armor_trim_smithing_template",
+   "name": {
+    "en": "Host Armor Trim"
+   },
+   "shape": "g",
+   "color": "#6ebd76",
+   "texture": {
+    "k": "f",
+    "t": "items/host_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "flow_armor_trim_smithing_template",
+   "name": {
+    "en": "Flow Armor Trim"
+   },
+   "shape": "g",
+   "color": "#a86799",
+   "texture": {
+    "k": "f",
+    "t": "items/flow_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "bolt_armor_trim_smithing_template",
+   "name": {
+    "en": "Bolt Armor Trim"
+   },
+   "shape": "g",
+   "color": "#a15b8a",
+   "texture": {
+    "k": "f",
+    "t": "items/bolt_armor_trim_smithing_template",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "angler_pottery_sherd",
+   "name": {
+    "en": "Angler Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#8abcc8",
+   "texture": {
+    "k": "f",
+    "t": "items/angler_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "archer_pottery_sherd",
+   "name": {
+    "en": "Archer Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#8ec283",
+   "texture": {
+    "k": "f",
+    "t": "items/archer_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "arms_up_pottery_sherd",
+   "name": {
+    "en": "Arms Up Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#ce7970",
+   "texture": {
+    "k": "f",
+    "t": "items/arms_up_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "blade_pottery_sherd",
+   "name": {
+    "en": "Blade Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#638ad0",
+   "texture": {
+    "k": "f",
+    "t": "items/blade_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "brewer_pottery_sherd",
+   "name": {
+    "en": "Brewer Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#ba5fbd",
+   "texture": {
+    "k": "f",
+    "t": "items/brewer_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "burn_pottery_sherd",
+   "name": {
+    "en": "Burn Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#5a805a",
+   "texture": {
+    "k": "f",
+    "t": "items/burn_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "danger_pottery_sherd",
+   "name": {
+    "en": "Danger Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#aea1b3",
+   "texture": {
+    "k": "f",
+    "t": "items/danger_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "explorer_pottery_sherd",
+   "name": {
+    "en": "Explorer Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#ca826f",
+   "texture": {
+    "k": "f",
+    "t": "items/explorer_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "flow_pottery_sherd",
+   "name": {
+    "en": "Flow Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#795daa",
+   "texture": {
+    "k": "f",
+    "t": "items/flow_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "friend_pottery_sherd",
+   "name": {
+    "en": "Friend Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#69a2bb",
+   "texture": {
+    "k": "f",
+    "t": "items/friend_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "guster_pottery_sherd",
+   "name": {
+    "en": "Guster Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#877862",
+   "texture": {
+    "k": "f",
+    "t": "items/guster_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "heart_pottery_sherd",
+   "name": {
+    "en": "Heart Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#9182a7",
+   "texture": {
+    "k": "f",
+    "t": "items/heart_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "heartbreak_pottery_sherd",
+   "name": {
+    "en": "Heartbreak Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#8461a4",
+   "texture": {
+    "k": "f",
+    "t": "items/heartbreak_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "howl_pottery_sherd",
+   "name": {
+    "en": "Howl Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#67996d",
+   "texture": {
+    "k": "f",
+    "t": "items/howl_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "miner_pottery_sherd",
+   "name": {
+    "en": "Miner Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#8aa0c3",
+   "texture": {
+    "k": "f",
+    "t": "items/miner_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "mourner_pottery_sherd",
+   "name": {
+    "en": "Mourner Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#c79c84",
+   "texture": {
+    "k": "f",
+    "t": "items/mourner_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "plenty_pottery_sherd",
+   "name": {
+    "en": "Plenty Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#b567ab",
+   "texture": {
+    "k": "f",
+    "t": "items/plenty_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "prize_pottery_sherd",
+   "name": {
+    "en": "Prize Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#5db165",
+   "texture": {
+    "k": "f",
+    "t": "items/prize_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "scrape_pottery_sherd",
+   "name": {
+    "en": "Scrape Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#7f6c70",
+   "texture": {
+    "k": "f",
+    "t": "items/scrape_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "sheaf_pottery_sherd",
+   "name": {
+    "en": "Sheaf Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#60c8a6",
+   "texture": {
+    "k": "f",
+    "t": "items/sheaf_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "shelter_pottery_sherd",
+   "name": {
+    "en": "Shelter Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#70cc96",
+   "texture": {
+    "k": "f",
+    "t": "items/shelter_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "skull_pottery_sherd",
+   "name": {
+    "en": "Skull Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#68d563",
+   "texture": {
+    "k": "f",
+    "t": "items/skull_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "snort_pottery_sherd",
+   "name": {
+    "en": "Snort Pottery Sherd"
+   },
+   "shape": "g",
+   "color": "#81cc64",
+   "texture": {
+    "k": "f",
+    "t": "items/snort_pottery_sherd",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "trial_key",
+   "name": {
+    "en": "Trial Key"
+   },
+   "shape": "g",
+   "color": "#90bbb5",
+   "texture": {
+    "k": "f",
+    "t": "items/trial_key",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "ominous_trial_key",
+   "name": {
+    "en": "Ominous Trial Key"
+   },
+   "shape": "g",
+   "color": "#7b5ac1",
+   "texture": {
+    "k": "f",
+    "t": "items/ominous_trial_key",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "ominous_bottle",
+   "name": {
+    "en": "Ominous Bottle"
+   },
+   "shape": "g",
+   "color": "#95b4b3",
+   "texture": {
+    "k": "f",
+    "t": "items/ominous_bottle",
+    "v": "1.21.8"
+   }
+  }
+ ]
+}

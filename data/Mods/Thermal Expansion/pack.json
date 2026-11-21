@@ -1,0 +1,7 @@
+{
+ "id": "thermal",
+ "name": "Thermal Expansion",
+ "version": "exemplo",
+ "textureRoot": "data/Mods/Thermal Expansion/textures/",
+ "note": "Pack de exemplo. Copie esta pasta, troque nome/ID e edite os JSONs. Texturas: coloque PNGs em textures/ e use \"texture\":\"arquivo.png\"."
+}

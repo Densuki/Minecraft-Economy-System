@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+      <!-- ========================= -->
+      <!-- 🧠 META BÁSICOS -->
+      <!-- ========================= -->
+      
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <title>Minecraft Economy • NJEI</title>
+      <meta name="description" content="Site voltado para cálculo automático do sistema econômico de servidores">
+      <meta name="keywords" content="Minecraft, Desenvolvimento Web, Testes, Servidores, Privado, Pessoal, Server-side" />
+      <meta name="author" content="João Gabriel Sousa Santos">
+      <meta name="theme-color" content="#8400ff" />
+      <!-- CDNs: Tailwind (utilitários), anime.js (animações) e fonte pixel. Troque a fonte pela do Minecraft em css/nei.css se tiver o arquivo. -->
+      <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/world.css">
+      <link rel="stylesheet" href="css/nei.css">
+      
+      <link rel="shortcut icon" href="assets/icons/favicon.ico" />
+  </head>
+  <body>
+    <div id="world"><div id="sky"></div><div id="stars"></div><div id="orbit"><i class="sun"></i><i class="moon"></i></div><div id="clouds"></div><div id="ground"></div><div id="rain"></div><div id="flash"></div></div>
+    <div id="stage">
+      <!-- lado esquerdo: favoritos (padrão) ou configuração -->
+      <div class="fav absolute flex items-center" style="left:14px;top:12px;width:254px;gap:6px">
+        <button class="btn" data-act="fp-" aria-label="Favoritos: página anterior" style="width:46px;height:46px;font-size:34px">&lt;</button>
+        <div id="fpg" class="btn flex-1 text-center" style="height:46px;line-height:42px;cursor:default">1/1</div>
+        <button class="btn" data-act="fp+" aria-label="Favoritos: próxima página" style="width:46px;height:46px;font-size:34px">&gt;</button>
+      </div>
+      <div id="fgrid" class="fav absolute flex flex-wrap" style="left:16px;top:70px;width:250px"></div>
+      <div id="tools" class="cfg absolute flex flex-wrap" style="left:14px;top:12px;width:216px;gap:8px"></div>
+      <div id="saves" class="cfg absolute flex flex-col" style="left:14px;top:176px;gap:3px"></div>
+      <button id="opt" class="btn cfg wide absolute" data-act="opt" style="left:14px;top:425px"></button>
+      <button id="lng" class="btn cfg wide absolute" data-act="lang" style="left:14px;top:462px"></button>
+      <button id="bgb" class="btn cfg wide absolute" data-act="bg" style="left:14px;top:499px"></button>
+      <button id="r3d" class="btn cfg wide absolute" data-act="r3d" style="left:14px;top:536px"></button>
+      <button id="gsk" class="btn cfg wide absolute" data-act="skins" style="left:14px;top:573px"></button>
+      <button id="exp" class="btn cfg wide absolute" data-act="export" style="left:14px;top:600px"></button>
+      <button id="bk" class="tb absolute" data-act="left:fav" style="left:14px;top:652px;background-image:url(assets/gui/btn_bookmark.png)"></button>
+      <button id="wr" class="tb absolute" data-act="left:cfg" style="left:812px;top:652px;background-image:url(assets/gui/btn_wrench.png)"></button>
+      <input id="q" class="absolute" style="left:286px;top:652px;width:520px;height:48px" autocomplete="off">
+      <!-- topo central: Item SubSets -->
+      <button id="sub" class="btn absolute" data-act="menu" style="left:288px;top:12px;width:576px;height:46px;font-size:26px">Item SubSets</button>
+      <div id="menu" class="absolute flex" style="left:288px;top:62px;z-index:40"></div>
+      <div id="nei" class="absolute" style="left:288px;top:76px;width:576px"></div>
+      <!-- lado direito: grade de itens -->
+      <div class="absolute flex items-center" style="left:884px;top:12px;width:254px;gap:6px">
+        <button class="btn" data-act="pg-" style="width:46px;height:46px;font-size:34px" aria-label="Página anterior">&lt;</button>
+        <div id="pg" class="btn flex-1 text-center" style="height:46px;line-height:42px;cursor:default">1/1</div>
+        <button class="btn" data-act="pg+" style="width:46px;height:46px;font-size:34px" aria-label="Próxima página">&gt;</button>
+      </div>
+      <div id="grid" class="absolute flex flex-wrap" style="left:886px;top:70px;width:250px"></div>
+      <button class="btn absolute" data-act="q-" style="left:884px;top:652px;width:40px;height:48px">−</button>
+      <div id="qty" class="absolute" style="left:928px;top:652px;width:166px;height:48px;background:#000;border:2px solid #aaa;box-sizing:border-box;line-height:44px;padding-left:10px;color:#aaa"></div>
+      <button class="btn absolute" data-act="q+" style="left:1098px;top:652px;width:40px;height:48px">+</button>
+      <!-- carregamento (sprites da barra de XP do jogo): some sozinho quando termina -->
+      <div id="load" class="absolute" style="left:303px;top:620px;width:546px;display:none"><span></span><i class="xb"><i class="xf"></i></i></div>
+      <div id="tt"></div>
+    </div>
+    <!-- ordem importa: scripts clássicos compartilham o escopo global -->
+    <script src="js/config.js"></script>
+    <script src="js/core/format.js"></script>
+    <script src="js/i18n/index.js"></script>
+    <script src="js/i18n/en.js"></script>
+    <script src="js/i18n/pt.js"></script>
+    <script src="js/data/manifest.js"></script>
+    <script src="data/bundle.js"></script>
+    <script src="js/core/store.js"></script>
+    <script src="js/data/variants.js"></script>
+    <script src="js/data/loader.js"></script>
+    <script src="js/data/prismarine.js"></script>
+    <script src="js/core/search.js"></script>
+    <script src="js/core/subsets.js"></script>
+    <script src="js/ui/icons.js"></script>
+    <script src="js/ui/skins.js"></script>
+    <script src="js/ui/loader.js"></script>
+    <script src="js/ui/audio.js"></script>
+    <script src="js/ui/world.js"></script>
+    <script src="js/ui/panel.js"></script>
+    <script src="js/ui/grid.js"></script>
+    <script src="js/ui/menu.js"></script>
+    <script src="js/ui/tooltip.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>

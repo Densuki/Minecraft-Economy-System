@@ -1,0 +1,47 @@
+{
+ "packs": [
+  {
+   "dir": "Vanilla",
+   "files": [
+    "brewing.json",
+    "effects.json",
+    "enchantments.json",
+    "families.json",
+    "guis.json",
+    "items/armor.json",
+    "items/blocks.json",
+    "items/food.json",
+    "items/items.json",
+    "items/tools.json",
+    "items/weapons.json",
+    "lang/pt.json",
+    "oredict.json",
+    "pack.json",
+    "potions.json",
+    "prices.json",
+    "recipes/anvil.json",
+    "recipes/crafting.json",
+    "recipes/rules.json",
+    "recipes/smelting.json",
+    "recipes/stonecutting.json",
+    "subsets.json"
+   ]
+  },
+  {
+   "dir": "Mods/Thaumcraft",
+   "files": [
+    "items/ingots.json",
+    "pack.json",
+    "prices.json"
+   ]
+  },
+  {
+   "dir": "Mods/Thermal Expansion",
+   "files": [
+    "items/ingots.json",
+    "pack.json",
+    "prices.json"
+   ]
+  }
+ ]
+}

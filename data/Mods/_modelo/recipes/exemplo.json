@@ -1,0 +1,45 @@
+{
+ "recipes": [
+  {
+   "t": "c",
+   "a": [
+    "ruby",
+    "ruby",
+    "ruby",
+    "ruby",
+    "ruby",
+    "ruby",
+    "ruby",
+    "ruby",
+    "ruby"
+   ],
+   "o": "ruby_block",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    null,
+    "ruby",
+    null,
+    null,
+    "ruby",
+    null,
+    null,
+    "stick",
+    null
+   ],
+   "o": "ruby_sword",
+   "n": 1
+  },
+  {
+   "t": "s",
+   "a": [
+    "coal"
+   ],
+   "o": "ruby_chunk",
+   "n": 1,
+   "x": 0.7
+  }
+ ]
+}

@@ -1,0 +1,331 @@
+{
+ "_doc": "Árvore do menu Item SubSets. match: kind | re (regex no id) | tag | tab | not (exclusão) | mods (nó automático com 1 filho por pasta de Mods).",
+ "tree": [
+  {
+   "name": {
+    "en": "All",
+    "pt": "Todos"
+   }
+  },
+  {
+   "name": {
+    "en": "Blocks",
+    "pt": "Blocos"
+   },
+   "match": {
+    "kind": "block"
+   },
+   "children": [
+    {
+     "name": {
+      "en": "Wood",
+      "pt": "Madeira"
+     },
+     "match": {
+      "re": "(_planks|_log|_wood|_leaves|_sapling|_stem|_hyphae)$"
+     }
+    },
+    {
+     "name": {
+      "en": "Stone",
+      "pt": "Pedra"
+     },
+     "match": {
+      "re": "stone|cobble|brick|andesite|diorite|granite|deepslate|tuff|basalt"
+     }
+    },
+    {
+     "name": {
+      "en": "Ores",
+      "pt": "Minérios"
+     },
+     "match": {
+      "re": "_ore$|^ancient_debris$|^raw_.*_block$"
+     }
+    },
+    {
+     "name": {
+      "en": "Colored",
+      "pt": "Coloridos"
+     },
+     "match": {
+      "re": "^(white|orange|magenta|light_blue|yellow|lime|pink|gray|light_gray|cyan|purple|blue|brown|green|red|black)_"
+     }
+    },
+    {
+     "name": {
+      "en": "Redstone",
+      "pt": "Redstone"
+     },
+     "match": {
+      "tab": "redstone"
+     }
+    }
+   ]
+  },
+  {
+   "name": {
+    "en": "Items",
+    "pt": "Itens"
+   },
+   "match": {
+    "kind": "item"
+   },
+   "children": [
+    {
+     "name": {
+      "en": "Ingots",
+      "pt": "Lingotes"
+     },
+     "match": {
+      "re": "_ingot$|^netherite_scrap$"
+     }
+    },
+    {
+     "name": {
+      "en": "Gems",
+      "pt": "Gemas"
+     },
+     "match": {
+      "re": "^(diamond|emerald|lapis_lazuli|quartz|amethyst_shard|prismarine_crystals)$"
+     }
+    },
+    {
+     "name": {
+      "en": "Dusts",
+      "pt": "Pós"
+     },
+     "match": {
+      "re": "_dust$|^(redstone|gunpowder|sugar)$"
+     }
+    },
+    {
+     "name": {
+      "en": "Fuel",
+      "pt": "Combustíveis"
+     },
+     "match": {
+      "tag": "fuel"
+     }
+    }
+   ]
+  },
+  {
+   "name": {
+    "en": "Food",
+    "pt": "Comidas"
+   },
+   "match": {
+    "kind": "food"
+   }
+  },
+  {
+   "name": {
+    "en": "Tools",
+    "pt": "Ferramentas"
+   },
+   "match": {
+    "kind": "tool"
+   },
+   "children": [
+    {
+     "name": {
+      "en": "Axes",
+      "pt": "Machados"
+     },
+     "match": {
+      "re": "_axe$"
+     }
+    },
+    {
+     "name": {
+      "en": "Hoes",
+      "pt": "Enxadas"
+     },
+     "match": {
+      "re": "_hoe$"
+     }
+    },
+    {
+     "name": {
+      "en": "Pickaxes",
+      "pt": "Picaretas"
+     },
+     "match": {
+      "re": "_pickaxe$"
+     }
+    },
+    {
+     "name": {
+      "en": "Shovels",
+      "pt": "Pás"
+     },
+     "match": {
+      "re": "_shovel$"
+     }
+    },
+    {
+     "name": {
+      "en": "Other",
+      "pt": "Outros"
+     },
+     "match": {
+      "kind": "tool",
+      "not": "_(axe|hoe|pickaxe|shovel)$"
+     }
+    }
+   ]
+  },
+  {
+   "name": {
+    "en": "Weapons",
+    "pt": "Armas"
+   },
+   "match": {
+    "kind": "weapon"
+   },
+   "children": [
+    {
+     "name": {
+      "en": "Swords",
+      "pt": "Espadas"
+     },
+     "match": {
+      "re": "_sword$"
+     }
+    },
+    {
+     "name": {
+      "en": "Bows",
+      "pt": "Arcos"
+     },
+     "match": {
+      "re": "bow$"
+     }
+    },
+    {
+     "name": {
+      "en": "Other",
+      "pt": "Outros"
+     },
+     "match": {
+      "kind": "weapon",
+      "not": "_sword$|bow$"
+     }
+    }
+   ]
+  },
+  {
+   "name": {
+    "en": "Armor",
+    "pt": "Armaduras"
+   },
+   "match": {
+    "kind": "armor"
+   },
+   "children": [
+    {
+     "name": {
+      "en": "Helmets",
+      "pt": "Capacetes"
+     },
+     "match": {
+      "re": "helmet$"
+     }
+    },
+    {
+     "name": {
+      "en": "Chestplates",
+      "pt": "Peitorais"
+     },
+     "match": {
+      "re": "chestplate$"
+     }
+    },
+    {
+     "name": {
+      "en": "Leggings",
+      "pt": "Calças"
+     },
+     "match": {
+      "re": "leggings$"
+     }
+    },
+    {
+     "name": {
+      "en": "Boots",
+      "pt": "Botas"
+     },
+     "match": {
+      "re": "boots$"
+     }
+    }
+   ]
+  },
+  {
+   "name": {
+    "en": "Potions",
+    "pt": "Poções"
+   },
+   "match": {
+    "kind": "potion"
+   },
+   "children": [
+    {
+     "name": {
+      "en": "Drinkable",
+      "pt": "Para beber"
+     },
+     "match": {
+      "re": "^potion_"
+     }
+    },
+    {
+     "name": {
+      "en": "Splash",
+      "pt": "Arremessáveis"
+     },
+     "match": {
+      "re": "^splash_potion_"
+     }
+    },
+    {
+     "name": {
+      "en": "Lingering",
+      "pt": "Persistentes"
+     },
+     "match": {
+      "re": "^lingering_potion_"
+     }
+    },
+    {
+     "name": {
+      "en": "Tipped arrows",
+      "pt": "Flechas"
+     },
+     "match": {
+      "re": "^tipped_arrow_"
+     }
+    }
+   ]
+  },
+  {
+   "name": {
+    "en": "Enchanted books",
+    "pt": "Livros encantados"
+   },
+   "match": {
+    "re": "^enchanted_book_"
+   }
+  },
+  {
+   "name": {
+    "en": "Mods",
+    "pt": "Mods"
+   },
+   "match": {
+    "mods": true
+   }
+  }
+ ]
+}

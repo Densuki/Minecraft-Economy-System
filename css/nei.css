@@ -1,0 +1,114 @@
+:root{color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--panel:#c6c6c6;--slot:#8b8b8b;--dk:#373737;--tx:#404040}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{height:100%;margin:0;overflow:hidden;background:#05060c;color:#fff;font-family:'VT323','Courier New',monospace;font-size:22px;user-select:none}
+.ic{transition:transform .1s}.slot.gs:hover .ic{transform:scale(1.18)}
+.stn:empty{display:none}.info{margin:0;font-size:22px;line-height:24px;color:#404040;max-width:300px}
+.slot.ench::before{content:"";position:absolute;inset:15%;background:linear-gradient(115deg,transparent 30%,rgba(190,120,255,.8) 50%,transparent 70%);background-size:300% 100%;animation:glint 2.2s linear infinite;mix-blend-mode:screen;pointer-events:none;z-index:1}
+@keyframes glint{from{background-position:150% 0}to{background-position:-50% 0}}
+#stage{position:absolute;left:50%;top:50%;width:1152px;height:720px;transform-origin:50% 50%}
+.btn{background:var(--slot);border:2px solid #000;box-shadow:inset 2px 2px #c6c6c6,inset -2px -2px #555;color:#fff;text-shadow:2px 2px #3f3f3f;cursor:pointer;font:inherit;line-height:1;padding:0}
+.btn:hover{background:#7b84c4;color:#ffffa0}
+.btn.on{background:#9aa0d8;box-shadow:inset 2px 2px #fff,inset -2px -2px #555}
+.btn:focus-visible,#q:focus-visible{outline:3px solid #ffff55;outline-offset:1px}
+.panel{background:var(--panel);border:2px solid #000;box-shadow:inset 3px 3px #fff,inset -3px -3px #555;color:var(--tx);height:500px;padding:14px 20px;box-sizing:border-box;border-radius:0 0 4px 4px;overflow:hidden}
+.tab{width:58px;height:44px;background:#9a9a9a;border:2px solid #000;border-bottom:0;box-shadow:inset 2px 2px #ddd;border-radius:5px 5px 0 0;margin-right:4px;position:relative;cursor:pointer;flex:none}
+.tab.on{background:var(--panel);height:50px;margin-bottom:-4px;z-index:2;box-shadow:inset 2px 2px #fff}
+.tab.off{opacity:.45}
+.slot{position:relative;width:48px;height:48px;background:var(--slot);box-shadow:inset 2px 2px var(--dk),inset -2px -2px #fff;flex:none;cursor:pointer}
+.slot:hover::after{content:"";position:absolute;inset:2px;background:rgba(255,255,255,.5)}
+.slot.gs{width:50px;height:50px;background:transparent;box-shadow:none}
+.slot.big{width:62px;height:62px}
+.ic{position:absolute;inset:15%;background-size:100% 100%;image-rendering:pixelated;pointer-events:none}
+.cnt{position:absolute;right:3px;bottom:-3px;font-size:22px;font-weight:400;color:#fff;text-shadow:2px 2px #3f3f3f;pointer-events:none;z-index:2}
+.g9{display:grid;grid-template-columns:repeat(9,48px);justify-content:center}
+.g3{display:grid;grid-template-columns:repeat(3,48px)}
+.rbox{display:flex;align-items:center;justify-content:center;gap:24px;margin:12px 0;padding:14px;border-radius:5px;box-shadow:inset 2px 2px #8b8b8b,inset -2px -2px #fff;min-height:170px;box-sizing:border-box}
+.col{display:flex;flex-direction:column;align-items:center;gap:6px}
+.pbox{background:var(--slot);box-shadow:inset 2px 2px var(--dk),inset -2px -2px #fff;padding:8px 14px;color:#1e1e1e;font-size:21px;height:162px;overflow:auto;box-sizing:border-box}
+.pbox p{display:flex;justify-content:space-between;gap:12px;margin:0;line-height:22px}
+.pbox .t{color:#064d06}
+.pbox hr{border:0;border-top:2px solid #555;margin:4px 0}
+.ttl{font-size:26px;margin:0 0 10px;text-align:center}
+#q{background:#000;border:2px solid #aaa;color:#fff;font:inherit;font-size:26px;padding:0 10px;box-sizing:border-box}
+.slot.fs{width:44px;height:44px}
+.rw{position:relative;margin:0 0 10px}.rw .rbox{margin:0}.rw .pbox{margin-top:6px;height:auto;max-height:150px}.rwb{position:relative}.plus{position:absolute;right:8px;bottom:8px;width:28px;height:28px;font-size:22px}
+.rl{height:372px;overflow:auto;padding-right:4px}
+.panel,.rbox{position:relative}.rwb .rbox{padding-right:44px}.op{font-size:30px;color:#555;font-weight:400}
+.slot.dmg::before{content:"";position:absolute;left:6px;right:20px;bottom:5px;height:4px;background:#d33;z-index:2}.xp{position:absolute;right:16px;top:8px;color:#8b8b8b;font-size:22px}
+.stn{position:absolute;left:8px;top:12px;width:52px;display:flex;flex-direction:column;gap:2px;padding:2px;border-radius:4px;box-shadow:inset 2px 2px #8b8b8b,inset -2px -2px #fff}
+#tt{position:absolute;display:none;background:rgba(16,0,16,.94);border:2px solid #2a0a6a;padding:4px 8px;font-size:22px;white-space:nowrap;pointer-events:none;z-index:50}
+
+/* ---------- sprites reais do jogo (assets/gui) ---------- */
+.arr{position:relative;width:72px;height:51px;flex:none;background:url(../assets/gui/arrow_empty.png) 0 0/100% 100%;image-rendering:pixelated}
+.arr i{position:absolute;inset:0;background:url(../assets/gui/arrow_full.png) 0 0/100% 100%;image-rendering:pixelated;animation:arrfill 2s steps(24) infinite}
+.arr.s i{display:none}
+@keyframes arrfill{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+.fl{position:relative;width:42px;height:42px;flex:none;background:url(../assets/gui/flame_empty.png) 0 0/100% 100%;image-rendering:pixelated}
+.fl i{position:absolute;inset:0;background:url(../assets/gui/flame_full.png) 0 0/100% 100%;image-rendering:pixelated;animation:burn 1.6s steps(14) infinite}
+@keyframes burn{from{clip-path:inset(0 0 0 0)}to{clip-path:inset(100% 0 0 0)}}
+@media (prefers-reduced-motion:reduce){.arr i,.fl i,.slot.ench::before,#clouds b,#stars i,#rain{animation:none}}
+/* botões do mod (recortados dos screenshots) */
+.tb{width:48px;height:48px;border:0;padding:0;cursor:pointer;background:transparent center/100% 100% no-repeat;image-rendering:pixelated}
+.tb:hover{filter:brightness(1.25)}
+.tb:focus-visible{outline:3px solid #ffff55}
+#bk,#wr{background-color:transparent}
+/* cabeçalho "Crafting / 1/1" com setas escuras, como no mod */
+.bar{display:flex;gap:4px;margin-bottom:5px}
+.bar div{flex:1;background:#a0a0a0;border:2px solid #000;color:#fff;text-shadow:2px 2px #3f3f3f;text-align:center;line-height:30px;height:34px;box-sizing:border-box}
+/* Item SubSets: colunas de botões */
+#menu{gap:2px;align-items:flex-start}
+#menu .col2{display:flex;flex-direction:column;gap:2px}
+.mi{width:156px;height:36px;text-align:left;padding:0 8px;font:inherit;font-size:23px;background:#8b8b8b;border:2px solid #000;box-shadow:inset 2px 2px #c6c6c6,inset -2px -2px #555;color:#fff;text-shadow:2px 2px #3f3f3f;cursor:pointer;white-space:nowrap;overflow:hidden}
+.mi:hover{background:#9b9bb0}
+.mi.on{background:#4f4f4f;color:#bdbdbd;box-shadow:inset 2px 2px #6a6a6a,inset -2px -2px #333}
+.mi.ico{width:60px;display:flex;align-items:center;justify-content:center;padding:0;position:relative}
+.mi.ico .slot{width:36px;height:36px;background:transparent;box-shadow:none}
+.scr{width:10px;background:#111;border:1px solid #000;align-self:stretch}.scr i{display:block;height:34px;margin:2px;background:#8b8b8b}
+/* ícones 3D de blocos (faces vindas das texturas) */
+/* lado esquerdo */
+.hint{color:#8a8a8a;width:240px;margin:8px 4px}.mini{display:inline-block;width:18px;height:18px;vertical-align:-3px;margin-right:6px;image-rendering:pixelated;background-size:100% 100%}.slot.tb2{width:44px;height:36px;background:transparent;box-shadow:none;margin:3px auto}.tab .ic{inset:10%}
+
+/* ---------- texturas: item plano (1º quadro), cubo isométrico (3 faces), tinta de bioma ---------- */
+.ic.flat{background-size:100% auto;background-position:50% 0;background-repeat:no-repeat;image-rendering:pixelated}
+.ic.tint::after,.cube b.tint::after{content:"";position:absolute;inset:0;background:var(--tc);mix-blend-mode:multiply;-webkit-mask:var(--m) 50% 0/100% auto no-repeat;mask:var(--m) 50% 0/100% auto no-repeat;image-rendering:pixelated}
+.ic.cube{position:absolute;left:50%;top:50%;right:auto;bottom:auto;width:32px;height:32px;margin:-16px 0 0 -16px}
+.slot.big .ic.cube{transform:scale(1.35)}
+.cube b{position:absolute;left:0;top:0;width:16px;height:16px;transform-origin:0 0;background-size:100% auto;background-position:0 0;background-repeat:no-repeat;image-rendering:pixelated}
+.cube .cl{transform:matrix(.875,.4375,0,.875,2,9);filter:brightness(.82)}
+.cube .cr{transform:matrix(.875,-.4375,0,.875,16,16);filter:brightness(.62)}
+.cube .ct{transform:matrix(.875,-.4375,.875,.4375,2,9)}
+/* setas: claras por padrão, escuras quando não dá para navegar (ou ao apertar) */
+.bar .ab{width:40px;height:34px;background:#8b8b8b;border:2px solid #000;box-shadow:inset 2px 2px #c6c6c6,inset -2px -2px #555;color:#fff;text-shadow:2px 2px #3f3f3f;font:inherit;font-size:30px;line-height:26px;padding:0;cursor:pointer}
+.bar .ab:hover{background:#7b84c4;color:#ffffa0}
+.ab.dis,.btn.dis{background:#3a3a3a!important;box-shadow:inset 2px 2px #555,inset -2px -2px #222!important;color:#777!important;text-shadow:none;cursor:default}
+.ab:active,.btn:active{background:#3a3a3a;box-shadow:inset 2px 2px #555,inset -2px -2px #222;color:#aaa}
+.btn.wide{width:216px;height:34px;font-size:20px}
+/* ícones de HUD do jogo (armadura, fome) e de efeitos nos tooltips */
+.h{display:inline-block;width:18px;height:18px;background:center/100% 100% no-repeat;image-rendering:pixelated;vertical-align:-4px}
+.h.ar_full{background-image:url(../assets/gui/armor_full.png)}.h.ar_half{background-image:url(../assets/gui/armor_half.png)}
+.h.fd_full{background-image:url(../assets/gui/food_full.png)}.h.fd_half{background-image:url(../assets/gui/food_half.png)}
+.ei{display:inline-block;width:18px;height:18px;margin-right:6px;background:center/100% 100% no-repeat;image-rendering:pixelated;vertical-align:-4px}
+/* sinal (ping) e barra de carregamento (barra de XP) */
+.png{display:inline-block;width:30px;height:24px;margin-top:-2px;background:center/100% 100% no-repeat;image-rendering:pixelated;vertical-align:middle}
+.png.p0{background-image:url(../assets/gui/ping_off.png)}.png.p1{background-image:url(../assets/gui/ping_1.png)}.png.p2{background-image:url(../assets/gui/ping_2.png)}
+.png.p3{background-image:url(../assets/gui/ping_3.png)}.png.p4{background-image:url(../assets/gui/ping_4.png)}.png.p5{background-image:url(../assets/gui/ping_5.png)}
+.png.pinging{animation:pinging 1s steps(1) infinite}
+@keyframes pinging{0%{background-image:url(../assets/gui/pinging_1.png)}20%{background-image:url(../assets/gui/pinging_2.png)}40%{background-image:url(../assets/gui/pinging_3.png)}60%{background-image:url(../assets/gui/pinging_4.png)}80%{background-image:url(../assets/gui/pinging_5.png)}}
+#load{transition:opacity .5s;text-align:center;font-size:20px;color:#fff;text-shadow:2px 2px #3f3f3f}
+#load span{display:block;line-height:16px}
+.xb{display:block;position:relative;width:546px;height:15px;background:url(../assets/gui/xp_bg.png) 0 0/100% 100%;image-rendering:pixelated}
+.xf{display:block;position:absolute;left:0;top:0;height:15px;width:0;background:url(../assets/gui/xp_fg.png) 0 0/546px 15px;image-rendering:pixelated;transition:width .2s}
+
+/* códigos de formatação do Minecraft (&l &o &n &m &k) */
+.mcl{font-weight:bold;text-shadow:1px 0 currentColor}.mco{font-style:italic}.mcn{text-decoration:underline}.mcm{text-decoration:line-through}
+.info.nm{font-size:26px;margin-bottom:4px}
+.ic.prov{width:70%;height:70%;image-rendering:pixelated}
+/* skins de GUI oficiais */
+.gui{position:relative;image-rendering:pixelated;flex:none}
+.sk{position:absolute}.slot.sk{background:transparent;box-shadow:none}
+.sp{position:absolute;image-rendering:pixelated}
+.sp.up{animation:spUp 2s steps(29) infinite}.sp.down{animation:spDown 2s steps(28) infinite}.sp.right{animation:spRight 2s steps(18) infinite}
+@keyframes spUp{from{clip-path:inset(100% 0 0 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes spDown{from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes spRight{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+@media (prefers-reduced-motion:reduce){.sp{animation:none}}

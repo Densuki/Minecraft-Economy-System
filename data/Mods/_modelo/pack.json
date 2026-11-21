@@ -1,0 +1,8 @@
+{
+ "id": "meumod",
+ "name": "Meu Mod",
+ "version": "1.0",
+ "author": "você",
+ "textureRoot": "data/Mods/Meu Mod/textures/",
+ "_doc": "COPIE esta pasta para data/Mods/<Nome do Mod>/ (sem o _ no começo), troque id/name e rode: node tools/build-index.mjs  (ou use node tools/serve.mjs e dê F5). Pastas que começam com _ são ignoradas."
+}

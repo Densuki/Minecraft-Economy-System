@@ -1,0 +1,421 @@
+{
+ "category": "tools",
+ "label": {
+  "en": "Tools",
+  "pt": "Ferramentas"
+ },
+ "items": [
+  {
+   "id": "bucket",
+   "name": {
+    "en": "Bucket",
+    "pt": "Balde"
+   },
+   "shape": "t",
+   "color": "#c4c4c4"
+  },
+  {
+   "id": "iron_pickaxe",
+   "name": {
+    "en": "Iron Pickaxe",
+    "pt": "Picareta de Ferro"
+   },
+   "shape": "t",
+   "color": "#d8d8d8",
+   "attack": 3
+  },
+  {
+   "id": "diamond_pickaxe",
+   "name": {
+    "en": "Diamond Pickaxe",
+    "pt": "Picareta de Diamante"
+   },
+   "shape": "t",
+   "color": "#4eead9",
+   "attack": 5
+  },
+  {
+   "id": "wooden_pickaxe",
+   "name": {
+    "en": "Wooden Pickaxe",
+    "pt": "Picareta de Madeira"
+   },
+   "shape": "t",
+   "color": "#a8844f",
+   "attack": 2
+  },
+  {
+   "id": "stone_pickaxe",
+   "name": {
+    "en": "Stone Pickaxe",
+    "pt": "Picareta de Pedra"
+   },
+   "shape": "t",
+   "color": "#8a8a8a",
+   "attack": 3
+  },
+  {
+   "id": "netherite_pickaxe",
+   "name": {
+    "en": "Netherite Pickaxe",
+    "pt": "Picareta de Netherite"
+   },
+   "shape": "t",
+   "color": "#3b2f38",
+   "attack": 6
+  },
+  {
+   "id": "flint_and_steel",
+   "name": {
+    "en": "Flint and Steel"
+   },
+   "shape": "g",
+   "color": "#67a491",
+   "texture": {
+    "k": "f",
+    "t": "items/flint_and_steel",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "wooden_shovel",
+   "name": {
+    "en": "Wooden Shovel",
+    "pt": "Pá de Madeira"
+   },
+   "shape": "g",
+   "color": "#c66e7e",
+   "texture": {
+    "k": "f",
+    "t": "items/wooden_shovel",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "wooden_axe",
+   "name": {
+    "en": "Wooden Axe",
+    "pt": "Machado de Madeira"
+   },
+   "shape": "g",
+   "color": "#bf65cf",
+   "texture": {
+    "k": "f",
+    "t": "items/wooden_axe",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "wooden_hoe",
+   "name": {
+    "en": "Wooden Hoe",
+    "pt": "Enxada de Madeira"
+   },
+   "shape": "g",
+   "color": "#6f7ecf",
+   "texture": {
+    "k": "f",
+    "t": "items/wooden_hoe",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "stone_shovel",
+   "name": {
+    "en": "Stone Shovel",
+    "pt": "Pá de Pedra"
+   },
+   "shape": "g",
+   "color": "#97ab79",
+   "texture": {
+    "k": "f",
+    "t": "items/stone_shovel",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "stone_axe",
+   "name": {
+    "en": "Stone Axe",
+    "pt": "Machado de Pedra"
+   },
+   "shape": "g",
+   "color": "#8ec264",
+   "texture": {
+    "k": "f",
+    "t": "items/stone_axe",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "stone_hoe",
+   "name": {
+    "en": "Stone Hoe",
+    "pt": "Enxada de Pedra"
+   },
+   "shape": "g",
+   "color": "#be5b65",
+   "texture": {
+    "k": "f",
+    "t": "items/stone_hoe",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "golden_shovel",
+   "name": {
+    "en": "Golden Shovel",
+    "pt": "Pá de Ouro"
+   },
+   "shape": "g",
+   "color": "#736ea0",
+   "texture": {
+    "k": "f",
+    "t": "items/golden_shovel",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "golden_pickaxe",
+   "name": {
+    "en": "Golden Pickaxe",
+    "pt": "Picareta de Ouro"
+   },
+   "shape": "g",
+   "color": "#71d8aa",
+   "texture": {
+    "k": "f",
+    "t": "items/golden_pickaxe",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "golden_axe",
+   "name": {
+    "en": "Golden Axe",
+    "pt": "Machado de Ouro"
+   },
+   "shape": "g",
+   "color": "#b2cc94",
+   "texture": {
+    "k": "f",
+    "t": "items/golden_axe",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "golden_hoe",
+   "name": {
+    "en": "Golden Hoe",
+    "pt": "Enxada de Ouro"
+   },
+   "shape": "g",
+   "color": "#626695",
+   "texture": {
+    "k": "f",
+    "t": "items/golden_hoe",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "iron_shovel",
+   "name": {
+    "en": "Iron Shovel",
+    "pt": "Pá de Ferro"
+   },
+   "shape": "g",
+   "color": "#d48964",
+   "texture": {
+    "k": "f",
+    "t": "items/iron_shovel",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "iron_axe",
+   "name": {
+    "en": "Iron Axe",
+    "pt": "Machado de Ferro"
+   },
+   "shape": "g",
+   "color": "#71d560",
+   "texture": {
+    "k": "f",
+    "t": "items/iron_axe",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "iron_hoe",
+   "name": {
+    "en": "Iron Hoe",
+    "pt": "Enxada de Ferro"
+   },
+   "shape": "g",
+   "color": "#a16e60",
+   "texture": {
+    "k": "f",
+    "t": "items/iron_hoe",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "diamond_shovel",
+   "name": {
+    "en": "Diamond Shovel",
+    "pt": "Pá de Diamante"
+   },
+   "shape": "g",
+   "color": "#c867ba",
+   "texture": {
+    "k": "f",
+    "t": "items/diamond_shovel",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "diamond_axe",
+   "name": {
+    "en": "Diamond Axe",
+    "pt": "Machado de Diamante"
+   },
+   "shape": "g",
+   "color": "#7d5bd4",
+   "texture": {
+    "k": "f",
+    "t": "items/diamond_axe",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "diamond_hoe",
+   "name": {
+    "en": "Diamond Hoe",
+    "pt": "Enxada de Diamante"
+   },
+   "shape": "g",
+   "color": "#ad74d4",
+   "texture": {
+    "k": "f",
+    "t": "items/diamond_hoe",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "netherite_shovel",
+   "name": {
+    "en": "Netherite Shovel",
+    "pt": "Pá de Netherite"
+   },
+   "shape": "g",
+   "color": "#9a70d3",
+   "texture": {
+    "k": "f",
+    "t": "items/netherite_shovel",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "netherite_axe",
+   "name": {
+    "en": "Netherite Axe",
+    "pt": "Machado de Netherite"
+   },
+   "shape": "g",
+   "color": "#6b8496",
+   "texture": {
+    "k": "f",
+    "t": "items/netherite_axe",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "netherite_hoe",
+   "name": {
+    "en": "Netherite Hoe",
+    "pt": "Enxada de Netherite"
+   },
+   "shape": "g",
+   "color": "#9b9d96",
+   "texture": {
+    "k": "f",
+    "t": "items/netherite_hoe",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "compass",
+   "name": {
+    "en": "Compass"
+   },
+   "shape": "g",
+   "color": "#6c9781",
+   "texture": {
+    "k": "n"
+   }
+  },
+  {
+   "id": "fishing_rod",
+   "name": {
+    "en": "Fishing Rod"
+   },
+   "shape": "g",
+   "color": "#6cd0cc",
+   "texture": {
+    "k": "f",
+    "t": "items/fishing_rod",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "clock",
+   "name": {
+    "en": "Clock"
+   },
+   "shape": "g",
+   "color": "#68b67f",
+   "texture": {
+    "k": "n"
+   }
+  },
+  {
+   "id": "spyglass",
+   "name": {
+    "en": "Spyglass"
+   },
+   "shape": "g",
+   "color": "#9ad993",
+   "texture": {
+    "k": "f",
+    "t": "items/spyglass",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "shears",
+   "name": {
+    "en": "Shears"
+   },
+   "shape": "g",
+   "color": "#8c9980",
+   "texture": {
+    "k": "f",
+    "t": "items/shears",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "brush",
+   "name": {
+    "en": "Brush"
+   },
+   "shape": "g",
+   "color": "#947174",
+   "texture": {
+    "k": "f",
+    "t": "items/brush",
+    "v": "1.21.8"
+   }
+  }
+ ]
+}

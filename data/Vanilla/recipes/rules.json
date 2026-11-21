@@ -1,0 +1,57 @@
+{
+ "repair": {
+  "wooden": [
+   "oak_planks",
+   1
+  ],
+  "stone": [
+   "cobblestone",
+   1
+  ],
+  "golden": [
+   "gold_ingot",
+   1
+  ],
+  "iron": [
+   "iron_ingot",
+   2
+  ],
+  "copper": [
+   "copper_ingot",
+   1
+  ],
+  "diamond": [
+   "diamond",
+   3
+  ],
+  "netherite": [
+   "netherite_ingot",
+   4
+  ],
+  "leather": [
+   "leather",
+   1
+  ],
+  "turtle": [
+   "scute",
+   2
+  ]
+ },
+ "gear": [
+  "pickaxe",
+  "axe",
+  "shovel",
+  "hoe",
+  "sword",
+  "helmet",
+  "chestplate",
+  "leggings",
+  "boots"
+ ],
+ "smithing": {
+  "template": "netherite_upgrade_smithing_template",
+  "from": "diamond_",
+  "addition": "netherite_ingot",
+  "to": "netherite_"
+ }
+}

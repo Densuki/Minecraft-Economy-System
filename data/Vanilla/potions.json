@@ -1,0 +1,528 @@
+{
+ "_doc": "Poções: cada poção gera itens para as formas (potion/splash/lingering/arrow) e variantes (long = estendida com Redstone, strong = nível II com Glowstone). dur = \"m:ss\". durScale = escala mostrada no tooltip. Cores/durações: confira com a wiki e ajuste aqui.",
+ "ids": {
+  "potion": "potion_{p}",
+  "splash": "splash_potion_{p}",
+  "lingering": "lingering_potion_{p}",
+  "arrow": "tipped_arrow_{p}"
+ },
+ "suffix": {
+  "long": {
+   "en": "(Extended)",
+   "pt": "(Estendida)"
+  },
+  "strong": {
+   "en": "II",
+   "pt": "II"
+  }
+ },
+ "baseColor": "#385DC6",
+ "bases": {
+  "water": {
+   "name": {
+    "en": "Water Bottle",
+    "pt": "Garrafa de Água"
+   }
+  },
+  "mundane": {
+   "name": {
+    "en": "Mundane Potion",
+    "pt": "Poção Mundana"
+   }
+  },
+  "thick": {
+   "name": {
+    "en": "Thick Potion",
+    "pt": "Poção Espessa"
+   }
+  },
+  "awkward": {
+   "name": {
+    "en": "Awkward Potion",
+    "pt": "Poção Estranha"
+   }
+  }
+ },
+ "forms": {
+  "potion": {
+   "name": {
+    "en": "Potion of {0}",
+    "pt": "Poção de {0}"
+   },
+   "base": "items/potion",
+   "overlay": "items/potion_overlay",
+   "durScale": 1
+  },
+  "splash": {
+   "name": {
+    "en": "Splash Potion of {0}",
+    "pt": "Poção Arremessável de {0}"
+   },
+   "base": "items/splash_potion",
+   "overlay": "items/potion_overlay",
+   "durScale": 1
+  },
+  "lingering": {
+   "name": {
+    "en": "Lingering Potion of {0}",
+    "pt": "Poção Persistente de {0}"
+   },
+   "base": "items/lingering_potion",
+   "overlay": "items/potion_overlay",
+   "durScale": 0.25
+  },
+  "arrow": {
+   "name": {
+    "en": "Arrow of {0}",
+    "pt": "Flecha de {0}"
+   },
+   "base": "items/tipped_arrow_base",
+   "overlay": "items/tipped_arrow_head",
+   "durScale": 0.125
+  }
+ },
+ "potions": {
+  "night_vision": {
+   "name": {
+    "en": "Night Vision",
+    "pt": "Visão Noturna"
+   },
+   "color": "#1F1FA1",
+   "effects": [
+    [
+     "night_vision",
+     "3:00",
+     1
+    ]
+   ],
+   "long": [
+    [
+     "night_vision",
+     "8:00",
+     1
+    ]
+   ]
+  },
+  "invisibility": {
+   "name": {
+    "en": "Invisibility",
+    "pt": "Invisibilidade"
+   },
+   "color": "#7F8392",
+   "effects": [
+    [
+     "invisibility",
+     "3:00",
+     1
+    ]
+   ],
+   "long": [
+    [
+     "invisibility",
+     "8:00",
+     1
+    ]
+   ]
+  },
+  "leaping": {
+   "name": {
+    "en": "Leaping",
+    "pt": "Salto"
+   },
+   "color": "#FDFF84",
+   "effects": [
+    [
+     "jump_boost",
+     "3:00",
+     1
+    ]
+   ],
+   "long": [
+    [
+     "jump_boost",
+     "8:00",
+     1
+    ]
+   ],
+   "strong": [
+    [
+     "jump_boost",
+     "1:30",
+     2
+    ]
+   ]
+  },
+  "fire_resistance": {
+   "name": {
+    "en": "Fire Resistance",
+    "pt": "Resistência ao Fogo"
+   },
+   "color": "#FF9900",
+   "effects": [
+    [
+     "fire_resistance",
+     "3:00",
+     1
+    ]
+   ],
+   "long": [
+    [
+     "fire_resistance",
+     "8:00",
+     1
+    ]
+   ]
+  },
+  "swiftness": {
+   "name": {
+    "en": "Swiftness",
+    "pt": "Rapidez"
+   },
+   "color": "#33EBFF",
+   "effects": [
+    [
+     "speed",
+     "3:00",
+     1
+    ]
+   ],
+   "long": [
+    [
+     "speed",
+     "8:00",
+     1
+    ]
+   ],
+   "strong": [
+    [
+     "speed",
+     "1:30",
+     2
+    ]
+   ]
+  },
+  "slowness": {
+   "name": {
+    "en": "Slowness",
+    "pt": "Lentidão"
+   },
+   "color": "#8BAFE0",
+   "effects": [
+    [
+     "slowness",
+     "1:30",
+     1
+    ]
+   ],
+   "long": [
+    [
+     "slowness",
+     "4:00",
+     1
+    ]
+   ],
+   "strong": [
+    [
+     "slowness",
+     "0:20",
+     4
+    ]
+   ]
+  },
+  "water_breathing": {
+   "name": {
+    "en": "Water Breathing",
+    "pt": "Respiração Aquática"
+   },
+   "color": "#98DAC0",
+   "effects": [
+    [
+     "water_breathing",
+     "3:00",
+     1
+    ]
+   ],
+   "long": [
+    [
+     "water_breathing",
+     "8:00",
+     1
+    ]
+   ]
+  },
+  "healing": {
+   "name": {
+    "en": "Healing",
+    "pt": "Cura"
+   },
+   "color": "#F82423",
+   "effects": [
+    [
+     "instant_health"
+    ]
+   ],
+   "strong": [
+    [
+     "instant_health"
+    ]
+   ]
+  },
+  "harming": {
+   "name": {
+    "en": "Harming",
+    "pt": "Dano"
+   },
+   "color": "#A9656A",
+   "effects": [
+    [
+     "instant_damage"
+    ]
+   ],
+   "strong": [
+    [
+     "instant_damage"
+    ]
+   ]
+  },
+  "poison": {
+   "name": {
+    "en": "Poison",
+    "pt": "Veneno"
+   },
+   "color": "#87A363",
+   "effects": [
+    [
+     "poison",
+     "0:45",
+     1
+    ]
+   ],
+   "long": [
+    [
+     "poison",
+     "1:30",
+     1
+    ]
+   ],
+   "strong": [
+    [
+     "poison",
+     "0:21",
+     2
+    ]
+   ]
+  },
+  "regeneration": {
+   "name": {
+    "en": "Regeneration",
+    "pt": "Regeneração"
+   },
+   "color": "#CD5CAB",
+   "effects": [
+    [
+     "regeneration",
+     "0:45",
+     1
+    ]
+   ],
+   "long": [
+    [
+     "regeneration",
+     "1:30",
+     1
+    ]
+   ],
+   "strong": [
+    [
+     "regeneration",
+     "0:22",
+     2
+    ]
+   ]
+  },
+  "strength": {
+   "name": {
+    "en": "Strength",
+    "pt": "Força"
+   },
+   "color": "#FFC700",
+   "effects": [
+    [
+     "strength",
+     "3:00",
+     1
+    ]
+   ],
+   "long": [
+    [
+     "strength",
+     "8:00",
+     1
+    ]
+   ],
+   "strong": [
+    [
+     "strength",
+     "1:30",
+     2
+    ]
+   ]
+  },
+  "weakness": {
+   "name": {
+    "en": "Weakness",
+    "pt": "Fraqueza"
+   },
+   "color": "#484D48",
+   "effects": [
+    [
+     "weakness",
+     "1:30",
+     1
+    ]
+   ],
+   "long": [
+    [
+     "weakness",
+     "4:00",
+     1
+    ]
+   ]
+  },
+  "turtle_master": {
+   "name": {
+    "en": "the Turtle Master",
+    "pt": "Mestre Tartaruga"
+   },
+   "color": "#8E8E8E",
+   "effects": [
+    [
+     "slowness",
+     "0:20",
+     4
+    ],
+    [
+     "resistance",
+     "0:20",
+     3
+    ]
+   ],
+   "long": [
+    [
+     "slowness",
+     "0:40",
+     4
+    ],
+    [
+     "resistance",
+     "0:40",
+     3
+    ]
+   ],
+   "strong": [
+    [
+     "slowness",
+     "0:20",
+     6
+    ],
+    [
+     "resistance",
+     "0:20",
+     4
+    ]
+   ]
+  },
+  "slow_falling": {
+   "name": {
+    "en": "Slow Falling",
+    "pt": "Queda Lenta"
+   },
+   "color": "#F3CFB9",
+   "effects": [
+    [
+     "slow_falling",
+     "1:30",
+     1
+    ]
+   ],
+   "long": [
+    [
+     "slow_falling",
+     "4:00",
+     1
+    ]
+   ]
+  },
+  "luck": {
+   "name": {
+    "en": "Luck",
+    "pt": "Sorte"
+   },
+   "color": "#59C106",
+   "effects": [
+    [
+     "luck",
+     "5:00",
+     1
+    ]
+   ],
+   "brewable": false
+  },
+  "wind_charged": {
+   "name": {
+    "en": "Wind Charging",
+    "pt": "Carga de Vento"
+   },
+   "color": "#BDC9FF",
+   "effects": [
+    [
+     "wind_charged",
+     "3:00",
+     1
+    ]
+   ]
+  },
+  "weaving": {
+   "name": {
+    "en": "Weaving",
+    "pt": "Tecelagem"
+   },
+   "color": "#78695A",
+   "effects": [
+    [
+     "weaving",
+     "3:00",
+     1
+    ]
+   ]
+  },
+  "oozing": {
+   "name": {
+    "en": "Oozing",
+    "pt": "Escorrimento"
+   },
+   "color": "#99FFA3",
+   "effects": [
+    [
+     "oozing",
+     "3:00",
+     1
+    ]
+   ]
+  },
+  "infested": {
+   "name": {
+    "en": "Infestation",
+    "pt": "Infestação"
+   },
+   "color": "#8C9B8C",
+   "effects": [
+    [
+     "infested",
+     "3:00",
+     1
+    ]
+   ]
+  }
+ }
+}

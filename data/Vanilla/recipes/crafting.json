@@ -1,0 +1,676 @@
+{
+ "recipes": [
+  {
+   "t": "c",
+   "a": [
+    "oak_log",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "oak_planks",
+   "n": 4
+  },
+  {
+   "t": "c",
+   "a": [
+    "oak_planks",
+    null,
+    null,
+    "oak_planks",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "stick",
+   "n": 4
+  },
+  {
+   "t": "c",
+   "a": [
+    "oak_planks",
+    "oak_planks",
+    null,
+    "oak_planks",
+    "oak_planks",
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "crafting_table",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "oak_planks",
+    "oak_planks",
+    "oak_planks",
+    "oak_planks",
+    null,
+    "oak_planks",
+    "oak_planks",
+    "oak_planks",
+    "oak_planks"
+   ],
+   "o": "chest",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "cobblestone",
+    "cobblestone",
+    "cobblestone",
+    "cobblestone",
+    null,
+    "cobblestone",
+    "cobblestone",
+    "cobblestone",
+    "cobblestone"
+   ],
+   "o": "furnace",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "coal",
+    null,
+    null,
+    "stick",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "torch",
+   "n": 4
+  },
+  {
+   "t": "c",
+   "a": [
+    "brick",
+    "brick",
+    null,
+    "brick",
+    "brick",
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "bricks",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "iron_ingot",
+    "iron_ingot",
+    "iron_ingot",
+    "iron_ingot",
+    "iron_ingot",
+    "iron_ingot",
+    "iron_ingot",
+    "iron_ingot",
+    "iron_ingot"
+   ],
+   "o": "iron_block",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "gold_ingot",
+    "gold_ingot",
+    "gold_ingot",
+    "gold_ingot",
+    "gold_ingot",
+    "gold_ingot",
+    "gold_ingot",
+    "gold_ingot",
+    "gold_ingot"
+   ],
+   "o": "gold_block",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "diamond",
+    "diamond",
+    "diamond",
+    "diamond",
+    "diamond",
+    "diamond",
+    "diamond",
+    "diamond",
+    "diamond"
+   ],
+   "o": "diamond_block",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "iron_ingot",
+    "iron_ingot",
+    "iron_ingot",
+    null,
+    "stick",
+    null,
+    null,
+    "stick",
+    null
+   ],
+   "o": "iron_pickaxe",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "diamond",
+    "diamond",
+    "diamond",
+    null,
+    "stick",
+    null,
+    null,
+    "stick",
+    null
+   ],
+   "o": "diamond_pickaxe",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "iron_ingot",
+    null,
+    null,
+    "iron_ingot",
+    null,
+    null,
+    "stick",
+    null,
+    null
+   ],
+   "o": "iron_sword",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "diamond",
+    null,
+    null,
+    "diamond",
+    null,
+    null,
+    "stick",
+    null,
+    null
+   ],
+   "o": "diamond_sword",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "iron_ingot",
+    null,
+    "iron_ingot",
+    null,
+    "iron_ingot",
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "bucket",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    null,
+    "stick",
+    "string",
+    "stick",
+    null,
+    "string",
+    null,
+    "stick",
+    "string"
+   ],
+   "o": "bow",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "flint",
+    null,
+    null,
+    "stick",
+    null,
+    null,
+    "feather",
+    null,
+    null
+   ],
+   "o": "arrow",
+   "n": 4
+  },
+  {
+   "t": "c",
+   "a": [
+    "oak_planks",
+    "oak_planks",
+    "oak_planks",
+    "book",
+    "book",
+    "book",
+    "oak_planks",
+    "oak_planks",
+    "oak_planks"
+   ],
+   "o": "bookshelf",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "paper",
+    "paper",
+    null,
+    "paper",
+    "leather",
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "book",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "sugar_cane",
+    "sugar_cane",
+    "sugar_cane",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "paper",
+   "n": 3
+  },
+  {
+   "t": "c",
+   "a": [
+    "wheat",
+    "wheat",
+    "wheat",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "bread",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "sand",
+    "sand",
+    null,
+    "sand",
+    "sand",
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "sandstone",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "glowstone_dust",
+    "glowstone_dust",
+    null,
+    "glowstone_dust",
+    "glowstone_dust",
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "glowstone",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "string",
+    "string",
+    null,
+    "string",
+    "string",
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "white_wool",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "iron_ingot",
+    "iron_ingot",
+    "iron_ingot",
+    "iron_ingot",
+    null,
+    "iron_ingot",
+    null,
+    null,
+    null
+   ],
+   "o": "iron_helmet",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "diamond",
+    null,
+    "diamond",
+    "diamond",
+    "diamond",
+    "diamond",
+    "diamond",
+    "diamond",
+    "diamond"
+   ],
+   "o": "diamond_chestplate",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "diamond",
+    null,
+    "diamond",
+    "diamond",
+    null,
+    "diamond",
+    null,
+    null,
+    null
+   ],
+   "o": "diamond_boots",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "gold_ingot",
+    "gold_ingot",
+    "gold_ingot",
+    "gold_ingot",
+    "apple",
+    "gold_ingot",
+    "gold_ingot",
+    "gold_ingot",
+    "gold_ingot"
+   ],
+   "o": "golden_apple",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "sugar_cane",
+    null,
+    null,
+    "sugar_cane",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "stick",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "coal",
+    "coal",
+    "coal",
+    "coal",
+    "coal",
+    "coal",
+    "coal",
+    "coal",
+    "coal"
+   ],
+   "o": "coal_block",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "coal_block",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "coal",
+   "n": 9
+  },
+  {
+   "t": "c",
+   "a": [
+    "iron_ingot",
+    "iron_ingot",
+    "iron_ingot",
+    "iron_ingot",
+    "furnace",
+    "iron_ingot",
+    "stone",
+    "stone",
+    "stone"
+   ],
+   "o": "blast_furnace",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    null,
+    "oak_log",
+    null,
+    "oak_log",
+    "furnace",
+    "oak_log",
+    null,
+    "oak_log",
+    null
+   ],
+   "o": "smoker",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "oak_planks",
+    "oak_planks",
+    "oak_planks",
+    null,
+    "stick",
+    null,
+    null,
+    "stick",
+    null
+   ],
+   "o": "wooden_pickaxe",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "cobblestone",
+    "cobblestone",
+    "cobblestone",
+    null,
+    "stick",
+    null,
+    null,
+    "stick",
+    null
+   ],
+   "o": "stone_pickaxe",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "glass",
+    null,
+    "glass",
+    null,
+    "glass",
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "glass_bottle",
+   "n": 3
+  },
+  {
+   "t": "c",
+   "a": [
+    "sugar_cane",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "sugar",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "blaze_rod",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "o": "blaze_powder",
+   "n": 2
+  },
+  {
+   "t": "c",
+   "a": [
+    "iron_block",
+    "iron_block",
+    "iron_block",
+    null,
+    "iron_ingot",
+    null,
+    "iron_ingot",
+    "iron_ingot",
+    "iron_ingot"
+   ],
+   "o": "anvil",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    null,
+    "blaze_rod",
+    null,
+    "cobblestone",
+    "cobblestone",
+    "cobblestone",
+    null,
+    null,
+    null
+   ],
+   "o": "brewing_stand",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "iron_ingot",
+    null,
+    null,
+    "stone",
+    "stone",
+    "stone",
+    null,
+    null,
+    null
+   ],
+   "o": "stonecutter",
+   "n": 1
+  },
+  {
+   "t": "c",
+   "a": [
+    "iron_ingot",
+    "iron_ingot",
+    null,
+    "oak_planks",
+    "oak_planks",
+    null,
+    "oak_planks",
+    "oak_planks",
+    null
+   ],
+   "o": "smithing_table",
+   "n": 1
+  }
+ ]
+}

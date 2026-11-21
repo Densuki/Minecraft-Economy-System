@@ -1,0 +1,180 @@
+{
+ "recipes": [
+  {
+   "t": "k",
+   "a": [
+    "stone"
+   ],
+   "o": "stone_bricks",
+   "n": 1
+  },
+  {
+   "t": "k",
+   "a": [
+    "stone"
+   ],
+   "o": "stone_slab",
+   "n": 2
+  },
+  {
+   "t": "k",
+   "a": [
+    "stone"
+   ],
+   "o": "stone_stairs",
+   "n": 1
+  },
+  {
+   "t": "k",
+   "a": [
+    "stone"
+   ],
+   "o": "stone_brick_slab",
+   "n": 2
+  },
+  {
+   "t": "k",
+   "a": [
+    "stone"
+   ],
+   "o": "stone_brick_stairs",
+   "n": 1
+  },
+  {
+   "t": "k",
+   "a": [
+    "stone"
+   ],
+   "o": "stone_brick_wall",
+   "n": 1
+  },
+  {
+   "t": "k",
+   "a": [
+    "cobblestone"
+   ],
+   "o": "cobblestone_slab",
+   "n": 2
+  },
+  {
+   "t": "k",
+   "a": [
+    "cobblestone"
+   ],
+   "o": "cobblestone_stairs",
+   "n": 1
+  },
+  {
+   "t": "k",
+   "a": [
+    "cobblestone"
+   ],
+   "o": "cobblestone_wall",
+   "n": 1
+  },
+  {
+   "t": "k",
+   "a": [
+    "sandstone"
+   ],
+   "o": "sandstone_slab",
+   "n": 2
+  },
+  {
+   "t": "k",
+   "a": [
+    "sandstone"
+   ],
+   "o": "sandstone_stairs",
+   "n": 1
+  },
+  {
+   "t": "k",
+   "a": [
+    "sandstone"
+   ],
+   "o": "sandstone_wall",
+   "n": 1
+  },
+  {
+   "t": "k",
+   "a": [
+    "bricks"
+   ],
+   "o": "brick_slab",
+   "n": 2
+  },
+  {
+   "t": "k",
+   "a": [
+    "bricks"
+   ],
+   "o": "brick_stairs",
+   "n": 1
+  },
+  {
+   "t": "k",
+   "a": [
+    "bricks"
+   ],
+   "o": "brick_wall",
+   "n": 1
+  },
+  {
+   "t": "k",
+   "a": [
+    "quartz_block"
+   ],
+   "o": "quartz_slab",
+   "n": 2
+  },
+  {
+   "t": "k",
+   "a": [
+    "quartz_block"
+   ],
+   "o": "quartz_stairs",
+   "n": 1
+  },
+  {
+   "t": "k",
+   "a": [
+    "quartz_block"
+   ],
+   "o": "quartz_pillar",
+   "n": 1
+  },
+  {
+   "t": "k",
+   "a": [
+    "andesite"
+   ],
+   "o": "andesite_slab",
+   "n": 2
+  },
+  {
+   "t": "k",
+   "a": [
+    "diorite"
+   ],
+   "o": "diorite_slab",
+   "n": 2
+  },
+  {
+   "t": "k",
+   "a": [
+    "granite"
+   ],
+   "o": "granite_slab",
+   "n": 2
+  },
+  {
+   "t": "k",
+   "a": [
+    "stone_bricks"
+   ],
+   "o": "stone_brick_slab",
+   "n": 2
+  }
+ ]
+}

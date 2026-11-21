@@ -1,0 +1,8 @@
+{
+ "id": "minecraft",
+ "name": "Vanilla",
+ "version": "1.21.8",
+ "textureRoot": "assets/textures/",
+ "note": "Pasta Vanilla: tudo que é do jogo base. Edite os JSONs à vontade; o exportador só ACRESCENTA itens novos, sem sobrescrever o que você editou.",
+ "displayName": "Minecraft"
+}

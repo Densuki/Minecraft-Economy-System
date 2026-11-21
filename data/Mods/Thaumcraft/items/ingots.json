@@ -1,0 +1,20 @@
+{
+ "category": "items",
+ "label": {
+  "en": "Ingots",
+  "pt": "Lingotes"
+ },
+ "items": [
+  {
+   "id": "thaumium_ingot",
+   "name": {
+    "en": "Thaumium Ingot",
+    "pt": "Barra de Taumio"
+   },
+   "texture": "thaumium_ingot.png",
+   "shape": "i",
+   "color": "#4a3a7a",
+   "price": 40
+  }
+ ]
+}

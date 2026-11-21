@@ -1,0 +1,103 @@
+{
+ "recipes": [
+  {
+   "t": "v",
+   "a": [
+    "diamond_pickaxe",
+    "enchanted_book"
+   ],
+   "o": "diamond_pickaxe",
+   "n": 1,
+   "l": 5,
+   "e": 1
+  },
+  {
+   "t": "v",
+   "a": [
+    "iron_pickaxe",
+    "enchanted_book"
+   ],
+   "o": "iron_pickaxe",
+   "n": 1,
+   "l": 4,
+   "e": 1
+  },
+  {
+   "t": "v",
+   "a": [
+    "diamond_sword",
+    "enchanted_book"
+   ],
+   "o": "diamond_sword",
+   "n": 1,
+   "l": 5,
+   "e": 1
+  },
+  {
+   "t": "v",
+   "a": [
+    "iron_sword",
+    "enchanted_book"
+   ],
+   "o": "iron_sword",
+   "n": 1,
+   "l": 4,
+   "e": 1
+  },
+  {
+   "t": "v",
+   "a": [
+    "diamond_chestplate",
+    "enchanted_book"
+   ],
+   "o": "diamond_chestplate",
+   "n": 1,
+   "l": 4,
+   "e": 1
+  },
+  {
+   "t": "v",
+   "a": [
+    "iron_helmet",
+    "enchanted_book"
+   ],
+   "o": "iron_helmet",
+   "n": 1,
+   "l": 3,
+   "e": 1
+  },
+  {
+   "t": "v",
+   "a": [
+    "diamond_pickaxe",
+    "enchanted_book"
+   ],
+   "o": "diamond_pickaxe",
+   "n": 1,
+   "l": 3,
+   "e": 1
+  },
+  {
+   "t": "v",
+   "a": [
+    "netherite_pickaxe",
+    "enchanted_book"
+   ],
+   "o": "netherite_pickaxe",
+   "n": 1,
+   "l": 5,
+   "e": 1
+  },
+  {
+   "t": "v",
+   "a": [
+    "netherite_sword",
+    "enchanted_book"
+   ],
+   "o": "netherite_sword",
+   "n": 1,
+   "l": 5,
+   "e": 1
+  }
+ ]
+}

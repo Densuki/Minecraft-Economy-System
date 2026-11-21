@@ -1,0 +1,125 @@
+{
+ "_doc": "Regras da Barraca de Poções. Receitas e itens são gerados a partir daqui + potions.json.",
+ "water": "water",
+ "awkward": "awkward",
+ "mundane": "mundane",
+ "thick": "thick",
+ "bases": [
+  {
+   "ing": "nether_wart",
+   "to": "awkward"
+  },
+  {
+   "ing": "glowstone_dust",
+   "to": "thick"
+  },
+  {
+   "ing": "fermented_spider_eye",
+   "to": "weakness"
+  }
+ ],
+ "mundaneFrom": [
+  "redstone",
+  "ghast_tear",
+  "glistering_melon_slice",
+  "blaze_powder",
+  "magma_cream",
+  "sugar",
+  "rabbit_foot",
+  "spider_eye"
+ ],
+ "effects": [
+  {
+   "ing": "golden_carrot",
+   "to": "night_vision"
+  },
+  {
+   "ing": "magma_cream",
+   "to": "fire_resistance"
+  },
+  {
+   "ing": "sugar",
+   "to": "swiftness"
+  },
+  {
+   "ing": "rabbit_foot",
+   "to": "leaping"
+  },
+  {
+   "ing": "glistering_melon_slice",
+   "to": "healing"
+  },
+  {
+   "ing": "spider_eye",
+   "to": "poison"
+  },
+  {
+   "ing": "pufferfish",
+   "to": "water_breathing"
+  },
+  {
+   "ing": "ghast_tear",
+   "to": "regeneration"
+  },
+  {
+   "ing": "blaze_powder",
+   "to": "strength"
+  },
+  {
+   "ing": "turtle_helmet",
+   "to": "turtle_master"
+  },
+  {
+   "ing": "phantom_membrane",
+   "to": "slow_falling"
+  },
+  {
+   "ing": "stone",
+   "to": "infested"
+  },
+  {
+   "ing": "slime_block",
+   "to": "oozing"
+  },
+  {
+   "ing": "cobweb",
+   "to": "weaving"
+  },
+  {
+   "ing": "breeze_rod",
+   "to": "wind_charged"
+  }
+ ],
+ "corrupt": {
+  "ing": "fermented_spider_eye",
+  "pairs": [
+   [
+    "night_vision",
+    "invisibility"
+   ],
+   [
+    "swiftness",
+    "slowness"
+   ],
+   [
+    "leaping",
+    "slowness"
+   ],
+   [
+    "healing",
+    "harming"
+   ],
+   [
+    "poison",
+    "harming"
+   ]
+  ]
+ },
+ "modifiers": {
+  "long": "redstone",
+  "strong": "glowstone_dust",
+  "splash": "gunpowder",
+  "lingering": "dragon_breath"
+ },
+ "arrowsPerLingering": 8
+}

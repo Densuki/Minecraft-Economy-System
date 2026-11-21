@@ -1,0 +1,19 @@
+{
+ "category": "items",
+ "label": {
+  "en": "Ingots",
+  "pt": "Lingotes"
+ },
+ "items": [
+  {
+   "id": "tin_ingot",
+   "name": {
+    "en": "Tin Ingot",
+    "pt": "Barra de Estanho"
+   },
+   "shape": "i",
+   "color": "#b8c4d0",
+   "price": 6
+  }
+ ]
+}

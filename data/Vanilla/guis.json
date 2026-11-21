@@ -1,0 +1,167 @@
+{
+ "_doc": "Skins de GUI. file = PNG extraído do .jar (assets/gui/containers/). crop = [x,y,w,h] da área mostrada (sem o inventário). slots = posições [x,y] do canto do slot (18px) na textura. sprites = partes animadas no mesmo PNG: src [x,y,w,h], at [x,y], anim.",
+ "scale": 3,
+ "root": "assets/gui/containers/",
+ "crafting": {
+  "file": "crafting_table.png",
+  "crop": [
+   28,
+   14,
+   124,
+   62
+  ],
+  "slots": {
+   "in": [
+    [
+     30,
+     17
+    ],
+    [
+     48,
+     17
+    ],
+    [
+     66,
+     17
+    ],
+    [
+     30,
+     35
+    ],
+    [
+     48,
+     35
+    ],
+    [
+     66,
+     35
+    ],
+    [
+     30,
+     53
+    ],
+    [
+     48,
+     53
+    ],
+    [
+     66,
+     53
+    ]
+   ],
+   "out": [
+    [
+     124,
+     35
+    ]
+   ]
+  }
+ },
+ "brewing": {
+  "file": "brewing_stand.png",
+  "crop": [
+   14,
+   10,
+   100,
+   70
+  ],
+  "slots": {
+   "ing": [
+    [
+     79,
+     17
+    ]
+   ],
+   "bottle": [
+    [
+     56,
+     51
+    ],
+    [
+     79,
+     58
+    ],
+    [
+     102,
+     51
+    ]
+   ],
+   "fuel": [
+    [
+     17,
+     17
+    ]
+   ]
+  },
+  "sprites": {
+   "bubbles": {
+    "src": [
+     185,
+     0,
+     12,
+     29
+    ],
+    "at": [
+     63,
+     14
+    ],
+    "anim": "up"
+   },
+   "arrow": {
+    "src": [
+     176,
+     0,
+     9,
+     28
+    ],
+    "at": [
+     97,
+     16
+    ],
+    "anim": "down"
+   },
+   "fuel": {
+    "src": [
+     176,
+     29,
+     18,
+     4
+    ],
+    "at": [
+     60,
+     44
+    ],
+    "anim": "right"
+   }
+  }
+ },
+ "anvil": {
+  "file": "anvil.png",
+  "crop": [
+   20,
+   40,
+   140,
+   30
+  ],
+  "slots": {
+   "a": [
+    [
+     27,
+     47
+    ]
+   ],
+   "b": [
+    [
+     76,
+     47
+    ]
+   ],
+   "out": [
+    [
+     134,
+     47
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,371 @@
+{
+ "category": "armor",
+ "label": {
+  "en": "Armor",
+  "pt": "Armaduras"
+ },
+ "items": [
+  {
+   "id": "iron_helmet",
+   "name": {
+    "en": "Iron Helmet",
+    "pt": "Capacete de Ferro"
+   },
+   "shape": "a",
+   "color": "#d8d8d8",
+   "armor": 2
+  },
+  {
+   "id": "diamond_chestplate",
+   "name": {
+    "en": "Diamond Chestplate",
+    "pt": "Peitoral de Diamante"
+   },
+   "shape": "a",
+   "color": "#4eead9",
+   "armor": 8
+  },
+  {
+   "id": "diamond_boots",
+   "name": {
+    "en": "Diamond Boots",
+    "pt": "Botas de Diamante"
+   },
+   "shape": "a",
+   "color": "#4eead9",
+   "armor": 3
+  },
+  {
+   "id": "elytra",
+   "name": {
+    "en": "Elytra"
+   },
+   "shape": "g",
+   "color": "#8b7d5e",
+   "texture": {
+    "k": "f",
+    "t": "items/elytra",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "turtle_helmet",
+   "name": {
+    "en": "Turtle Shell",
+    "pt": "Capacete de Tartaruga"
+   },
+   "shape": "g",
+   "color": "#aac667",
+   "texture": {
+    "k": "f",
+    "t": "items/turtle_helmet",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "leather_helmet",
+   "name": {
+    "en": "Leather Cap",
+    "pt": "Capacete de Couro"
+   },
+   "shape": "g",
+   "color": "#9d5fd3",
+   "texture": {
+    "k": "f",
+    "t": "items/leather_helmet",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "leather_chestplate",
+   "name": {
+    "en": "Leather Tunic",
+    "pt": "Peitoral de Couro"
+   },
+   "shape": "g",
+   "color": "#65aca6",
+   "texture": {
+    "k": "f",
+    "t": "items/leather_chestplate",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "leather_leggings",
+   "name": {
+    "en": "Leather Pants",
+    "pt": "Calças de Couro"
+   },
+   "shape": "g",
+   "color": "#9acdd0",
+   "texture": {
+    "k": "f",
+    "t": "items/leather_leggings",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "leather_boots",
+   "name": {
+    "en": "Leather Boots",
+    "pt": "Botas de Couro"
+   },
+   "shape": "g",
+   "color": "#858a85",
+   "texture": {
+    "k": "f",
+    "t": "items/leather_boots",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "chainmail_helmet",
+   "name": {
+    "en": "Chainmail Helmet",
+    "pt": "Capacete de Cota de Malha"
+   },
+   "shape": "g",
+   "color": "#6e6070",
+   "texture": {
+    "k": "f",
+    "t": "items/chainmail_helmet",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "chainmail_chestplate",
+   "name": {
+    "en": "Chainmail Chestplate",
+    "pt": "Peitoral de Cota de Malha"
+   },
+   "shape": "g",
+   "color": "#b69d91",
+   "texture": {
+    "k": "f",
+    "t": "items/chainmail_chestplate",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "chainmail_leggings",
+   "name": {
+    "en": "Chainmail Leggings",
+    "pt": "Calças de Cota de Malha"
+   },
+   "shape": "g",
+   "color": "#abbe92",
+   "texture": {
+    "k": "f",
+    "t": "items/chainmail_leggings",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "chainmail_boots",
+   "name": {
+    "en": "Chainmail Boots",
+    "pt": "Botas de Cota de Malha"
+   },
+   "shape": "g",
+   "color": "#949a7a",
+   "texture": {
+    "k": "f",
+    "t": "items/chainmail_boots",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "iron_chestplate",
+   "name": {
+    "en": "Iron Chestplate",
+    "pt": "Peitoral de Ferro"
+   },
+   "shape": "g",
+   "color": "#669a65",
+   "texture": {
+    "k": "f",
+    "t": "items/iron_chestplate",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "iron_leggings",
+   "name": {
+    "en": "Iron Leggings",
+    "pt": "Calças de Ferro"
+   },
+   "shape": "g",
+   "color": "#5bc8c4",
+   "texture": {
+    "k": "f",
+    "t": "items/iron_leggings",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "iron_boots",
+   "name": {
+    "en": "Iron Boots",
+    "pt": "Botas de Ferro"
+   },
+   "shape": "g",
+   "color": "#649fb8",
+   "texture": {
+    "k": "f",
+    "t": "items/iron_boots",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "diamond_helmet",
+   "name": {
+    "en": "Diamond Helmet",
+    "pt": "Capacete de Diamante"
+   },
+   "shape": "g",
+   "color": "#92d3c9",
+   "texture": {
+    "k": "f",
+    "t": "items/diamond_helmet",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "diamond_leggings",
+   "name": {
+    "en": "Diamond Leggings",
+    "pt": "Calças de Diamante"
+   },
+   "shape": "g",
+   "color": "#cf787b",
+   "texture": {
+    "k": "f",
+    "t": "items/diamond_leggings",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "golden_helmet",
+   "name": {
+    "en": "Golden Helmet",
+    "pt": "Capacete de Ouro"
+   },
+   "shape": "g",
+   "color": "#bd5aaf",
+   "texture": {
+    "k": "f",
+    "t": "items/golden_helmet",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "golden_chestplate",
+   "name": {
+    "en": "Golden Chestplate",
+    "pt": "Peitoral de Ouro"
+   },
+   "shape": "g",
+   "color": "#8597d0",
+   "texture": {
+    "k": "f",
+    "t": "items/golden_chestplate",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "golden_leggings",
+   "name": {
+    "en": "Golden Leggings",
+    "pt": "Calças de Ouro"
+   },
+   "shape": "g",
+   "color": "#ba809a",
+   "texture": {
+    "k": "f",
+    "t": "items/golden_leggings",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "golden_boots",
+   "name": {
+    "en": "Golden Boots",
+    "pt": "Botas de Ouro"
+   },
+   "shape": "g",
+   "color": "#65abad",
+   "texture": {
+    "k": "f",
+    "t": "items/golden_boots",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "netherite_helmet",
+   "name": {
+    "en": "Netherite Helmet",
+    "pt": "Capacete de Netherite"
+   },
+   "shape": "g",
+   "color": "#645c62",
+   "texture": {
+    "k": "f",
+    "t": "items/netherite_helmet",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "netherite_chestplate",
+   "name": {
+    "en": "Netherite Chestplate",
+    "pt": "Peitoral de Netherite"
+   },
+   "shape": "g",
+   "color": "#ac6d8c",
+   "texture": {
+    "k": "f",
+    "t": "items/netherite_chestplate",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "netherite_leggings",
+   "name": {
+    "en": "Netherite Leggings",
+    "pt": "Calças de Netherite"
+   },
+   "shape": "g",
+   "color": "#a1b473",
+   "texture": {
+    "k": "f",
+    "t": "items/netherite_leggings",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "netherite_boots",
+   "name": {
+    "en": "Netherite Boots",
+    "pt": "Botas de Netherite"
+   },
+   "shape": "g",
+   "color": "#5ed8bf",
+   "texture": {
+    "k": "f",
+    "t": "items/netherite_boots",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "shield",
+   "name": {
+    "en": "Shield"
+   },
+   "shape": "g",
+   "color": "#c37982",
+   "texture": {
+    "k": "n"
+   }
+  }
+ ]
+}

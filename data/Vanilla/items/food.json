@@ -1,0 +1,531 @@
+{
+ "category": "food",
+ "label": {
+  "en": "Food",
+  "pt": "Comidas"
+ },
+ "items": [
+  {
+   "id": "bread",
+   "name": {
+    "en": "Bread",
+    "pt": "Pão"
+   },
+   "shape": "i",
+   "color": "#c58a3a",
+   "food": {
+    "hunger": 5,
+    "saturation": 6
+   }
+  },
+  {
+   "id": "apple",
+   "name": {
+    "en": "Apple",
+    "pt": "Maçã"
+   },
+   "shape": "g",
+   "color": "#d11d1d",
+   "price": 3,
+   "food": {
+    "hunger": 4,
+    "saturation": 2.4
+   }
+  },
+  {
+   "id": "golden_apple",
+   "name": {
+    "en": "Golden Apple",
+    "pt": "Maçã Dourada"
+   },
+   "shape": "g",
+   "color": "#f5d02a",
+   "food": {
+    "hunger": 4,
+    "saturation": 9.6
+   },
+   "fx": [
+    [
+     "regeneration",
+     "0:05",
+     2
+    ],
+    [
+     "absorption",
+     "2:00"
+    ]
+   ],
+   "glint": true
+  },
+  {
+   "id": "beef",
+   "name": {
+    "en": "Beef",
+    "pt": "Carne Crua"
+   },
+   "shape": "g",
+   "color": "#b5453a",
+   "price": 3,
+   "food": {
+    "hunger": 3,
+    "saturation": 1.8
+   }
+  },
+  {
+   "id": "cooked_beef",
+   "name": {
+    "en": "Cooked Beef",
+    "pt": "Bife"
+   },
+   "shape": "g",
+   "color": "#7a4326",
+   "food": {
+    "hunger": 8,
+    "saturation": 12.8
+   }
+  },
+  {
+   "id": "porkchop",
+   "name": {
+    "en": "Porkchop",
+    "pt": "Carne de Porco Crua"
+   },
+   "shape": "g",
+   "color": "#e0a0a0",
+   "price": 3,
+   "food": {
+    "hunger": 3,
+    "saturation": 1.8
+   }
+  },
+  {
+   "id": "cooked_porkchop",
+   "name": {
+    "en": "Cooked Porkchop",
+    "pt": "Costeleta Assada"
+   },
+   "shape": "g",
+   "color": "#b97a4a",
+   "food": {
+    "hunger": 8,
+    "saturation": 12.8
+   }
+  },
+  {
+   "id": "potato",
+   "name": {
+    "en": "Potato",
+    "pt": "Batata"
+   },
+   "shape": "g",
+   "color": "#c9a85a",
+   "price": 2,
+   "food": {
+    "hunger": 1,
+    "saturation": 0.6
+   }
+  },
+  {
+   "id": "baked_potato",
+   "name": {
+    "en": "Baked Potato",
+    "pt": "Batata Assada"
+   },
+   "shape": "g",
+   "color": "#d9a040",
+   "food": {
+    "hunger": 5,
+    "saturation": 6
+   }
+  },
+  {
+   "id": "cod",
+   "name": {
+    "en": "Cod",
+    "pt": "Peixe Cru"
+   },
+   "shape": "g",
+   "color": "#7aa0b8",
+   "price": 2,
+   "food": {
+    "hunger": 2,
+    "saturation": 0.4
+   }
+  },
+  {
+   "id": "cooked_cod",
+   "name": {
+    "en": "Cooked Cod",
+    "pt": "Peixe Assado"
+   },
+   "shape": "g",
+   "color": "#b88a5a",
+   "food": {
+    "hunger": 5,
+    "saturation": 6
+   }
+  },
+  {
+   "id": "mushroom_stew",
+   "name": {
+    "en": "Mushroom Stew"
+   },
+   "shape": "g",
+   "color": "#b484c7",
+   "texture": {
+    "k": "f",
+    "t": "items/mushroom_stew",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "enchanted_golden_apple",
+   "name": {
+    "en": "Enchanted Golden Apple"
+   },
+   "shape": "g",
+   "color": "#a57899",
+   "texture": {
+    "k": "n"
+   }
+  },
+  {
+   "id": "salmon",
+   "name": {
+    "en": "Raw Salmon"
+   },
+   "shape": "g",
+   "color": "#c8d0a0",
+   "texture": {
+    "k": "f",
+    "t": "items/salmon",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "tropical_fish",
+   "name": {
+    "en": "Tropical Fish"
+   },
+   "shape": "g",
+   "color": "#6dd7b7",
+   "texture": {
+    "k": "f",
+    "t": "items/tropical_fish",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "pufferfish",
+   "name": {
+    "en": "Pufferfish"
+   },
+   "shape": "g",
+   "color": "#a47485",
+   "texture": {
+    "k": "f",
+    "t": "items/pufferfish",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cooked_salmon",
+   "name": {
+    "en": "Cooked Salmon"
+   },
+   "shape": "g",
+   "color": "#a0a194",
+   "texture": {
+    "k": "f",
+    "t": "items/cooked_salmon",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cookie",
+   "name": {
+    "en": "Cookie"
+   },
+   "shape": "g",
+   "color": "#be649a",
+   "texture": {
+    "k": "f",
+    "t": "items/cookie",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "melon_slice",
+   "name": {
+    "en": "Melon Slice"
+   },
+   "shape": "g",
+   "color": "#6077c6",
+   "texture": {
+    "k": "f",
+    "t": "items/melon_slice",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "dried_kelp",
+   "name": {
+    "en": "Dried Kelp"
+   },
+   "shape": "g",
+   "color": "#5dc4c5",
+   "texture": {
+    "k": "f",
+    "t": "items/dried_kelp",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "chicken",
+   "name": {
+    "en": "Raw Chicken"
+   },
+   "shape": "g",
+   "color": "#8f87d1",
+   "texture": {
+    "k": "f",
+    "t": "items/chicken",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cooked_chicken",
+   "name": {
+    "en": "Cooked Chicken"
+   },
+   "shape": "g",
+   "color": "#b761c8",
+   "texture": {
+    "k": "f",
+    "t": "items/cooked_chicken",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "rotten_flesh",
+   "name": {
+    "en": "Rotten Flesh"
+   },
+   "shape": "g",
+   "color": "#b59a99",
+   "texture": {
+    "k": "f",
+    "t": "items/rotten_flesh",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "carrot",
+   "name": {
+    "en": "Carrot"
+   },
+   "shape": "g",
+   "color": "#5d93d6",
+   "texture": {
+    "k": "f",
+    "t": "items/carrot",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "poisonous_potato",
+   "name": {
+    "en": "Poisonous Potato"
+   },
+   "shape": "g",
+   "color": "#bbb894",
+   "texture": {
+    "k": "f",
+    "t": "items/poisonous_potato",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "golden_carrot",
+   "name": {
+    "en": "Golden Carrot"
+   },
+   "shape": "g",
+   "color": "#d38f71",
+   "texture": {
+    "k": "f",
+    "t": "items/golden_carrot",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "pumpkin_pie",
+   "name": {
+    "en": "Pumpkin Pie"
+   },
+   "shape": "g",
+   "color": "#8fbec2",
+   "texture": {
+    "k": "f",
+    "t": "items/pumpkin_pie",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "rabbit",
+   "name": {
+    "en": "Raw Rabbit"
+   },
+   "shape": "g",
+   "color": "#74c267",
+   "texture": {
+    "k": "f",
+    "t": "items/rabbit",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cooked_rabbit",
+   "name": {
+    "en": "Cooked Rabbit"
+   },
+   "shape": "g",
+   "color": "#cc935a",
+   "texture": {
+    "k": "f",
+    "t": "items/cooked_rabbit",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "rabbit_stew",
+   "name": {
+    "en": "Rabbit Stew"
+   },
+   "shape": "g",
+   "color": "#b2b1bc",
+   "texture": {
+    "k": "f",
+    "t": "items/rabbit_stew",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "mutton",
+   "name": {
+    "en": "Raw Mutton"
+   },
+   "shape": "g",
+   "color": "#61d081",
+   "texture": {
+    "k": "f",
+    "t": "items/mutton",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "cooked_mutton",
+   "name": {
+    "en": "Cooked Mutton"
+   },
+   "shape": "g",
+   "color": "#b9a174",
+   "texture": {
+    "k": "f",
+    "t": "items/cooked_mutton",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "chorus_fruit",
+   "name": {
+    "en": "Chorus Fruit"
+   },
+   "shape": "g",
+   "color": "#955e8c",
+   "texture": {
+    "k": "f",
+    "t": "items/chorus_fruit",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "beetroot",
+   "name": {
+    "en": "Beetroot"
+   },
+   "shape": "g",
+   "color": "#6e86d4",
+   "texture": {
+    "k": "f",
+    "t": "items/beetroot",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "beetroot_soup",
+   "name": {
+    "en": "Beetroot Soup"
+   },
+   "shape": "g",
+   "color": "#9cc96c",
+   "texture": {
+    "k": "f",
+    "t": "items/beetroot_soup",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "suspicious_stew",
+   "name": {
+    "en": "Suspicious Stew"
+   },
+   "shape": "g",
+   "color": "#cfb0ab",
+   "texture": {
+    "k": "f",
+    "t": "items/suspicious_stew",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "sweet_berries",
+   "name": {
+    "en": "Sweet Berries"
+   },
+   "shape": "g",
+   "color": "#bfc587",
+   "texture": {
+    "k": "f",
+    "t": "items/sweet_berries",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "glow_berries",
+   "name": {
+    "en": "Glow Berries"
+   },
+   "shape": "g",
+   "color": "#5c9f7e",
+   "texture": {
+    "k": "f",
+    "t": "items/glow_berries",
+    "v": "1.21.8"
+   }
+  },
+  {
+   "id": "honey_bottle",
+   "name": {
+    "en": "Honey Bottle"
+   },
+   "shape": "g",
+   "color": "#a4bda8",
+   "texture": {
+    "k": "f",
+    "t": "items/honey_bottle",
+    "v": "1.21.8"
+   }
+  }
+ ]
+}

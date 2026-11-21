@@ -1,0 +1,17 @@
+/* Cenário de fundo (céu, sol/lua, estrelas, nuvens, chuva) */
+#world{position:fixed;inset:0;overflow:hidden;background:#05060c}
+#sky{position:absolute;inset:0;background-color:#070b18;transition:background-color 2.5s}
+#stars,#clouds{position:absolute;inset:0 0 35% 0;transition:opacity 2.5s}
+#orbit{position:absolute;inset:0}
+#stars i{position:absolute;width:3px;height:3px;background:#fff;animation:tw 3s ease-in-out infinite alternate}
+@keyframes tw{from{opacity:.2}to{opacity:1}}
+#clouds b{position:absolute;left:0;width:120px;height:22px;background:#fff;opacity:.9;box-shadow:24px -18px 0 -2px #fff,64px -12px 0 -4px #fff;animation:drift 90s linear infinite}
+@keyframes drift{from{transform:translateX(-200px)}to{transform:translateX(110vw)}}
+.sun,.moon{position:absolute;width:56px;height:56px;transform:translate(-50%,-50%)}
+.sun{left:50%;top:130%;background:#ffe87a;box-shadow:0 0 40px 12px rgba(255,220,100,.55)}
+.moon{left:50%;top:12%;background:#e8ecf5;box-shadow:inset -10px -8px 0 #c5cbd8,0 0 30px rgba(200,210,255,.4)}
+#ground{position:absolute;left:0;right:0;bottom:0;height:24%;background:repeating-linear-gradient(90deg,rgba(0,0,0,.14) 0 32px,transparent 32px 64px),linear-gradient(#4a8a34 0 16px,#356b26 16px 28px,#5b3f26 28px);transition:filter 2.5s}
+#rain{position:absolute;inset:0;opacity:0;transition:opacity 1s;background:repeating-linear-gradient(100deg,transparent 0 18px,rgba(150,180,255,.35) 18px 19px);background-size:90px 90px;animation:fall .45s linear infinite}
+@keyframes fall{to{background-position:-30px 90px}}
+#flash{position:absolute;inset:0;pointer-events:none;opacity:0;box-shadow:inset 0 0 220px 40px rgba(220,0,0,.7)}
+#world.plain>:not(#flash){display:none}

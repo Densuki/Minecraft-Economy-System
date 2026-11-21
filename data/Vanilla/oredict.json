@@ -1,0 +1,211 @@
+{
+ "_doc": "Grupos OreDict. \"re\" = regex no id; \"ids\" = lista; \"not\" = exclusão. Itens podem somar grupos com \"oredict\":[\"nome\"] no JSON do item. \"collapse\" = grupos cujas variações viram UMA receita com ingrediente alternando.",
+ "groups": {
+  "plankWood": {
+   "re": "_planks$"
+  },
+  "logWood": {
+   "re": "_(log|stem)$"
+  },
+  "barkWood": {
+   "re": "_(wood|hyphae)$"
+  },
+  "stairWood": {
+   "re": "^(oak|spruce|birch|jungle|acacia|dark_oak|mangrove|cherry|pale_oak|bamboo|crimson|warped)_stairs$"
+  },
+  "slabWood": {
+   "re": "^(oak|spruce|birch|jungle|acacia|dark_oak|mangrove|cherry|pale_oak|bamboo|crimson|warped)_slab$"
+  },
+  "fenceWood": {
+   "re": "^(oak|spruce|birch|jungle|acacia|dark_oak|mangrove|cherry|pale_oak|bamboo|crimson|warped)_fence$"
+  },
+  "treeSapling": {
+   "re": "_sapling$|^propagule$"
+  },
+  "treeLeaves": {
+   "re": "_leaves$"
+  },
+  "stickWood": {
+   "ids": [
+    "stick"
+   ]
+  },
+  "cobblestone": {
+   "re": "^(mossy_)?cobblestone$"
+  },
+  "stone": {
+   "ids": [
+    "stone"
+   ]
+  },
+  "sand": {
+   "re": "^(red_)?sand$"
+  },
+  "glass": {
+   "re": "glass$",
+   "not": "pane|bottle"
+  },
+  "paneGlass": {
+   "re": "glass_pane$"
+  },
+  "wool": {
+   "re": "_wool$"
+  },
+  "carpet": {
+   "re": "_carpet$"
+  },
+  "dye": {
+   "re": "_dye$"
+  },
+  "dustRedstone": {
+   "ids": [
+    "redstone"
+   ]
+  },
+  "dustGlowstone": {
+   "ids": [
+    "glowstone_dust"
+   ]
+  },
+  "slimeball": {
+   "ids": [
+    "slime_ball"
+   ]
+  },
+  "ingotIron": {
+   "ids": [
+    "iron_ingot"
+   ]
+  },
+  "nuggetIron": {
+   "ids": [
+    "iron_nugget"
+   ]
+  },
+  "blockIron": {
+   "ids": [
+    "iron_block"
+   ]
+  },
+  "oreIron": {
+   "re": "^(deepslate_)?iron_ore$"
+  },
+  "ingotGold": {
+   "ids": [
+    "gold_ingot"
+   ]
+  },
+  "nuggetGold": {
+   "ids": [
+    "gold_nugget"
+   ]
+  },
+  "blockGold": {
+   "ids": [
+    "gold_block"
+   ]
+  },
+  "oreGold": {
+   "re": "^(deepslate_)?gold_ore$"
+  },
+  "ingotCopper": {
+   "ids": [
+    "copper_ingot"
+   ]
+  },
+  "nuggetCopper": {
+   "ids": [
+    "copper_nugget"
+   ]
+  },
+  "blockCopper": {
+   "ids": [
+    "copper_block"
+   ]
+  },
+  "oreCopper": {
+   "re": "^(deepslate_)?copper_ore$"
+  },
+  "ingotNetherite": {
+   "ids": [
+    "netherite_ingot"
+   ]
+  },
+  "nuggetNetherite": {
+   "ids": [
+    "netherite_nugget"
+   ]
+  },
+  "blockNetherite": {
+   "ids": [
+    "netherite_block"
+   ]
+  },
+  "oreNetherite": {
+   "re": "^(deepslate_)?netherite_ore$"
+  },
+  "gemDiamond": {
+   "ids": [
+    "diamond"
+   ]
+  },
+  "oreDiamond": {
+   "re": "^(deepslate_)?diamond_ore$"
+  },
+  "blockDiamond": {
+   "ids": [
+    "diamond_block"
+   ]
+  },
+  "gemEmerald": {
+   "ids": [
+    "emerald"
+   ]
+  },
+  "oreEmerald": {
+   "re": "^(deepslate_)?emerald_ore$"
+  },
+  "blockEmerald": {
+   "ids": [
+    "emerald_block"
+   ]
+  },
+  "gemLapis": {
+   "ids": [
+    "lapis_lazuli"
+   ]
+  },
+  "oreLapis": {
+   "re": "^(deepslate_)?lapis_ore$"
+  },
+  "blockLapis": {
+   "ids": [
+    "lapis_block"
+   ]
+  },
+  "gemQuartz": {
+   "ids": [
+    "quartz"
+   ]
+  },
+  "oreQuartz": {
+   "re": "^(deepslate_)?nether_quartz_ore$"
+  },
+  "blockQuartz": {
+   "ids": [
+    "quartz_block"
+   ]
+  }
+ },
+ "collapse": [
+  "plankWood",
+  "logWood",
+  "barkWood"
+ ],
+ "aliases": {
+  "orewood": "logwood",
+  "oreplanks": "plankwood",
+  "orelog": "logwood",
+  "oreplank": "plankwood"
+ }
+}

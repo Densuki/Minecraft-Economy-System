@@ -1,0 +1,349 @@
+{
+ "_doc": "Cada encantamento gera livros enchanted_book_<id>_<nível>. price = preço por nível (economia; edite). Nomes PT são sugestões: corrija aqui.",
+ "book": {
+  "id": "enchanted_book_{e}_{l}",
+  "name": {
+   "en": "Enchanted Book",
+   "pt": "Livro Encantado"
+  },
+  "texture": "items/enchanted_book"
+ },
+ "enchantments": {
+  "protection": {
+   "name": {
+    "en": "Protection",
+    "pt": "Proteção"
+   },
+   "max": 4,
+   "price": 20
+  },
+  "fire_protection": {
+   "name": {
+    "en": "Fire Protection",
+    "pt": "Proteção contra Fogo"
+   },
+   "max": 4,
+   "price": 20
+  },
+  "feather_falling": {
+   "name": {
+    "en": "Feather Falling",
+    "pt": "Peso-pena"
+   },
+   "max": 4,
+   "price": 20
+  },
+  "blast_protection": {
+   "name": {
+    "en": "Blast Protection",
+    "pt": "Proteção contra Explosões"
+   },
+   "max": 4,
+   "price": 20
+  },
+  "projectile_protection": {
+   "name": {
+    "en": "Projectile Protection",
+    "pt": "Proteção contra Projéteis"
+   },
+   "max": 4,
+   "price": 20
+  },
+  "respiration": {
+   "name": {
+    "en": "Respiration",
+    "pt": "Respiração"
+   },
+   "max": 3,
+   "price": 20
+  },
+  "aqua_affinity": {
+   "name": {
+    "en": "Aqua Affinity",
+    "pt": "Afinidade Aquática"
+   },
+   "max": 1,
+   "price": 20
+  },
+  "thorns": {
+   "name": {
+    "en": "Thorns",
+    "pt": "Espinhos"
+   },
+   "max": 3,
+   "price": 20
+  },
+  "depth_strider": {
+   "name": {
+    "en": "Depth Strider",
+    "pt": "Passos Profundos"
+   },
+   "max": 3,
+   "price": 20
+  },
+  "frost_walker": {
+   "name": {
+    "en": "Frost Walker",
+    "pt": "Caminhante do Gelo"
+   },
+   "max": 2,
+   "price": 20
+  },
+  "binding_curse": {
+   "name": {
+    "en": "Curse of Binding",
+    "pt": "Maldição da Ligação"
+   },
+   "max": 1,
+   "price": 20
+  },
+  "soul_speed": {
+   "name": {
+    "en": "Soul Speed",
+    "pt": "Velocidade da Alma"
+   },
+   "max": 3,
+   "price": 20
+  },
+  "swift_sneak": {
+   "name": {
+    "en": "Swift Sneak",
+    "pt": "Furtividade Veloz"
+   },
+   "max": 3,
+   "price": 20
+  },
+  "sharpness": {
+   "name": {
+    "en": "Sharpness",
+    "pt": "Afiação"
+   },
+   "max": 5,
+   "price": 20
+  },
+  "smite": {
+   "name": {
+    "en": "Smite",
+    "pt": "Julgamento"
+   },
+   "max": 5,
+   "price": 20
+  },
+  "bane_of_arthropods": {
+   "name": {
+    "en": "Bane of Arthropods",
+    "pt": "Ruína dos Artrópodes"
+   },
+   "max": 5,
+   "price": 20
+  },
+  "knockback": {
+   "name": {
+    "en": "Knockback",
+    "pt": "Repulsão"
+   },
+   "max": 2,
+   "price": 20
+  },
+  "fire_aspect": {
+   "name": {
+    "en": "Fire Aspect",
+    "pt": "Aspecto Flamejante"
+   },
+   "max": 2,
+   "price": 20
+  },
+  "looting": {
+   "name": {
+    "en": "Looting",
+    "pt": "Pilhagem"
+   },
+   "max": 3,
+   "price": 20
+  },
+  "sweeping_edge": {
+   "name": {
+    "en": "Sweeping Edge",
+    "pt": "Gume Varredor"
+   },
+   "max": 3,
+   "price": 20
+  },
+  "efficiency": {
+   "name": {
+    "en": "Efficiency",
+    "pt": "Eficiência"
+   },
+   "max": 5,
+   "price": 20
+  },
+  "silk_touch": {
+   "name": {
+    "en": "Silk Touch",
+    "pt": "Toque Suave"
+   },
+   "max": 1,
+   "price": 20
+  },
+  "unbreaking": {
+   "name": {
+    "en": "Unbreaking",
+    "pt": "Inquebrável"
+   },
+   "max": 3,
+   "price": 20
+  },
+  "fortune": {
+   "name": {
+    "en": "Fortune",
+    "pt": "Fortuna"
+   },
+   "max": 3,
+   "price": 20
+  },
+  "power": {
+   "name": {
+    "en": "Power",
+    "pt": "Força"
+   },
+   "max": 5,
+   "price": 20
+  },
+  "punch": {
+   "name": {
+    "en": "Punch",
+    "pt": "Impacto"
+   },
+   "max": 2,
+   "price": 20
+  },
+  "flame": {
+   "name": {
+    "en": "Flame",
+    "pt": "Chama"
+   },
+   "max": 1,
+   "price": 20
+  },
+  "infinity": {
+   "name": {
+    "en": "Infinity",
+    "pt": "Infinidade"
+   },
+   "max": 1,
+   "price": 20
+  },
+  "luck_of_the_sea": {
+   "name": {
+    "en": "Luck of the Sea",
+    "pt": "Sorte do Mar"
+   },
+   "max": 3,
+   "price": 20
+  },
+  "lure": {
+   "name": {
+    "en": "Lure",
+    "pt": "Isca"
+   },
+   "max": 3,
+   "price": 20
+  },
+  "loyalty": {
+   "name": {
+    "en": "Loyalty",
+    "pt": "Lealdade"
+   },
+   "max": 3,
+   "price": 20
+  },
+  "impaling": {
+   "name": {
+    "en": "Impaling",
+    "pt": "Empalamento"
+   },
+   "max": 5,
+   "price": 20
+  },
+  "riptide": {
+   "name": {
+    "en": "Riptide",
+    "pt": "Correnteza"
+   },
+   "max": 3,
+   "price": 20
+  },
+  "channeling": {
+   "name": {
+    "en": "Channeling",
+    "pt": "Condução"
+   },
+   "max": 1,
+   "price": 20
+  },
+  "multishot": {
+   "name": {
+    "en": "Multishot",
+    "pt": "Tiro Múltiplo"
+   },
+   "max": 1,
+   "price": 20
+  },
+  "quick_charge": {
+   "name": {
+    "en": "Quick Charge",
+    "pt": "Carga Rápida"
+   },
+   "max": 3,
+   "price": 20
+  },
+  "piercing": {
+   "name": {
+    "en": "Piercing",
+    "pt": "Perfuração"
+   },
+   "max": 4,
+   "price": 20
+  },
+  "density": {
+   "name": {
+    "en": "Density",
+    "pt": "Densidade"
+   },
+   "max": 5,
+   "price": 20
+  },
+  "breach": {
+   "name": {
+    "en": "Breach",
+    "pt": "Brecha"
+   },
+   "max": 4,
+   "price": 20
+  },
+  "wind_burst": {
+   "name": {
+    "en": "Wind Burst",
+    "pt": "Rajada de Vento"
+   },
+   "max": 3,
+   "price": 20
+  },
+  "mending": {
+   "name": {
+    "en": "Mending",
+    "pt": "Remendo"
+   },
+   "max": 1,
+   "price": 20
+  },
+  "vanishing_curse": {
+   "name": {
+    "en": "Curse of Vanishing",
+    "pt": "Maldição do Desaparecimento"
+   },
+   "max": 1,
+   "price": 20
+  }
+ }
+}

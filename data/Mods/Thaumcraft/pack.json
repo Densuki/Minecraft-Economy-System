@@ -1,0 +1,7 @@
+{
+ "id": "thaumcraft",
+ "name": "Thaumcraft",
+ "version": "exemplo",
+ "textureRoot": "data/Mods/Thaumcraft/textures/",
+ "note": "Pack de exemplo. Copie esta pasta, troque nome/ID e edite os JSONs. Texturas: coloque PNGs em textures/ e use \"texture\":\"arquivo.png\"."
+}

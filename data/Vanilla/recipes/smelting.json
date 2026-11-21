@@ -1,0 +1,328 @@
+{
+ "recipes": [
+  {
+   "t": "s",
+   "a": [
+    "iron_ore"
+   ],
+   "o": "iron_ingot",
+   "n": 1,
+   "x": 0.7
+  },
+  {
+   "t": "s",
+   "a": [
+    "raw_iron"
+   ],
+   "o": "iron_ingot",
+   "n": 1,
+   "x": 0.7
+  },
+  {
+   "t": "s",
+   "a": [
+    "gold_ore"
+   ],
+   "o": "gold_ingot",
+   "n": 1,
+   "x": 1
+  },
+  {
+   "t": "s",
+   "a": [
+    "raw_gold"
+   ],
+   "o": "gold_ingot",
+   "n": 1,
+   "x": 1
+  },
+  {
+   "t": "s",
+   "a": [
+    "copper_ore"
+   ],
+   "o": "copper_ingot",
+   "n": 1,
+   "x": 0.7
+  },
+  {
+   "t": "s",
+   "a": [
+    "raw_copper"
+   ],
+   "o": "copper_ingot",
+   "n": 1,
+   "x": 0.7
+  },
+  {
+   "t": "s",
+   "a": [
+    "ancient_debris"
+   ],
+   "o": "netherite_scrap",
+   "n": 1,
+   "x": 2
+  },
+  {
+   "t": "s",
+   "a": [
+    "coal_ore"
+   ],
+   "o": "coal",
+   "n": 1,
+   "x": 0.1
+  },
+  {
+   "t": "s",
+   "a": [
+    "diamond_ore"
+   ],
+   "o": "diamond",
+   "n": 1,
+   "x": 1
+  },
+  {
+   "t": "s",
+   "a": [
+    "emerald_ore"
+   ],
+   "o": "emerald",
+   "n": 1,
+   "x": 1
+  },
+  {
+   "t": "s",
+   "a": [
+    "lapis_ore"
+   ],
+   "o": "lapis_lazuli",
+   "n": 1,
+   "x": 0.2
+  },
+  {
+   "t": "s",
+   "a": [
+    "redstone_ore"
+   ],
+   "o": "redstone",
+   "n": 1,
+   "x": 0.7
+  },
+  {
+   "t": "s",
+   "a": [
+    "nether_quartz_ore"
+   ],
+   "o": "quartz",
+   "n": 1,
+   "x": 0.2
+  },
+  {
+   "t": "s",
+   "a": [
+    "nether_gold_ore"
+   ],
+   "o": "gold_ingot",
+   "n": 1,
+   "x": 1
+  },
+  {
+   "t": "s",
+   "a": [
+    "sand"
+   ],
+   "o": "glass",
+   "n": 1,
+   "x": 0.1
+  },
+  {
+   "t": "s",
+   "a": [
+    "red_sand"
+   ],
+   "o": "glass",
+   "n": 1,
+   "x": 0.1
+  },
+  {
+   "t": "s",
+   "a": [
+    "cobblestone"
+   ],
+   "o": "stone",
+   "n": 1,
+   "x": 0.1
+  },
+  {
+   "t": "s",
+   "a": [
+    "stone"
+   ],
+   "o": "smooth_stone",
+   "n": 1,
+   "x": 0.1
+  },
+  {
+   "t": "s",
+   "a": [
+    "sandstone"
+   ],
+   "o": "smooth_sandstone",
+   "n": 1,
+   "x": 0.1
+  },
+  {
+   "t": "s",
+   "a": [
+    "quartz_block"
+   ],
+   "o": "smooth_quartz",
+   "n": 1,
+   "x": 0.1
+  },
+  {
+   "t": "s",
+   "a": [
+    "clay_ball"
+   ],
+   "o": "brick",
+   "n": 1,
+   "x": 0.3
+  },
+  {
+   "t": "s",
+   "a": [
+    "clay"
+   ],
+   "o": "terracotta",
+   "n": 1,
+   "x": 0.35
+  },
+  {
+   "t": "s",
+   "a": [
+    "netherrack"
+   ],
+   "o": "nether_brick",
+   "n": 1,
+   "x": 0.1
+  },
+  {
+   "t": "s",
+   "a": [
+    "oak_log"
+   ],
+   "o": "charcoal",
+   "n": 1,
+   "x": 0.15
+  },
+  {
+   "t": "s",
+   "a": [
+    "cactus"
+   ],
+   "o": "green_dye",
+   "n": 1,
+   "x": 1
+  },
+  {
+   "t": "s",
+   "a": [
+    "kelp"
+   ],
+   "o": "dried_kelp",
+   "n": 1,
+   "x": 0.1
+  },
+  {
+   "t": "s",
+   "a": [
+    "wet_sponge"
+   ],
+   "o": "sponge",
+   "n": 1,
+   "x": 0.15
+  },
+  {
+   "t": "s",
+   "a": [
+    "chorus_fruit"
+   ],
+   "o": "popped_chorus_fruit",
+   "n": 1,
+   "x": 0.1
+  },
+  {
+   "t": "s",
+   "a": [
+    "beef"
+   ],
+   "o": "cooked_beef",
+   "n": 1,
+   "x": 0.35
+  },
+  {
+   "t": "s",
+   "a": [
+    "porkchop"
+   ],
+   "o": "cooked_porkchop",
+   "n": 1,
+   "x": 0.35
+  },
+  {
+   "t": "s",
+   "a": [
+    "chicken"
+   ],
+   "o": "cooked_chicken",
+   "n": 1,
+   "x": 0.35
+  },
+  {
+   "t": "s",
+   "a": [
+    "mutton"
+   ],
+   "o": "cooked_mutton",
+   "n": 1,
+   "x": 0.35
+  },
+  {
+   "t": "s",
+   "a": [
+    "rabbit"
+   ],
+   "o": "cooked_rabbit",
+   "n": 1,
+   "x": 0.35
+  },
+  {
+   "t": "s",
+   "a": [
+    "cod"
+   ],
+   "o": "cooked_cod",
+   "n": 1,
+   "x": 0.35
+  },
+  {
+   "t": "s",
+   "a": [
+    "salmon"
+   ],
+   "o": "cooked_salmon",
+   "n": 1,
+   "x": 0.35
+  },
+  {
+   "t": "s",
+   "a": [
+    "potato"
+   ],
+   "o": "baked_potato",
+   "n": 1,
+   "x": 0.35
+  }
+ ]
+}

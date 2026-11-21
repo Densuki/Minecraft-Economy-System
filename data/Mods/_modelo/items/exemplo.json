@@ -1,0 +1,76 @@
+{
+ "category": "items",
+ "label": {
+  "en": "My Mod",
+  "pt": "Meu Mod"
+ },
+ "items": [
+  {
+   "id": "ruby",
+   "name": {
+    "en": "Ruby",
+    "pt": "&cRubi"
+   },
+   "price": 50,
+   "oredict": [
+    "gemRuby"
+   ],
+   "shape": "g",
+   "color": "#e0115f",
+   "texture": "ruby.png",
+   "desc": {
+    "en": "&7A &cshiny &7red gem.\n&4&lWARNING: &r&7very fragile.",
+    "pt": "&7Uma gema &cbrilhante&7.\n&4&lAVISO: &r&7muito frágil."
+   },
+   "tooltip": [
+    "&6Usado em &lferramentas"
+   ],
+   "family": "ruby"
+  },
+  {
+   "id": "ruby_block",
+   "name": {
+    "en": "Block of Ruby",
+    "pt": "Bloco de Rubi"
+   },
+   "shape": "b",
+   "color": "#c0104f",
+   "render": "flat",
+   "family": "ruby"
+  },
+  {
+   "id": "ruby_sword",
+   "name": {
+    "en": "Ruby Sword",
+    "pt": "Espada de Rubi"
+   },
+   "shape": "t",
+   "color": "#e0115f",
+   "attack": 8,
+   "kind": "weapon"
+  },
+  {
+   "id": "ruby_chunk",
+   "name": {
+    "en": "Ruby Chunk",
+    "pt": "Pedaço de Rubi"
+   },
+   "shape": "g",
+   "color": "#b00c46",
+   "fuel": 120,
+   "food": {
+    "hunger": 2,
+    "saturation": 1.2
+   },
+   "fx": [
+    [
+     "speed",
+     "0:30",
+     1
+    ]
+   ],
+   "meta": 1,
+   "family": "ruby"
+  }
+ ]
+}
