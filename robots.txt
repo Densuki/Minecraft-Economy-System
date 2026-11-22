@@ -1,0 +1,31 @@
+
+# ==================================================
+# Minecraft Economy • NJEI
+# Robots Exclusion Protocol
+# ==================================================
+
+User-agent: *
+
+# Permitir indexação do conteúdo público
+Allow: /
+
+# Áreas administrativas (quando implementadas)
+Disallow: /admin/
+Disallow: /api/private/
+Disallow: /private/
+
+# Arquivos de configuração e desenvolvimento
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /node_modules/
+Disallow: /tools/
+Disallow: /scripts/
+
+# Permitir acesso aos recursos necessários para renderização
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+Allow: /images/
+
+# Sitemap principal
+Sitemap: https://densuki.alwaysdata.net/sitemap.xml

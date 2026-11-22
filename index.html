@@ -1,27 +1,217 @@
 <!doctype html>
 <html lang="pt-BR">
   <head>
-      <!-- ========================= -->
-      <!-- 🧠 META BÁSICOS -->
-      <!-- ========================= -->
-      
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- ===================================================== -->
+      <!-- 🧠 01. DOCUMENTO E COMPATIBILIDADE                    -->
+      <!-- ===================================================== -->
 
-      <title>Minecraft Economy • NJEI</title>
-      <meta name="description" content="Site voltado para cálculo automático do sistema econômico de servidores">
-      <meta name="keywords" content="Minecraft, Desenvolvimento Web, Testes, Servidores, Privado, Pessoal, Server-side" />
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <title>Minecraft Economy • NJEI | Tabela de Preços</title>
+
+      <meta name="language" content="Portuguese">
+      <meta http-equiv="content-language" content="pt-BR">
+
+      <!-- ===================================================== -->
+      <!-- 🔍 02. SEO PRINCIPAL                                  -->
+      <!-- ===================================================== -->
+
+      <meta name="description"
+          content="Minecraft Economy • NJEI é uma plataforma independente para consulta de itens, tabela de preços e cálculo automático de receitas de crafting. Explore blocos, recursos, materiais e itens de diferentes modpacks de Minecraft.">
+
+      <meta name="keywords"
+          content="EtheriusCraft, ETC, EtheriusCraft - Network, Minecraft, Minecraft Economy, NJEI, NEI, JEI, Not Enough Items, Just Enough Items, Minecraft Price Table, Minecraft Price Calculator, Tabela de Preços Minecraft, Economia Minecraft, Preços Minecraft, Calculadora Minecraft, Crafting, Crafting Recipes, Receitas Minecraft, Itens Minecraft, Blocos Minecraft, Mods Minecraft, Modpacks, Ore Dictionary, OreDict, Item Browser, Item List, Game Economy, Server Economy, Private Server, Minecraft Server, Economia de Servidores, Minecraft 1.7.10, Minecraft Versions">
+
       <meta name="author" content="João Gabriel Sousa Santos">
-      <meta name="theme-color" content="#8400ff" />
-      <!-- CDNs: Tailwind (utilitários), anime.js (animações) e fonte pixel. Troque a fonte pela do Minecraft em css/nei.css se tiver o arquivo. -->
+      <meta name="creator" content="João Gabriel Sousa Santos">
+      <meta name="publisher" content="Minecraft Economy • NJEI">
+
+      <meta name="category" content="Technology, Gaming, Minecraft">
+      <meta name="subject"
+          content="Minecraft item database, virtual economy and automatic crafting price calculation">
+
+      <meta name="classification"
+          content="Independent Minecraft Economy Management and Item Reference Platform">
+
+      <meta name="application-name" content="Minecraft Economy • NJEI">
+      <meta name="apple-mobile-web-app-title" content="NJEI">
+
+      <!-- ===================================================== -->
+      <!-- 🤖 03. INDEXAÇÃO E MECANISMOS DE BUSCA                -->
+      <!-- ===================================================== -->
+
+      <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+      <meta name="googlebot" content="index, follow">
+      <meta name="bingbot" content="index, follow">
+
+      <meta name="rating" content="general">
+      <meta name="distribution" content="global">
+
+      <!-- ===================================================== -->
+      <!-- 🌎 04. IDIOMA, REGIÃO E LOCALIZAÇÃO                   -->
+      <!-- ===================================================== -->
+
+      <meta name="geo.region" content="BR">
+      <meta name="geo.placename" content="Brazil">
+
+      <!-- ===================================================== -->
+      <!-- 🎨 05. IDENTIDADE VISUAL                              -->
+      <!-- ===================================================== -->
+
+      <meta name="theme-color" content="#8400ff">
+      <meta name="msapplication-TileColor" content="#8400ff">
+
+      <meta name="color-scheme" content="dark light">
+
+      <meta name="supported-color-schemes" content="dark light">
+      
+      <!-- PWA / Web App Manifest -->
+      <link rel="manifest" href="/site.webmanifest">
+
+      <!-- Apple Web App -->
+      <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
+      <meta name="mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <meta name="apple-mobile-web-app-title" content="NJEI">
+
+      <!-- Theme -->
+      <meta name="theme-color" content="#8400ff">
+
+      <!-- ===================================================== -->
+      <!-- 📱 06. FAVICONS E ÍCONES                              -->
+      <!-- ===================================================== -->
+
+      <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+
+      <!-- Adicione os arquivos abaixo caso existam: -->
+      <link rel="icon" type="image/png" sizes="16x16"
+          href="assets/icons/favicon-16x16.png">
+
+      <link rel="icon" type="image/png" sizes="32x32"
+          href="assets/icons/favicon-32x32.png">
+
+      <link rel="apple-touch-icon" sizes="180x180"
+          href="assets/icons/apple-touch-icon.png">
+
+      <link rel="manifest" href="site.webmanifest">
+      
+
+      <!-- ===================================================== -->
+      <!-- 🌐 07. OPEN GRAPH (FACEBOOK, DISCORD, WHATSAPP ETC.)  -->
+      <!-- ===================================================== -->
+
+      <meta property="og:type" content="website">
+
+      <meta property="og:locale" content="pt_BR">
+      <meta property="og:site_name" content="Minecraft Economy • NJEI">
+
+      <meta property="og:title"
+          content="Minecraft Economy • NJEI | Tabela de Preços">
+
+      <meta property="og:description"
+          content="Explore um catálogo de itens de Minecraft, consulte preços e descubra o valor automático de receitas de crafting em uma interface inspirada no Not Enough Items.">
+
+      <!-- Substituir pelo domínio real quando publicado. -->
+      <!-- <meta property="og:url" content="https://seudominio.com/"> -->
+      <meta property="og:url" content="https://densuki.alwaysdata.net/">
+
+      <!-- Substituir pelo endereço real da imagem de compartilhamento. -->
+      <!-- <meta property="og:image" content="https://seudominio.com/assets/og-image.png"> -->
+      <meta property="og:image"
+        content="https://densuki.alwaysdata.net/assets/seo/og-image.png">
+      <meta property="og:image:alt"
+          content="Minecraft Economy NJEI - Catálogo de itens e tabela de preços">
+
+      <!-- ===================================================== -->
+      <!-- 🐦 08. TWITTER / X CARDS                              -->
+      <!-- ===================================================== -->
+
+      <meta name="twitter:card" content="summary_large_image">
+
+      <meta name="twitter:title"
+          content="Minecraft Economy • NJEI | Tabela de Preços">
+
+      <meta name="twitter:description"
+          content="Consulte itens, preços, receitas de crafting e recursos de diferentes modpacks de Minecraft.">
+
+      <!-- Substituir pelo endereço real da imagem. -->
+      <!-- <meta name="twitter:image" content="https://seudominio.com/assets/og-image.png"> -->
+      <meta property="og:image:width" content="1200">
+      <meta property="og:image:height" content="630">
+      <meta property="og:image:type" content="image/png">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:image" content="https://densuki.alwaysdata.net/assets/seo/og-image.png">
+
+      <!-- ===================================================== -->
+      <!-- 🔗 09. URL CANÔNICA                                  -->
+      <!-- ===================================================== -->
+
+      <!--
+      Defina quando o domínio oficial estiver estabelecido.
+      Evita duplicidade de conteúdo entre URLs diferentes.
+      -->
+      <!-- <link rel="canonical" href="https://seudominio.com/"> -->
+      <link rel="canonical" href="https://densuki.alwaysdata.net/">
+
+      <!-- ===================================================== -->
+      <!-- ⚡ 10. OTIMIZAÇÃO DE CARREGAMENTO                     -->
+      <!-- ===================================================== -->
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+      <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+          rel="stylesheet">
+
+      <!-- ===================================================== -->
+      <!-- 📦 11. BIBLIOTECAS E FRAMEWORKS                       -->
+      <!-- ===================================================== -->
+
+      <!-- Tailwind CSS -->
       <script src="https://cdn.tailwindcss.com/3.4.17"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-      <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+      <!-- Anime.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+          defer></script>
+
+      <!-- ===================================================== -->
+      <!-- 🎮 12. ESTILIZAÇÃO DO PROJETO                         -->
+      <!-- ===================================================== -->
+
       <link rel="stylesheet" href="css/world.css">
       <link rel="stylesheet" href="css/nei.css">
-      
-      <link rel="shortcut icon" href="assets/icons/favicon.ico" />
+
+      <!-- ===================================================== -->
+      <!-- 📊 13. DADOS ESTRUTURADOS (JSON-LD)                   -->
+      <!-- ===================================================== -->
+
+      <script type="application/ld+json">
+      {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Minecraft Economy • NJEI",
+          "alternateName": [
+              "NJEI",
+              "Minecraft Economy",
+              "Minecraft Price Calculator"
+          ],
+          "description": "Plataforma independente de consulta de itens, tabela de preços e cálculo automático de receitas de crafting para Minecraft.",
+          "inLanguage": "pt-BR",
+          "author": {
+              "@type": "Person",
+              "name": "João Gabriel Sousa Santos"
+          },
+          "about": {
+              "@type": "VideoGame",
+              "name": "Minecraft",
+              "gamePlatform": "PC"
+          }
+      }
+      </script>
+
   </head>
   <body>
     <div id="world"><div id="sky"></div><div id="stars"></div><div id="orbit"><i class="sun"></i><i class="moon"></i></div><div id="clouds"></div><div id="ground"></div><div id="rain"></div><div id="flash"></div></div>
