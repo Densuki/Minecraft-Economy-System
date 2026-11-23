@@ -1,4 +1,4 @@
-# NEI Preços — site no estilo do Not Enough Items / Just Enough Items
+# Minecraft Economy System — site no estilo do Not Enough Items / Just Enough Items
 
 Calculadora econômica de Minecraft: itens, receitas, poções, livros e preços **em JSON editável** (`data/`), visual do mod, PrismarineJS para texturas.
 
@@ -48,5 +48,5 @@ Consulte:
 - [NOTICE](NOTICE.md)
 - [PROJECT_RULES](PROJECT_RULES.md)
 
-NEI Preços é um projeto independente, não oficial e não
+Minecraft Economy System é um projeto independente, não oficial e não
 afiliado à Mojang Studios ou Microsoft.
