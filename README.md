@@ -31,3 +31,22 @@ Os PNGs de GUI vêm do `.jar` do jogo (ex.: `…/.minecraft/versions/1.20.1/1.20
 ## Idioma, efeitos, HUD
 Configuração (🔧) → idioma, som, fundo, 2D/3D, GUI oficial, exportar. Português é o padrão; sem tradução coerente fica em inglês (regras em `js/i18n/pt.js`; correções em `lang/pt.json`).
 Ícones de efeitos (atlas 24w18a) em `assets/effects/` — associação nome↔ícone feita à mão, confira: poison, nausea, oozing, blindness, darkness, invisibility, bad_omen, raid_omen, instant_health/damage.
+
+## Licença e direitos autorais
+
+Este projeto é proprietário e possui todos os direitos
+reservados sobre seus materiais originais.
+
+A utilização, reprodução, modificação ou redistribuição
+dos elementos originais depende de autorização expressa.
+
+Materiais de terceiros permanecem sujeitos às respectivas
+licenças e direitos autorais.
+
+Consulte:
+- [LICENSE](LICENSE.md)
+- [NOTICE](NOTICE.md)
+- [PROJECT_RULES](PROJECT_RULES.md)
+
+NEI Preços é um projeto independente, não oficial e não
+afiliado à Mojang Studios ou Microsoft.
